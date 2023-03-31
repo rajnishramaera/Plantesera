@@ -1,5 +1,3 @@
-import Button from "@mui/material/Button"
-
 import React from "react"
 import "./footer.css"
 import Icons from "./Icons"
