@@ -15,6 +15,7 @@ import SuccessSection from "@components/ScreteSuccess/SuccessSection"
 import DelightSection from "@components/HomeDelight/DelightSection"
 import BlendedSection from "@components/Blended/BlendedSection"
 import Footer from "@components/Footer/Footer"
+import ProductInfoSection from "@components/ProductInfo/ProductInfoSection"
 
 const Products = () => {
   return (
@@ -27,6 +28,7 @@ const Products = () => {
 
       <SpicySection />
       <FallLove />
+      <ProductInfoSection/>
       <SliderProduct />
 
       <ProductSection />
