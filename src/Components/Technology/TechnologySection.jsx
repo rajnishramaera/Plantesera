@@ -1,7 +1,5 @@
-import TechnologySection1 from "./TechnologySection1"
-import TechnologySection2 from "./TechnologySection2"
-import tech from "@assets/images/manuabsolute.png"
-
+import TechnologySection1 from "./TechnologySection1";
+import TechnologySection2 from "./TechnologySection2";
 function TechnologySection() {
   return (
     <>
@@ -12,6 +10,7 @@ function TechnologySection() {
             <h2 className="taste text-center mb-4">
               PlanetsEra Manufacturing Process
             </h2>
+            <div className="planetseraLine"></div>
             <p className="manu-text">
               Spices have an inseparable bond with our Indian culture. Each and
               every flavor of different spices in our country reflect the taste
@@ -28,10 +27,10 @@ function TechnologySection() {
         <TechnologySection1 />
         <TechnologySection2 />
 
-        <img loading="lazy" src={tech} className="manuAb" />
+        <img src="../src/assets/images/manuabsolute.png" className="manuAb" />
       </div>
     </>
-  )
+  );
 }
 
-export default TechnologySection
+export default TechnologySection;

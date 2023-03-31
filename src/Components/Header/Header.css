@@ -20,22 +20,14 @@
   align-items: center;
 }
 #navigation li a {
-  font-family: mylight;
   font-size: 18px;
-  font-family: myregular;
+  font-family: "Montserrat" !important;
 }
 .menu {
   display: flex;
   height: 85px;
   align-items: center;
   justify-content: right;
-}
-.heading-text {
-  font-family: "oriyafont";
-  color: #ff4f4f;
-  text-shadow: 1px 1px 2px #ff4f4f;
-  font-weight: 400;
-  font-size: 70px;
 }
 
 .btn-1 {
@@ -68,11 +60,12 @@
 }
 
 .sub-text {
-  font-size: 16px;
-  color: #797979;
-  font-family: myregular;
+  /* font-size: 16px; */
+  color: #8f8f8f;
+  font-family: "Josefin Sans" !important;
+  font-size: 18px !important;
+  line-height: 29px !important;
 }
-
 .text-alignment {
   display: flex;
   flex-direction: column;
@@ -131,18 +124,13 @@
 
 .heading-text {
   font-family: "oriyafont";
-  color: #ff4f4f;
-  text-decoration: none;
-  position: relative;
-  font-weight: 400;
-  font-size: 70px;
-  text-shadow: 1px 1px 2px #ff4f4f;
-}
-
-.heading-text {
-  font-family: "oriyafont";
-  color: #ff4f4f;
-  text-shadow: 1px 1px 2px #ff4f4f;
-  font-weight: 400;
-  font-size: 70px;
+  background: linear-gradient(107.77deg, #ff4f4f 0%, #fe7171 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 81px;
+  line-height: 81px;
+  letter-spacing: 3px;
 }

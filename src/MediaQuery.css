@@ -66,19 +66,63 @@
   }
 
   .bussiness-head-mobile {
-    font-family: myfont;
+    font-family: "Montserrat";
     color: #ff4f4f;
-    text-shadow: 0px 4px 3px rgba(255, 13, 13, 0.25);
-    font-size: 37px;
-  }
-
-  .bussiness-head-mobile-technology {
-    font-family: myfont;
-    color: #ff4f4f;
-    text-shadow: 0px 4px 3px rgba(255, 13, 13, 0.25);
+    /* text-shadow: 0px 4px 3px rgba(255, 13, 13, 0.25); */
     font-size: 30px;
   }
 
+  .experience-heading {
+    color: #ff4f4f;
+    font-family: "Montserrat";
+    font-size: 30px;
+  }
+
+  .bussiness-head {
+    font-family: "Montserrat";
+    color: #ff4f4f;
+    font-size: 30px;
+  }
+
+  .bussiness-head-mobile-technology {
+    font-family: "Montserrat";
+    color: #ff4f4f;
+    /* text-shadow: 0px 4px 3px rgba(255, 13, 13, 0.25); */
+    font-size: 28px;
+  }
+  .masalaTab {
+    display: block !important;
+  }
+
+  .manu-text {
+    font-family: "Josefin Sans";
+    color: #1e1e1e;
+    text-align: justify;
+    line-height: 33px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .manuAb {
+    position: absolute;
+    top: 647px !important;
+    max-width: 137% !important;
+  }
+
+  .blogTab {
+    margin-top: 86px !important;
+  }
+
+  .produce-heading {
+    font-family: "Montserrat";
+    font-size: 30px;
+    /* line-height: 126px; */
+  }
+
+  .taste {
+    color: #ff4f4f;
+    font-family: "Montserrat";
+    font-size: 28px;
+  }
   .spices-pad {
     padding-right: 1.25rem;
     padding-left: 1.25rem;
@@ -194,16 +238,8 @@
     cursor: pointer;
   }
 
-  .heading-text {
-    font-family: "oriyafont";
-    color: #ff4f4f;
-    text-shadow: 1px 1px 2px #ff4f4f;
-    font-weight: 400;
-    font-size: 52px !important;
-  }
-
   .slider-Image {
-    background-image: url("@assets/images/background.png");
+    background-image: url("../assets/images/background.png");
     background-repeat: no-repeat;
     background-size: contain !important;
     order: 1;
@@ -381,7 +417,7 @@
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    font-family: "myregular";
+    font-family: "'Montserrat'";
     width: 165px;
     height: 56px;
     border: 1px solid white;
@@ -427,6 +463,42 @@
   }
   .w-1\/2 {
     width: 100% !important;
+  }
+
+  .productionLine {
+    display: none;
+  }
+
+  .planetseraLine {
+    display: none;
+  }
+
+  .technologyLine {
+    display: none;
+  }
+
+  .desireLine {
+    display: none;
+  }
+
+  .ordinaryLine {
+    display: none;
+  }
+
+  .masalaLine {
+    display: none;
+  }
+
+  .lastestLine {
+    display: none;
+  }
+
+  .spciesLine {
+    display: none;
+  }
+
+  .whyLine {
+    display: none;
   }
 }
 
@@ -505,13 +577,15 @@
     font-family: "Montserrat";
     color: #ff4f4f;
     /* text-shadow: 0px 4px 3px rgba(255, 13, 13, 0.25); */
-    font-size: 46px;
+    font-size: 45px;
+    letter-spacing: 3px;
   }
 
   .bussiness-head-mobile-technology {
     font-family: "Montserrat";
     color: #ff4f4f;
     font-size: 45px;
+    letter-spacing: 3px;
   }
 
   .spices-pad {
@@ -583,14 +657,19 @@
 
   .heading-text {
     font-family: "oriyafont";
-    color: #ff4f4f;
-    text-shadow: 1px 1px 2px #ff4f4f;
-    font-weight: 400;
-    font-size: 70px;
+    background: linear-gradient(107.77deg, #ff4f4f 0%, #fe7171 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 81px;
+    line-height: 81px;
+    letter-spacing: 3px;
   }
 
   .slider-Image {
-    background-image: url("@assets/images/background.png");
+    background-image: url("../assets/images/background.png");
     background-repeat: no-repeat;
     background-size: contain;
     order: 2;
@@ -638,7 +717,7 @@
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    font-family: "myregular";
+    font-family: "Montserrat";
     width: 165px;
     height: 56px;
     border: 1px solid white;
@@ -722,39 +801,6 @@
     color: #ffffff;
   }
 
-  .myHover {
-    box-shadow: inset 0 0 0 0 #ff5252;
-    color: #ffffff;
-    padding: 0 0.25rem;
-    margin: 0 -0.25rem;
-    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    display: block;
-  }
-
-  .myHover:hover {
-    color: #fff;
-    box-shadow: inset 465px 0 0 0 #ff5758;
-    display: block;
-    font-family: "oriyafont";
-    text-shadow: 1px 1px 2px #090000;
-  }
-
-  .myHover-taste {
-    box-shadow: inset 0 0 0 0 #ff5252;
-    color: #ffffff;
-    padding: 0 0.25rem;
-    margin: 0 -0.25rem;
-    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    display: block;
-  }
-  .myHover-taste:hover {
-    color: #fff;
-    box-shadow: inset 172px 0 0 0 #ff5758;
-    display: block;
-    font-family: "oriyafont";
-    text-shadow: 1px 1px 2px #090000;
-  }
-
   .zoom {
     padding: 0px;
     /* background-color: green; */
@@ -805,4 +851,94 @@
 .redChilli {
   position: absolute;
   top: -162px;
+}
+
+.productionLine {
+  background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
+  width: 227px;
+  height: 2px;
+  position: absolute;
+  left: 131px;
+  top: 70px;
+}
+
+.planetseraLine {
+  background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
+  width: 129px;
+  height: 2px;
+  position: absolute;
+  left: 131px;
+  top: 70px;
+}
+
+.technologyLine {
+  background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
+  width: 120px;
+  height: 2px;
+  position: absolute;
+  left: 66px;
+  top: 210px;
+}
+
+.desireLine {
+  background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
+  width: 168px;
+  height: 2px;
+  position: absolute;
+  left: 7px;
+  bottom: 0;
+}
+
+.ordinaryLine {
+  background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
+  width: 176px;
+  height: 2px;
+  position: absolute;
+  /* left: 0px; */
+  top: 205px;
+}
+
+.masalaLine {
+  background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
+  width: 107px;
+  height: 2px;
+  position: absolute;
+  left: 192px;
+  bottom: 7px;
+}
+
+.lastestLine {
+  background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
+  width: 122px;
+  height: 2px;
+  position: absolute;
+  left: 332px;
+  /* top: 190px; */
+}
+
+.spciesLine {
+  background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
+  width: 122px;
+  height: 2px;
+  position: absolute;
+  left: 495px;
+  top: 61px;
+}
+
+.whyLine {
+  background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
+  width: 169px;
+  height: 2px;
+  position: absolute;
+  left: 7px;
+  top: 61px;
+}
+
+.masalaTab {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blogTab {
+  margin-top: 0px;
 }

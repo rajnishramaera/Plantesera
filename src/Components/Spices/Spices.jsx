@@ -1,7 +1,6 @@
-import "./spices.css"
-import SpicesInfo from "./SpicesInfo"
-import bg1 from "@assets/spices1.jpeg"
-import bg2 from "@assets/spices2.jpeg"
+import React from "react";
+import "./spices.css";
+import SpicesInfo from "./SpicesInfo";
 
 const Spices = () => {
   return (
@@ -11,16 +10,10 @@ const Spices = () => {
           <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
             <div className="lg:w-[282px] lg:h-[101px] small-box ml-5 absolute z-10"></div>
           </div>
-          <div
-            style={{ backgroundImage: `url(${bg1})` }}
-            className="box1 z-20 lg:w-[424px] lg:h-[523px] absolute bg-center bg-cover border-white border shadow-lg"
-          ></div>
+          <div className="box1 z-20 lg:w-[424px] lg:h-[523px] absolute bg-center bg-cover border-white border shadow-lg"></div>
         </div>
         <div className="box">
-          <div
-            style={{ backgroundImage: `url(${bg2})` }}
-            className="box2 z-30 lg:w-[424px] lg:h-[523px] absolute bg-center border-white border shadow-md"
-          ></div>
+          <div className="box2 z-30 lg:w-[424px] lg:h-[499px] absolute bg-center border-white border shadow-md"></div>
           <div className="lg:w-[282px] lg:h-[101px] small-box2 ml-5 absolute"></div>
         </div>
       </div>
@@ -28,7 +21,7 @@ const Spices = () => {
         <SpicesInfo />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Spices
+export default Spices;

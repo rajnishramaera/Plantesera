@@ -1,22 +1,11 @@
-import masala1 from "@assets/blackpepper.jpeg"
-import masala2 from "@assets/cardamom.jpeg"
-import masala3 from "@assets/cumin-1.png"
-import masala4 from "@assets/Fenugreek.png"
-import masala5 from "@assets/mustard-1.png"
-import masala6 from "@assets/star.png"
-import masala7 from "@assets/clove.png"
-import masala8 from "@assets/cinamon.png"
-import masala9 from "@assets/nut.png"
+import React from "react";
 
 const HealthySpices = () => {
   return (
     <div className="lg:px-12 overflow-scroll scroll lg:h-[60vh] mt-10">
       <div className=" flex justify-between mt-10">
         <div className="lg:w-[100px] lg:h-[100px] black-pepper-container border border-dashed border-red-500 flex justify-center items-center rounded-ful relative">
-          <div
-            style={{ backgroundImage: `url(${masala1})` }}
-            className="black-pepper p-10"
-          ></div>
+          <div className="black-pepper p-10"></div>
           <div className="ani-circle"></div>
         </div>
 
@@ -32,10 +21,7 @@ const HealthySpices = () => {
       </div>
       <div className="flex justify-between mt-20">
         <div className="lg:w-[100px] lg:h-[100px] cardamom-container border border-dashed border-red-500 flex justify-center items-center rounded-ful relative">
-          <div
-            style={{ backgroundImage: `url(${masala2})` }}
-            className="cardamom p-10"
-          ></div>
+          <div className="cardamom p-10"></div>
           <div className="ani-circle"></div>
         </div>
         <div className="w-96">
@@ -49,10 +35,7 @@ const HealthySpices = () => {
       </div>
       <div className="flex justify-between mt-20">
         <div className="lg:w-[100px] lg:h-[100px] cardamom-container border border-dashed border-red-500 flex justify-center items-center rounded-ful relative">
-          <div
-            style={{ backgroundImage: `url(${masala3})` }}
-            className="cumin p-10"
-          ></div>
+          <div className="cumin p-10"></div>
           <div className="ani-circle"></div>
         </div>
         <div className="w-96">
@@ -67,10 +50,7 @@ const HealthySpices = () => {
       </div>
       <div className="flex justify-between mt-20">
         <div className="lg:w-[100px] lg:h-[100px] cardamom-container border border-dashed border-red-500 flex justify-center items-center rounded-ful relative">
-          <div
-            style={{ backgroundImage: `url(${masala4})` }}
-            className="fenugreek p-10"
-          ></div>
+          <div className="fenugreek p-10"></div>
           <div className="ani-circle"></div>
         </div>
         <div className="w-96">
@@ -84,10 +64,7 @@ const HealthySpices = () => {
       </div>
       <div className="flex justify-between mt-20">
         <div className="lg:w-[100px] lg:h-[100px] cardamom-container border border-dashed border-red-500 flex justify-center items-center rounded-ful relative">
-          <div
-            style={{ backgroundImage: `url(${masala5})` }}
-            className="mustard p-10"
-          ></div>
+          <div className="mustard p-10"></div>
           <div className="ani-circle"></div>
         </div>
         <div className="w-96">
@@ -102,10 +79,7 @@ const HealthySpices = () => {
 
       <div className="flex justify-between mt-20">
         <div className="lg:w-[100px] lg:h-[100px] cardamom-container border border-dashed border-red-500 flex justify-center items-center rounded-ful relative">
-          <div
-            style={{ backgroundImage: `url(${masala6})` }}
-            className="star p-10"
-          ></div>
+          <div className="star p-10"></div>
           <div className="ani-circle"></div>
         </div>
         <div className="w-96">
@@ -120,10 +94,7 @@ const HealthySpices = () => {
       </div>
       <div className="flex justify-between mt-20">
         <div className="lg:w-[100px] lg:h-[100px] cardamom-container border border-dashed border-red-500 flex justify-center items-center rounded-ful relative">
-          <div
-            style={{ backgroundImage: `url(${masala7})` }}
-            className="clove p-10"
-          ></div>
+          <div className="clove p-10"></div>
           <div className="ani-circle"></div>
         </div>
         <div className="w-96">
@@ -139,10 +110,7 @@ const HealthySpices = () => {
 
       <div className="flex justify-between mt-20">
         <div className="lg:w-[100px] lg:h-[100px] cardamom-container border border-dashed border-red-500 flex justify-center items-center rounded-ful relative">
-          <div
-            style={{ backgroundImage: `url(${masala8})` }}
-            className="cinamon p-10"
-          ></div>
+          <div className="cinamon p-10"></div>
           <div className="ani-circle"></div>
         </div>
         <div className="w-96">
@@ -158,10 +126,7 @@ const HealthySpices = () => {
 
       <div className="flex justify-between mt-20">
         <div className="lg:w-[100px] lg:h-[100px] cardamom-container border border-dashed border-red-500 flex justify-center items-center rounded-ful relative">
-          <div
-            style={{ backgroundImage: `url(${masala9})` }}
-            className="nut p-10"
-          ></div>
+          <div className="nut p-10"></div>
           <div className="ani-circle"></div>
         </div>
         <div className="w-96">
@@ -175,7 +140,7 @@ const HealthySpices = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default HealthySpices
+export default HealthySpices;

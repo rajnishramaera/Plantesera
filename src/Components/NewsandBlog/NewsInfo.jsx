@@ -1,9 +1,9 @@
-import masala2 from "@assets/blogabsolute.png"
+import masala2 from "@assets/blogabsolute.png";
 
 const NewsInfo = () => {
   return (
     <div className="w-full flex flex-col items-center justify-center">
-      <img loading="lazy" src={masala2} />
+      <img loading="lazy" src={masala2} className="blogTab" />
       <div className="basis-12/12 flex">
         <div className="basis-1/12"></div>
         <div className="basis-10/12">
@@ -24,7 +24,7 @@ const NewsInfo = () => {
         <div className="basis-1/12"></div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default NewsInfo
+export default NewsInfo;

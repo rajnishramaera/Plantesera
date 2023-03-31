@@ -1,5 +1,5 @@
-import "../Header/Header.css"
-import logoImage from "@assets/images/logo.png"
+import "../Header/Header.css";
+import logoImage from "@assets/images/logo.png";
 const LogoSection = () => {
   return (
     <div className="basis-4/12 pl-5 myPos">
@@ -11,23 +11,11 @@ const LogoSection = () => {
         className="max-w-auto h-auto my-4"
       />
       <div className="basis-4/12 text-alignment">
-        <h1 className="heading-text">
-          <a href="#" className="heading-text myHover">
-            Diverse blend
-          </a>
-
-          <a href="#" class="heading-text myHover">
-            {" "}
-            of culture and{" "}
-          </a>
-          <a href="#" class="heading-text myHover-taste">
-            taste
-          </a>
-        </h1>
+        <h1 className="heading-text">Diverse blend of culture and taste</h1>
 
         <p className="sub-text my-3">
-          Lorem ipsum dolor sit amet consectetur adipiscing elit interdum
-          ullamcorper sed pharetra sene.
+          Uniting the diverse blend of our cultural richness and taste with
+          Planetsera spices
         </p>
 
         <a href="#" className="explore btn1 my-5">
@@ -35,7 +23,7 @@ const LogoSection = () => {
         </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default LogoSection
+export default LogoSection;
