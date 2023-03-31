@@ -4,13 +4,28 @@
     min-height: 80vh;
     display: flex;
     justify-content: space-around;
-      align-items: center;
+    align-items: center;
+    width: 100vw;
+    flex-wrap: wrap;
   }
   
   .containerZoom{
-    background: linear-gradient(to right, #909090, #393838);  
-    height: 50vh;
+    height: 52vh;
     border-radius: 10px;
+    margin:10px
+  }
+
+ #containerZoom1{
+    background: linear-gradient(to right, #CED8CF, #C9D2B3);  
+  }
+ #containerZoom2{
+    background: linear-gradient(to right, #B79891, #94716B) ;  
+  }
+ #containerZoom3{
+  background: linear-gradient(to right, #B8B1CD, #A89FC5);  
+}
+ #containerZoom4{
+    background: linear-gradient(to right, #E4B980, #E2B87F);  
   }
   
   /* .containerZoom:nth-child(1){
@@ -92,7 +107,7 @@
   
   .containerZoom .cardZoom .slide.slide2 {
     display: none;
-    background: linear-gradient(to right, #909090, #393838);  
+    /* background: linear-gradient(to right, #150f0f, #393838);   */
   }
   /* .containerZoom .cardZoom .slide.slide2:nth-child(2) ƒ{
     display: block;
