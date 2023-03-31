@@ -1,11 +1,8 @@
-import Button from "@mui/material/Button";
+import "./footer.css"
+import Icons from "./Icons"
+import SideBar from "./SideBar"
 
-import React from "react";
-import "./footer.css";
-import Icons from "./Icons";
-import SideBar from "./SideBar";
-
-import FooterEnd from "./FooterEnd";
+import FooterEnd from "./FooterEnd"
 
 const Footer = () => {
   return (
@@ -60,7 +57,7 @@ const Footer = () => {
       </div>
       <FooterEnd />
     </>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

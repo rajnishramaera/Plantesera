@@ -1,5 +1,5 @@
-import "../Header/Header.css";
-import logoImage from "@assets/images/logo.png";
+import "../Header/Header.css"
+import logoImage from "@assets/images/logo.png"
 const LogoSection = () => {
   return (
     <div className="basis-4/12 pl-5 myPos">
@@ -23,7 +23,7 @@ const LogoSection = () => {
         </a>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default LogoSection;
+export default LogoSection
