@@ -1,0 +1,31 @@
+.management-heading {
+  font-size: 48px;
+}
+
+.management-text1 {
+  font-size: 22px;
+  line-height: 34px;
+  margin-bottom: 33px;
+}
+
+.management-text2 {
+  font-size: 22px;
+  line-height: 34px;
+  margin-bottom: 33px;
+}
+
+.management-text3 {
+  font-size: 22px;
+  line-height: 34px;
+  margin-bottom: 33px;
+}
+
+.quality-img {
+  top: 200px;
+  left: 200px;
+}
+
+.quality-container {
+  height: 900px !important;
+  display: flex;
+}
