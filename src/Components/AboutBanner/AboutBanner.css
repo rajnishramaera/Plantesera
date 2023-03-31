@@ -1,0 +1,14 @@
+.aboutbanner {
+  /* height: 715px; */
+  background-image: url("/src/assets/images/aboutbanner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 552px !important;
+  background-attachment: fixed;
+}
+
+.aboutbanner-text {
+  font-size: 75px;
+  color: white;
+  text-align: center;
+}
