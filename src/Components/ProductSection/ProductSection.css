@@ -1,0 +1,72 @@
+@font-face {
+  font-family: myregular;
+  src: url(josefont.ttf);
+}
+
+@font-face {
+  font-family: oriyafont;
+  src: url(oriyafont.ttc);
+}
+
+.ProductSection-text {
+  font-family: myregular;
+  font-size: 100px !important;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  line-height: 56px;
+}
+.SecondPageButton {
+  font-family: "myregular";
+  color: #ededed;
+  font-size: 16px;
+  text-align: center;
+  background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%) !important;
+  width: 165px;
+  height: 56px;
+  /* padding: 22PX; */
+  border-radius: 27px;
+  margin-top: 36px;
+  border: 1px solid #ffff;
+}
+
+.ProductSectionImg {
+  background-image: url("@assets/images/ProductSectionImg.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 480px;
+  background-attachment: fixed;
+}
+
+.btn2 {
+  box-shadow: inset 0 0 0 0 #ff4f4f;
+  transition: ease-out 0.4s;
+}
+.btn2:hover {
+  box-shadow: inset 400px 0 0 0 #ffffff;
+  color: #111010;
+}
+
+.productSec {
+  height: 480px;
+}
+
+.productback-alignment {
+  position: absolute;
+  margin-top: 172px;
+  left: -74px;
+}
+
+.spi-alignment {
+  position: absolute;
+  top: -288px;
+  left: 524px;
+  width: 500px;
+}
+
+.spi-container {
+  position: relative;
+  width: 100%;
+  margin-top: 280px;
+}

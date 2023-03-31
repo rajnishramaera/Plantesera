@@ -1,0 +1,66 @@
+@font-face {
+  font-family: myregular;
+  src: url(josefont.ttf);
+}
+
+@font-face {
+  font-family: oriyafont;
+  src: url(oriyafont.ttc);
+}
+
+.blendedbg {
+  background-image: url(../src/assets/images/Blendedbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 270px;
+}
+
+.blended-text {
+  font-size: 22px;
+  font-family: "myfont";
+  text-align: center;
+  line-height: 28px;
+  letter-spacing: 2px;
+  margin: 60px;
+  color: #727272;
+}
+
+.blended-text2 {
+  font-size: 25px;
+  font-family: "myfont";
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #0d0d0d;
+}
+
+.blended-text3 {
+  text-align: center;
+  font-family: "myfont";
+  line-height: 0px;
+  letter-spacing: 2px;
+  /* margin-top: 1px; */
+  margin-bottom: 28px;
+  font-weight: 400;
+  margin-top: -12px;
+  color: #0d0d0d;
+}
+
+.blended-text4 {
+  text-align: center;
+  font-family: "myfont";
+  line-height: 0px;
+  letter-spacing: 2px;
+  color: #0d0d0d;
+}
+
+.blended img {
+  height: 403px !important;
+}
+
+
+.blendedMenuImg{
+  position: absolute;
+    right: 0;
+    bottom: -100px;
+}

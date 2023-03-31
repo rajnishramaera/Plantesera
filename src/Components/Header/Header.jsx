@@ -1,0 +1,140 @@
+import "./Header.css"
+import sliderImage0 from "@assets/images/slider.png"
+import sliderImage1 from "@assets/images/slider3.png"
+import sliderImage2 from "@assets/images/slider2.png"
+import background0 from "@assets/images/background.png"
+import background1 from "@assets/images/background2.png"
+import background2 from "@assets/images/background3.png"
+import LogoSection from "@components/navigation/LogoSection"
+import NavItem from "@components/navigation/NavItem"
+import NavigationMobile from "@components/MobileNavigation/NavigationMobile"
+import { useState } from "react"
+import masala1 from "@assets/images/spi-2.png"
+
+import { PouchData } from "./PouchData"
+
+function Header() {
+  const [showMenu, setShowMenu] = useState(false)
+  const [bgcolor, setBgcolor] = useState(background0)
+  const [slider, setSlider] = useState(sliderImage0)
+
+  const changeColor = (index) => {
+    console.log(index)
+    if (index === 0) {
+      setBgcolor(background0)
+      setSlider(sliderImage0)
+    }
+    if (index === 1) {
+      setBgcolor(background1)
+      setSlider(sliderImage1)
+    }
+    if (index === 2) {
+      setBgcolor(background2)
+      setSlider(sliderImage2)
+    }
+  }
+  const toggleClick = () => {
+    setShowMenu(true)
+    // document.getElementById("navDropdown").style.display = "none";
+    var x = document.getElementById("navDropdown")
+    if (x.style.display === "none") {
+      x.style.display = "block"
+    } else {
+      x.style.display = "none"
+    }
+  }
+
+  return (
+    <>
+      <header className="bg-white">
+        <nav className="relative">
+          <NavigationMobile />
+
+          <div className="container nav-flex">
+            <LogoSection />
+            <div
+              className="basis-8/12 slider-Image"
+              style={{
+                backgroundImage: `url(${bgcolor})`,
+              }}
+            >
+              <div className="basis-12/12 flex items-center justify-center">
+                <div className="basis-8/12">
+                  <NavItem />
+                </div>
+              </div>
+              <div className="basis-12/12 flex">
+                <div className="basis-4/12 header-display"></div>
+                <div className="basis-8/12">
+                  <img loading="lazy" src={slider} className="header-img" />
+                </div>
+              </div>
+            </div>
+            <div id="mobile-pouch">
+              <div
+                className="basis-12/12 flex absolute image-top w-full"
+                style={{ right: "0%", top: "38%" }}
+              >
+                <div className="basis-12/12 flex justify-between relative w-full">
+                  {PouchData.map((item) => {
+                    return (
+                      <div classsName={`${item.mobileBox1}`} flex justify-start>
+                        <img
+                          loading="lazy"
+                          src={item.masalaImg}
+                          className={`${item.imageBox1}`}
+                          absolute
+                          z-10
+                        />
+                        <div
+                          className={`${item.mobilePouch1}`}
+                          flex
+                          justify-center
+                          items-end
+                          absolute
+                        ></div>
+                      </div>
+                    )
+                  })}
+                </div>
+              </div>
+            </div>
+            <div id="desktop-pouch">
+              <div
+                className="basis-12/12 flex absolute image-top w-full"
+                style={{ top: "100%" }}
+              >
+                <img loading="lazy" src={masala1} className="redChilli" />
+                <div className="basis-4/12 flex"></div>
+
+                <div className="basis-8/12 flex justify-end relative">
+                  {PouchData.map((item, index) => {
+                    return (
+                      <div>
+                        <img
+                          loading="lazy"
+                          src={item.masalaImg}
+                          onClick={() => changeColor(index)}
+                          width={"175px"}
+                          className="pr-3 cursor-pointer"
+                        />
+                        <div
+                          className={`${item.pouchProperty1} flex justify-center items-end absolute`}
+                          style={{ display: "none" }}
+                        ></div>
+                      </div>
+                    )
+                  })}
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div className="clearfix"></div>
+      </header>
+    </>
+  )
+}
+
+export default Header

@@ -1,0 +1,28 @@
+@font-face {
+  font-family: myregular;
+  src: url(josefont.ttf);
+}
+
+@font-face {
+  font-family: oriyafont;
+  src: url(oriyafont.ttc);
+}
+
+.myImpor {
+  z-index: 2;
+  position: absolute;
+  top: 118px;
+  left: 0px;
+  transform: translateY(0px);
+}
+
+.background {
+  z-index: 100;
+  transition: 450ms transform linear;
+  transform: translateY(-3px);
+  padding: 0px 0px 78px 11px;
+  cursor: pointer;
+}
+.background:hover {
+  transform: translateY(-20px);
+}

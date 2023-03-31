@@ -1,0 +1,70 @@
+@font-face {
+  font-family: myregular;
+  src: url(josefont.ttf);
+}
+
+@font-face {
+  font-family: oriyafont;
+  src: url(oriyafont.ttc);
+}
+
+.delightbg {
+  background-image: url(../src/assets/images/delight-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 270px;
+}
+
+.delight-text {
+  font-size: 22px;
+  font-family: "myfont";
+  text-align: center;
+  line-height: 28px;
+  letter-spacing: 2px;
+  margin: 60px;
+  color: #727272;
+}
+
+.pouch-size {
+  height: 403px;
+}
+
+.pouch-size1 {
+  height: 475px;
+}
+
+.delight-text2 {
+  font-size: 20px;
+  font-family: "myfont";
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.delight-text3 {
+  text-align: center;
+  font-family: "myfont";
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+
+.traditionalHead {
+  font-size: 74px;
+  font-family: "oriyafont";
+  font-weight: 400;
+  text-align: center;
+  background: -webkit-linear-gradient(#ff4f4f, #fe7171);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.traditionalText {
+  font-size: 18px;
+  font-family: "myfont";
+  text-align: center;
+  line-height: 28px;
+  letter-spacing: 2px;
+  /* margin: 60px; */
+  color: #727272;
+}

@@ -1,0 +1,38 @@
+@font-face {
+  font-family: myregular;
+  src: url(josefont.ttf);
+}
+
+@font-face {
+  font-family: oriyafont;
+  src: url(oriyafont.ttc);
+}
+
+.GalleryMenuHeading {
+  font-size: 54px;
+  font-family: "oriyafont";
+  background: -webkit-linear-gradient(#ff4f4f, #fe7171);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 400;
+  text-align: center;
+}
+
+.GalleryMenuText {
+  font-size: 18px;
+  font-family: "myregular";
+  color: #75797f;
+}
+
+button,
+[type="reset"],
+[type="submit"] {
+  background-color: #ff5d5d !important;
+  /* background-image: none; */
+}
+
+.slider-indicators-dark .slider-indicators > *,
+.slider-indicators-dark.slider-indicators > * {
+  -webkit-filter: none;
+  filter: none;
+}
