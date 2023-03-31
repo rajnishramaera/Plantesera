@@ -307,7 +307,7 @@ li .carousel__navigation-button:hover {
 
 .success-alignment {
   position: absolute;
-  left: 235px;
+  left: 320px;
   top: 245px;
 }
 
@@ -321,6 +321,7 @@ li .carousel__navigation-button:hover {
   max-width: -moz-fit-content;
   max-width: fit-content;
   height: 460px;
+  margin-left: -165px;
 }
 
 @keyframes animName {
