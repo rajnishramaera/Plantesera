@@ -1,6 +1,10 @@
-import spice from "@assets/images/spcies.png";
-import solutionBg from "@assets/images/solutionbg.png";
+import spice from "@assets/images/spcies.png"
+import solutionBg from "@assets/images/solutionbg.png"
+import { useSelector } from "react-redux"
+
 function SolutionSection() {
+  const colorMe = useSelector((state) => state.colorUs.color)
+
   return (
     <div className="container mt-96">
       <div className="basis-12/12 bussiness-Flex">
@@ -11,7 +15,7 @@ function SolutionSection() {
 
         <div className="basis-5/12 self-center spices-pad">
           <div data-aos="fade-up">
-            <h1 class="bussiness-head-mobile my-3">
+            <h1 style={{ color: colorMe }} class="bussiness-head-mobile my-3">
               Get the Desired Flavour and Aroma with PlanetsEra Spices
             </h1>
             <div className="desireLine"></div>
@@ -28,7 +32,7 @@ function SolutionSection() {
       </div>
       <img src="../src/assets/images/desireAb.png" />
     </div>
-  );
+  )
 }
 
-export default SolutionSection;
+export default SolutionSection

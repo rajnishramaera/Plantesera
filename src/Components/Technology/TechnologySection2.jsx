@@ -1,6 +1,10 @@
-import React from "react";
-import machines from "@assets/images/machine.png";
+import React from "react"
+import machines from "@assets/images/machine.png"
+import { useSelector } from "react-redux"
+
 const TechnologySection2 = () => {
+  const colorMe = useSelector((state) => state.colorUs.color)
+
   return (
     <div className="basis-12/12 bussiness-Flex">
       {/* <div data-aos="fade-right" data-aos-duration="1000"> */}
@@ -9,7 +13,10 @@ const TechnologySection2 = () => {
         data-aos="fade-right"
         data-aos-duration="1000"
       >
-        <h1 className="bussiness-head-mobile-technology my-3">
+        <h1
+          style={{ color: colorMe }}
+          className="bussiness-head-mobile-technology my-3"
+        >
           Quality Preservation Using Latest Technology
         </h1>
         <div className="technologyLine"></div>
@@ -39,7 +46,7 @@ const TechnologySection2 = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default TechnologySection2;
+export default TechnologySection2

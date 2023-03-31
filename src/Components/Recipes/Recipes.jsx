@@ -1,12 +1,15 @@
 import "./recipes.css"
 import { InstagramEmbedDangerousHTML } from "./InstagramFeed"
 import { SocialIcon } from "./SocialIcon"
+import { useSelector } from "react-redux"
 
 const Recipes = () => {
+  const colorMe = useSelector((state) => state.colorUs.color)
+
   return (
     <div className="recipes lg:w-[95%] mx-auto mt-32">
       <div className="flex justify-center">
-        <h1 className="heading" data-aos="fade-up">
+        <h1 style={{ color: colorMe }} className="heading" data-aos="fade-up">
           Check out the yummiest recipes{" "}
         </h1>
       </div>

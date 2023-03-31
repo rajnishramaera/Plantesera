@@ -1,8 +1,9 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
 import "../Header/Header.css"
-
+import { useSelector } from "react-redux"
 const NavItem = () => {
+  const colorMe = useSelector((state) => state.colorUs.color)
   const [show1, setShow1] = useState(true)
   const [show2, setShow2] = useState(false)
   const [show3, setShow3] = useState(false)
@@ -55,7 +56,11 @@ const NavItem = () => {
         id="navigation"
         className="hidden md:flex space-x-6 lg:float-right text-white rounded-3xl"
       >
-        <li className={show1 ? "active-1" : ""} onClick={handleClick1}>
+        <li
+          style={{ color: colorMe }}
+          className={show1 ? "active-1" : ""}
+          onClick={handleClick1}
+        >
           <Link to="/">Home</Link>
         </li>
         <li className={show2 ? "active-1" : ""} onClick={handleClick2}>

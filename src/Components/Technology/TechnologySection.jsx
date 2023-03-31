@@ -1,16 +1,23 @@
-import TechnologySection1 from "./TechnologySection1";
-import TechnologySection2 from "./TechnologySection2";
+import TechnologySection1 from "./TechnologySection1"
+import TechnologySection2 from "./TechnologySection2"
+import { useSelector } from "react-redux"
+
 function TechnologySection() {
+  const colorMe = useSelector((state) => state.colorUs.color)
+
   return (
     <>
       <div className="container flex mt-40 mb-20">
         <div className="basis-1/12"></div>
         <div className="basis-10/12">
           <div data-aos="fade-up" data-aos-anchor-placement="center-center">
-            <h2 className="taste text-center mb-4">
+            <h2 style={{ color: colorMe }} className="taste text-center mb-4">
               PlanetsEra Manufacturing Process
             </h2>
-            <div className="planetseraLine"></div>
+            <div
+              style={{ backgroundColor: colorMe }}
+              className="planetseraLine"
+            ></div>
             <p className="manu-text">
               Spices have an inseparable bond with our Indian culture. Each and
               every flavor of different spices in our country reflect the taste
@@ -30,7 +37,7 @@ function TechnologySection() {
         <img src="../src/assets/images/manuabsolute.png" className="manuAb" />
       </div>
     </>
-  );
+  )
 }
 
-export default TechnologySection;
+export default TechnologySection

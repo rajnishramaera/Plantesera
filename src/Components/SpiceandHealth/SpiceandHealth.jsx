@@ -1,13 +1,18 @@
-import React from "react";
-import "./SpicesandHealth.css";
-import Spices3 from "../../../src/assets/spices3.png";
+import React from "react"
+import "./SpicesandHealth.css"
+import Spices3 from "../../../src/assets/spices3.png"
+import { useSelector } from "react-redux"
 
-import HealthySpices from "./HealthySpices";
-import Spice4 from "../../../src/assets/spicws4.jpeg";
+import HealthySpices from "./HealthySpices"
+import Spice4 from "../../../src/assets/spicws4.jpeg"
 const SpiceandHealth = () => {
+  const colorMe = useSelector((state) => state.colorUs.color)
+
   return (
     <div className="spicesandHealth relative">
-      <h1 className="heading text-center space-x-1">Spices and Health</h1>
+      <h1 style={{ color: colorMe }} className="heading text-center space-x-1">
+        Spices and Health
+      </h1>
       <div className="spciesLine"></div>
       <div className="spicesandHealth-container flex lg:justify-between">
         <div className="healthy-spice-container mt-5">
@@ -26,7 +31,7 @@ const SpiceandHealth = () => {
         />
       </div> */}
     </div>
-  );
-};
+  )
+}
 
-export default SpiceandHealth;
+export default SpiceandHealth

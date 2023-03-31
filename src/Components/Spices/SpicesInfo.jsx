@@ -1,6 +1,8 @@
-import React from "react";
+import { useSelector } from "react-redux"
 
 const SpicesInfo = () => {
+  const colorMe = useSelector((state) => state.colorUs.color)
+
   return (
     <div className="spices-info lg:mt-[28%] lg:mr-20 relative">
       <h1 className="heading">Why We are best ?</h1>
@@ -12,17 +14,23 @@ const SpicesInfo = () => {
         stores, so that there is no compromise in the health of our consumers.
       </p>
       <div className="flex btn-container mt-10">
-        <button className="btn hand">
+        <button style={{ backgroundColor: colorMe }} className="btn hand">
           Handpicked from the best <br /> farms
         </button>
-        <button className="btn ml-5 hand">Grinded at lower temperatures</button>
+        <button style={{ backgroundColor: colorMe }} className="btn ml-5 hand">
+          Grinded at lower temperatures
+        </button>
       </div>
       <div className="flex btn-container mt-4">
-        <button className="btn hand">Hygienic manufacturing</button>
-        <button className="btn ml-5 hand">Quality preservation</button>
+        <button style={{ backgroundColor: colorMe }} className="btn hand">
+          Hygienic manufacturing
+        </button>
+        <button style={{ backgroundColor: colorMe }} className="btn ml-5 hand">
+          Quality preservation
+        </button>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default SpicesInfo;
+export default SpicesInfo

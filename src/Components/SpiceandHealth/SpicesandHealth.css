@@ -108,11 +108,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
-  background: linear-gradient(107.77deg, #ff4f4f 15.95%, #fe7171 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
 }
 .scroll::-webkit-scrollbar {
   width: 10px;
@@ -128,14 +123,10 @@
 .scroll::-webkit-scrollbar-thumb {
   width: 21px;
 
-  background: linear-gradient(107.77deg, #ff4f4f 15.95%, #fe7171 100%);
+  background: grey;
   border-radius: 20px;
 }
 
-/* Handle on hover */
-/* ::-webkit-scrollbar-thumb:hover {
-    background: #b30000; 
-  } */
 .cardamom-para {
   font-family: "Josefin Sans";
   font-style: normal;

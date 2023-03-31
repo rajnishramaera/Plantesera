@@ -20,22 +20,21 @@ function Header() {
   const [bgcolor, setBgcolor] = useState(background0)
   const [slider, setSlider] = useState(sliderImage0)
 
-  const changeColor = (index) => {
-    console.log(index)
+  const changeTheColor = (index) => {
     if (index === 0) {
       setBgcolor(background0)
       setSlider(sliderImage0)
-      dispatch(changeColor("red"))
+      dispatch(changeColor("#FF4F4F"))
     }
     if (index === 1) {
       setBgcolor(background1)
       setSlider(sliderImage1)
-      dispatch(changeColor("yellow"))
+      dispatch(changeColor("#ffde39"))
     }
     if (index === 2) {
       setBgcolor(background2)
       setSlider(sliderImage2)
-      dispatch(changeColor("green"))
+      dispatch(changeColor("#2dc83c"))
     }
   }
   const toggleClick = () => {
@@ -119,7 +118,9 @@ function Header() {
                         <img
                           loading="lazy"
                           src={item.masalaImg}
-                          onClick={() => changeColor(index)}
+                          onClick={() => {
+                            changeTheColor(index)
+                          }}
                           width={"175px"}
                           className="pr-3 cursor-pointer"
                         />

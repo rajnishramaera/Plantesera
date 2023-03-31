@@ -1,18 +1,27 @@
 // import "./App.css";
-import mOne from "@assets/images/m1.png";
-import cusinesImage from "@assets/images/cusinesImg.png";
+import mOne from "@assets/images/m1.png"
+import cusinesImage from "@assets/images/cusinesImg.png"
+import { useSelector } from "react-redux"
 
 function SectionMain() {
+  const colorMe = useSelector((state) => state.colorUs.color)
+
   return (
     <div className="container mt-401 bg-no-repeat relative">
       <div className="basis-12/12 flex taste-cooking">
         {/* <div className="basis-1/12 cooking-dis"></div> */}
         <div className="basis-12/12 w-full">
           <div data-aos="slide-left" data-aos-anchor-placement="top-bottom">
-            <h2 className="text-center produce-heading my-5">
+            <h2
+              style={{ color: colorMe }}
+              className="text-center produce-heading my-5"
+            >
               Producing the treasures of the Indian cuisines
             </h2>
-            <div className="productionLine"></div>
+            <div
+              style={{ backgroundColor: colorMe }}
+              className="productionLine"
+            ></div>
           </div>
         </div>
         {/* <div className="basis-1/12 cooking-dis"></div> */}
@@ -45,6 +54,6 @@ function SectionMain() {
         <img src={cusinesImage} className="cusines-image" />
       </div> */}
     </div>
-  );
+  )
 }
-export default SectionMain;
+export default SectionMain

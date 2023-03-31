@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
 import "./HeaderTwo.css"
-
 const Navigation = () => {
   const [show1, setShow1] = useState(true)
   const [show2, setShow2] = useState(false)

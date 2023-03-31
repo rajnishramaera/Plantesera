@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit"
 
 const initialState = {
-  color: "",
+  color: "#FF4F4F",
 }
 
 export const colorUsSlice = createSlice({

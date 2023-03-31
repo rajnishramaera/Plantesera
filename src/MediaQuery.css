@@ -34,7 +34,6 @@
   }
 
   .experience-bg {
-    background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
     border-radius: 15px;
     width: 326px;
     height: 94px;
@@ -80,7 +79,6 @@
 
   .bussiness-head {
     font-family: "Montserrat";
-    color: #ff4f4f;
     font-size: 30px;
   }
 
@@ -145,7 +143,6 @@
   }
 
   .foodyBackground {
-    background-image: url(./assets/images/background-1.png);
     height: 1000px;
     background-size: cover;
   }
@@ -293,23 +290,6 @@
     margin-top: 0rem !important;
   }
 
-  /* .explore{ */
-  /* display: flex; */
-  /* border-radius: 30.5px; */
-  /* text-align: center; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* color: #ffffff; */
-  /* font-family: 'myregular'; */
-  /* width: 145px; */
-  /* height: 56px; */
-  /* border: 1px solid white; */
-  /* box-shadow: 0px 0px 9px 0px #fe7171; */
-  /* background-image: linear-gradient(#FF4F4F 0%, #FE7171 100%); */
-  /* font-size: 14px; */
-  /* transition:ease-out 0.4s; */
-  /* } */
-
   .slideRight {
     top: -20px;
     width: 196px;
@@ -421,17 +401,13 @@
     width: 165px;
     height: 56px;
     border: 1px solid white;
-    box-shadow: 0px 0px 9px 0px #fe7171;
-    background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
     font-size: 16px;
     padding: 22px;
   }
   .btn1 {
-    box-shadow: inset 0 0 0 0 #ff4f4f;
     transition: ease-out 0.4s;
   }
   .btn1:hover {
-    box-shadow: inset 400px 0 0 0 #ff4f4f;
   }
 
   .explore-foody {
@@ -546,7 +522,6 @@
   }
 
   .experience-bg {
-    background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
     border-radius: 15px;
     width: 374px;
     height: 94px;
@@ -655,12 +630,9 @@
     display: none;
   }
 
-  .heading-text {
+  .heading-textt {
     font-family: "oriyafont";
-    background: linear-gradient(107.77deg, #ff4f4f 0%, #fe7171 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+
     font-style: normal;
     font-weight: 600;
     font-size: 81px;
@@ -721,8 +693,6 @@
     width: 165px;
     height: 56px;
     border: 1px solid white;
-    box-shadow: 0px 0px 9px 0px #fe7171;
-    background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
     font-size: 16px;
   }
 
@@ -854,7 +824,6 @@
 }
 
 .productionLine {
-  background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
   width: 227px;
   height: 2px;
   position: absolute;
@@ -863,7 +832,6 @@
 }
 
 .planetseraLine {
-  background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
   width: 129px;
   height: 2px;
   position: absolute;
@@ -872,7 +840,6 @@
 }
 
 .technologyLine {
-  background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
   width: 120px;
   height: 2px;
   position: absolute;
@@ -881,7 +848,6 @@
 }
 
 .desireLine {
-  background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
   width: 168px;
   height: 2px;
   position: absolute;
@@ -890,7 +856,6 @@
 }
 
 .ordinaryLine {
-  background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
   width: 176px;
   height: 2px;
   position: absolute;
@@ -899,7 +864,6 @@
 }
 
 .masalaLine {
-  background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
   width: 107px;
   height: 2px;
   position: absolute;
@@ -908,7 +872,6 @@
 }
 
 .lastestLine {
-  background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
   width: 122px;
   height: 2px;
   position: absolute;
@@ -917,7 +880,6 @@
 }
 
 .spciesLine {
-  background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
   width: 122px;
   height: 2px;
   position: absolute;
@@ -926,7 +888,6 @@
 }
 
 .whyLine {
-  background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
   width: 169px;
   height: 2px;
   position: absolute;

@@ -1,19 +1,26 @@
-import bg1 from "@assets/images/img-1.png";
-import bg2 from "@assets/images/img-2.png";
-import bg5 from "@assets/images/img-5.png";
-import bg4 from "@assets/images/img-4.png";
-import bg8 from "@assets/images/img-8.png";
-import bg6 from "@assets/images/img-6.png";
-import masalaBackground from "@assets/images/masalabg.png";
+import bg1 from "@assets/images/img-1.png"
+import bg2 from "@assets/images/img-2.png"
+import bg5 from "@assets/images/img-5.png"
+import bg4 from "@assets/images/img-4.png"
+import bg8 from "@assets/images/img-8.png"
+import bg6 from "@assets/images/img-6.png"
+import masalaBackground from "@assets/images/masalabg.png"
 // import { MasalaGridData } from "./MasalaGridData";
-import Our from "./MasalaGridData";
+import Our from "./MasalaGridData"
+import { useSelector } from "react-redux"
+
 function MasalaGrid() {
+  const colorMe = useSelector((state) => state.colorUs.color)
+
   return (
     <>
       <div className="container px-28 mx-auto lg:pt-22 mt-24">
         <div className="basis-12/12">
           <div data-aos="slide-right" data-aos-duration="1000">
-            <h2 className="text-center my-5 bussiness-head">
+            <h2
+              style={{ color: colorMe }}
+              className="text-center my-5 bussiness-head"
+            >
               Perfect spicy twist for every occasion
             </h2>
             <div className="masalaLine"></div>
@@ -42,7 +49,7 @@ function MasalaGrid() {
                 <p className="grounded-text3">{items.productGaram}</p>
                 <p className="grounded-text4">(Zipper Pouch)</p>
               </div>
-            );
+            )
           })}
         </div>
 
@@ -67,6 +74,7 @@ function MasalaGrid() {
           <div className="basis-5/12"></div>
           <div className="basis-2/12 flex justify-center items-center">
             <a
+              style={{ backgroundColor: colorMe, outline: "1px solid grey" }}
               href="#"
               className="masala-button mx-auto flex justify-center items-center btn-masala"
             >
@@ -78,6 +86,6 @@ function MasalaGrid() {
       </div>
       <img src="../src/assets/images/masalaAbsolute.png" />
     </>
-  );
+  )
 }
-export default MasalaGrid;
+export default MasalaGrid

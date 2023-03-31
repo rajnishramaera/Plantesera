@@ -1,6 +1,8 @@
-import React from "react";
+import { useSelector } from "react-redux"
 
 const HealthySpices = () => {
+  const colorMe = useSelector((state) => state.colorUs.color)
+
   return (
     <div className="lg:px-12 overflow-scroll scroll lg:h-[60vh] mt-10">
       <div className=" flex justify-between mt-10">
@@ -10,7 +12,9 @@ const HealthySpices = () => {
         </div>
 
         <div className="lg:w-96">
-          <p className="cardamom-head">Black Pepper</p>
+          <p style={{ color: colorMe }} className="cardamom-head">
+            Black Pepper
+          </p>
           <p className="cardamom-para mt-2">
             Peppercorns are used as whole or ground and added to dishes or
             fries. It gives food a distinctive aroma and flavor along with its
@@ -25,7 +29,9 @@ const HealthySpices = () => {
           <div className="ani-circle"></div>
         </div>
         <div className="w-96">
-          <p className="cardamom-head">Cardamom</p>
+          <p style={{ color: colorMe }} className="cardamom-head">
+            Cardamom
+          </p>
           <p className="cardamom-para mt-2">
             Cardamom, the ‘Queen of Spices, is a much loved spice for its flavor
             and unique taste. It is intensely fragrant and aromatic and is an
@@ -39,7 +45,9 @@ const HealthySpices = () => {
           <div className="ani-circle"></div>
         </div>
         <div className="w-96">
-          <p className="cardamom-head">Cumin</p>
+          <p style={{ color: colorMe }} className="cardamom-head">
+            Cumin
+          </p>
           <p className="cardamom-para mt-2">
             Black Cumin (also called Nigella) is a common ingredient in Indian
             Cooking, especially in South Indian recipes. It has a nice aroma
@@ -54,7 +62,9 @@ const HealthySpices = () => {
           <div className="ani-circle"></div>
         </div>
         <div className="w-96">
-          <p className="cardamom-head">Fenugreek</p>
+          <p style={{ color: colorMe }} className="cardamom-head">
+            Fenugreek
+          </p>
           <p className="cardamom-para mt-2">
             Fenugreek is hard yellowish-brown seeds are used in cooking, as food
             additive and in medicines. It flavors food and is widely used in the
@@ -68,7 +78,9 @@ const HealthySpices = () => {
           <div className="ani-circle"></div>
         </div>
         <div className="w-96">
-          <p className="cardamom-head">Mustard</p>
+          <p style={{ color: colorMe }} className="cardamom-head">
+            Mustard
+          </p>
           <p className="cardamom-para mt-2">
             Mustard is a common and indispensable condiment in Indian cooking.
             Black mustard is most commonly used in South Indian cooking. It is a
@@ -83,7 +95,9 @@ const HealthySpices = () => {
           <div className="ani-circle"></div>
         </div>
         <div className="w-96">
-          <p className="cardamom-head">Star Anise</p>
+          <p style={{ color: colorMe }} className="cardamom-head">
+            Star Anise
+          </p>
           <p className="cardamom-para mt-2">
             Star Anise has a rich flavor and aroma. It is widely used in
             flavoring Indian curries, especially for enhancing the taste of meat
@@ -98,7 +112,9 @@ const HealthySpices = () => {
           <div className="ani-circle"></div>
         </div>
         <div className="w-96">
-          <p className="cardamom-head">Clove</p>
+          <p style={{ color: colorMe }} className="cardamom-head">
+            Clove
+          </p>
           <p className="cardamom-para mt-2">
             Cloves are used for adding its aromatic and stimulating taste to
             dishes. It is used as a flavoring agent in the food industry. This
@@ -114,7 +130,9 @@ const HealthySpices = () => {
           <div className="ani-circle"></div>
         </div>
         <div className="w-96">
-          <p className="cardamom-head">Cinnamon</p>
+          <p style={{ color: colorMe }} className="cardamom-head">
+            Cinnamon
+          </p>
           <p className="cardamom-para mt-2">
             Cinnamon is the dried inner bark of Cinnamomum Verum. The best
             Cinnamon plants are grown in high ranges of Kerala. Very commonly
@@ -130,7 +148,9 @@ const HealthySpices = () => {
           <div className="ani-circle"></div>
         </div>
         <div className="w-96">
-          <p className="cardamom-head">Nutmeg & Mace</p>
+          <p style={{ color: colorMe }} className="cardamom-head">
+            Nutmeg & Mace
+          </p>
           <p className="cardamom-para mt-2">
             The same fruit produces Nutmeg and Mace. Mace is the dried
             reticulated ‘aril’ of the fruit and nutmeg is the dried seed kernel
@@ -140,7 +160,7 @@ const HealthySpices = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default HealthySpices;
+export default HealthySpices

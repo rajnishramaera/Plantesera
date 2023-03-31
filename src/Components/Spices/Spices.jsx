@@ -1,6 +1,6 @@
-import React from "react";
-import "./spices.css";
-import SpicesInfo from "./SpicesInfo";
+import React from "react"
+import "./spices.css"
+import SpicesInfo from "./SpicesInfo"
 
 const Spices = () => {
   return (
@@ -21,7 +21,7 @@ const Spices = () => {
         <SpicesInfo />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Spices;
+export default Spices

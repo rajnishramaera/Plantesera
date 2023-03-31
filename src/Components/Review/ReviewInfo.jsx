@@ -1,14 +1,19 @@
-import React from "react";
-import Quotes from "../../../src/assets/Quotes.png";
-import customer from "../../../src/assets/customer.png";
-import WestIcon from "@mui/icons-material/West";
-import transparentbg from "../../../src/assets/transbg.png";
-import EastIcon from "@mui/icons-material/East";
+import React from "react"
+import Quotes from "../../../src/assets/Quotes.png"
+import customer from "../../../src/assets/customer.png"
+import WestIcon from "@mui/icons-material/West"
+import transparentbg from "../../../src/assets/transbg.png"
+import EastIcon from "@mui/icons-material/East"
+import { useSelector } from "react-redux"
 
 const ReviewInfo = () => {
+  const colorMe = useSelector((state) => state.colorUs.color)
+
   return (
     <div className="review-info lg:ml-10">
-      <h1 className="heading">Customer Review</h1>
+      <h1 style={{ color: colorMe }} className="heading">
+        Customer Review
+      </h1>
       <div className="flex lg:ml-2 mt-6">
         <img src={Quotes} alt="" className="lg:mr-2 h-[60px] w-[60px] quotes" />
       </div>
@@ -52,7 +57,7 @@ const ReviewInfo = () => {
       </div>
       {/* <img src={transparentbg} alt="" className="absolute transbg" /> */}
     </div>
-  );
-};
+  )
+}
 
-export default ReviewInfo;
+export default ReviewInfo
