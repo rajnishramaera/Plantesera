@@ -25,12 +25,10 @@ const Products = () => {
       <MasalaGallery />
       <SuccessSection />
       <ExtraOrdinarySection />
-
       <SpicySection />
       <FallLove />
-      <ProductInfoSection/>
+      <ProductInfoSection />
       <SliderProduct />
-
       <ProductSection />
       <DelightSection />
       <BlendedSection />

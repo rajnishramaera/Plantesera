@@ -1,6 +1,9 @@
 import "../Header/Header.css"
 import logoImage from "@assets/images/logo.png"
+import { useSelector } from "react-redux"
+
 const LogoSection = () => {
+  const color = useSelector((state) => state.colorUs.color)
   return (
     <div className="basis-4/12 pl-5 myPos">
       <img

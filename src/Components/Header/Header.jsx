@@ -10,10 +10,12 @@ import NavItem from "@components/navigation/NavItem"
 import NavigationMobile from "@components/MobileNavigation/NavigationMobile"
 import { useState } from "react"
 import masala1 from "@assets/images/spi-2.png"
-
+import { useDispatch } from "react-redux"
 import { PouchData } from "./PouchData"
+import { changeColor } from "../../../state/slice/colorUsSlice"
 
 function Header() {
+  const dispatch = useDispatch()
   const [showMenu, setShowMenu] = useState(false)
   const [bgcolor, setBgcolor] = useState(background0)
   const [slider, setSlider] = useState(sliderImage0)
@@ -23,14 +25,17 @@ function Header() {
     if (index === 0) {
       setBgcolor(background0)
       setSlider(sliderImage0)
+      dispatch(changeColor("red"))
     }
     if (index === 1) {
       setBgcolor(background1)
       setSlider(sliderImage1)
+      dispatch(changeColor("yellow"))
     }
     if (index === 2) {
       setBgcolor(background2)
       setSlider(sliderImage2)
+      dispatch(changeColor("green"))
     }
   }
   const toggleClick = () => {
