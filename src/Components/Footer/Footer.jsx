@@ -1,9 +1,8 @@
 import React from "react"
 import "./footer.css"
 import Icons from "./Icons"
-import SideBar from "./SideBar"
-
 import FooterEnd from "./FooterEnd"
+import SideBar from "./SideBar"
 
 const Footer = () => {
   return (
