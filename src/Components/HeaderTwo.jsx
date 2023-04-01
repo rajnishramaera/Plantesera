@@ -1,9 +1,9 @@
-import "./HeaderTwo.css";
-import Logo from "./logo";
-import Navigation from "./Navigation";
-import SocialSection from "./SocialSection";
-import PouchSection from "./PouchSection";
-
+import "./HeaderTwo.css"
+import Logo from "./logo"
+import Navigation from "./Navigation"
+import SocialSection from "./SocialSection"
+import PouchSection from "./PouchSection"
+import bg from "@assets/images/HeroSlider.png"
 const HeaderTwo = () => {
   return (
     <>
@@ -61,9 +61,12 @@ const HeaderTwo = () => {
         <PouchSection />
       </div>
 
-      <div className="container flex hero-Image"></div>
+      <div
+        style={{ backgroundImage: `url(${bg})` }}
+        className="container flex hero-Image"
+      ></div>
     </>
-  );
-};
+  )
+}
 
-export default HeaderTwo;
+export default HeaderTwo

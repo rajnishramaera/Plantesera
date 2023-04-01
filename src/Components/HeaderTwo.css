@@ -110,7 +110,6 @@
 }
 
 .hero-Image {
-  background-image: url("/src/assets/images/HeroSlider.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 1095px;
