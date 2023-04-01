@@ -27,6 +27,7 @@
 button,
 [type="reset"],
 [type="submit"] {
+  background-color: #ff5d5d !important;
   /* background-image: none; */
 }
 
