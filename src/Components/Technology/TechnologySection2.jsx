@@ -1,15 +1,38 @@
+import React from "react"
 import machines from "@assets/images/machine.png"
+import { useSelector } from "react-redux"
+import machines2 from "@assets/images/machine2.png"
+import machines3 from "@assets/images/machine3.png"
+
 const TechnologySection2 = () => {
+  const colorMe = useSelector((state) => state.colorUs.color)
+  const checkbg = (colorMe) => {
+    if (colorMe === "#FF4F4F") {
+      return machines
+    }
+    if (colorMe === "#ffde39") {
+      return machines2
+    }
+    if (colorMe === "#2dc83c") {
+      return machines3
+    }
+  }
+
   return (
     <div className="basis-12/12 bussiness-Flex">
+      {/* <div data-aos="fade-right" data-aos-duration="1000"> */}
       <div
         className="basis-5/12 bussiness-Item pl-141"
         data-aos="fade-right"
         data-aos-duration="1000"
       >
-        <h1 className="bussiness-head-mobile-technology my-3">
+        <h1
+          style={{ color: colorMe }}
+          className="bussiness-head-mobile-technology my-3"
+        >
           Quality Preservation Using Latest Technology
         </h1>
+        <div className="technologyLine"></div>
 
         <p className="taste-text mb-3">
           To maintain the quality and originality of the spices, we make sure
@@ -22,15 +45,15 @@ const TechnologySection2 = () => {
           pungency and flavors.
         </p>
       </div>
-
+      {/* </div> */}
+      {/* <div className="basis-1/12"></div> */}
       <div
         className="basis-7/12 relative bussiness-background"
         data-aos="fade-down-left"
       >
         <div data-aos="fade-up-left">
           <img
-            loading="lazy"
-            src={machines}
+            src={checkbg(colorMe)}
             className="float-right bussiness-image w-max-full"
           />
         </div>

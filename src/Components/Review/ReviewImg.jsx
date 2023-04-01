@@ -1,12 +1,15 @@
-import "./review.css";
+import "./review.css"
+import { useSelector } from "react-redux"
 
 const ReviewImg = () => {
+  const colorMe = useSelector((state) => state.colorUs.color)
+
   return (
     <div className="review-img w-[47%] flex flex-col justify-center mt-5">
-      <div className="small-box1"></div>
+      <div style={{ backgroundColor: colorMe }} className="small-box1"></div>
       <div className="spices5"></div>
       <div className="spices6"></div>
-      <div className="order absolute z-50 bg-gray-50 rounded-3xl border rotating-border rotating-border--google mt-20">
+      {/* <div className="order absolute z-50 bg-gray-50 rounded-3xl border rotating-border rotating-border--google mt-20">
         <div className="order-info w-[85%] mx-auto my-3">
           <div className="flex justify-between">
             <p>Order Now</p>
@@ -20,9 +23,9 @@ const ReviewImg = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
-  );
-};
+  )
+}
 
-export default ReviewImg;
+export default ReviewImg

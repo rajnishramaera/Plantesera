@@ -1,4 +1,5 @@
-import { Facebook, Instagram, Twitter } from "@mui/icons-material"
+import React from "react";
+import { Facebook, Instagram, Twitter } from "@mui/icons-material";
 
 const Icons = () => {
   return (
@@ -13,7 +14,7 @@ const Icons = () => {
         <Twitter style={{ color: "white" }} />
       </a>
     </div>
-  )
-}
+  );
+};
 
-export default Icons
+export default Icons;

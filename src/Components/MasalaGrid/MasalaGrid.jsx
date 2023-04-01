@@ -1,16 +1,29 @@
+import bg1 from "@assets/images/img-1.png"
+import bg2 from "@assets/images/img-2.png"
+import bg5 from "@assets/images/img-5.png"
+import bg4 from "@assets/images/img-4.png"
+import bg8 from "@assets/images/img-8.png"
+import bg6 from "@assets/images/img-6.png"
 import masalaBackground from "@assets/images/masalabg.png"
-import absol from "@assets/images/masalaAbsolute.png"
-import Our from "../OurProduct/OurProductData"
-// image size too big
+// import { MasalaGridData } from "./MasalaGridData";
+import Our from "./MasalaGridData"
+import { useSelector } from "react-redux"
+
 function MasalaGrid() {
+  const colorMe = useSelector((state) => state.colorUs.color)
+
   return (
     <>
       <div className="container px-28 mx-auto lg:pt-22 mt-24">
         <div className="basis-12/12">
           <div data-aos="slide-right" data-aos-duration="1000">
-            <h2 className="text-center my-5 bussiness-head">
+            <h2
+              style={{ color: colorMe }}
+              className="text-center my-5 bussiness-head"
+            >
               Perfect spicy twist for every occasion
             </h2>
+            <div className="masalaLine"></div>
           </div>
           <div data-aos="slide-left" data-aos-duration="1000">
             <p className="taste-text text-center text-md mb-3">
@@ -23,8 +36,25 @@ function MasalaGrid() {
             </p>
           </div>
         </div>
-        <div className="masalaMobile-flex" data-aos="slide-up">
-          {Our.map((item) => {
+        <div className="basis-12/12 masalaTab ml-4">
+          {Our.map((items) => {
+            return (
+              <div className="basis-4/12 mb-20">
+                <img
+                  src={items.ourproductImage}
+                  style={{ width: "fit-content", height: "fit-content" }}
+                />
+
+                <h2 className="grounded-text5">{items.productText}</h2>
+                <p className="grounded-text3">{items.productGaram}</p>
+                <p className="grounded-text4">(Zipper Pouch)</p>
+              </div>
+            )
+          })}
+        </div>
+
+        {/* <div className="masalaMobile-flex" data-aos="slide-up">
+          {MasalaGridData.map((item) => {
             return (
               <div className="m-[2%] masalaMobile-width">
                 <div className="w-full p-1 md:p-2 relative flex justify-center items-center">
@@ -33,25 +63,18 @@ function MasalaGrid() {
                       {item.masalaName}
                     </h3>
                   </div>
-                  <img
-                    loading="lazy"
-                    src={item.masalaImg}
-                    className="gra-img"
-                  />
+                  <img src={item.masalaImg} className="gra-img" />
                 </div>
               </div>
-            )
+            );
           })}
-          <img
-            loading="lazy"
-            src={masalaBackground}
-            className="masala-background"
-          />
-        </div>
+          <img src={masalaBackground} className="masala-background" />
+        </div> */}
         <div className="basis-12/12 flex my-10">
           <div className="basis-5/12"></div>
           <div className="basis-2/12 flex justify-center items-center">
             <a
+              style={{ backgroundColor: colorMe, outline: "1px solid white" }}
               href="#"
               className="masala-button mx-auto flex justify-center items-center btn-masala"
             >
@@ -61,7 +84,7 @@ function MasalaGrid() {
           <div className="basis-5/12"></div>
         </div>
       </div>
-      <img loading="lazy" src={absol} />
+      <img src="../src/assets/images/masalaAbsolute.png" />
     </>
   )
 }

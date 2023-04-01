@@ -13,29 +13,27 @@ import masala1 from "@assets/images/spi-2.png"
 import { useDispatch } from "react-redux"
 import { PouchData } from "./PouchData"
 import { changeColor } from "../../../state/slice/colorUsSlice"
-
 function Header() {
   const dispatch = useDispatch()
   const [showMenu, setShowMenu] = useState(false)
   const [bgcolor, setBgcolor] = useState(background0)
   const [slider, setSlider] = useState(sliderImage0)
 
-  const changeColor = (index) => {
-    console.log(index)
+  const changeTheColor = (index) => {
     if (index === 0) {
       setBgcolor(background0)
       setSlider(sliderImage0)
-      dispatch(changeColor("red"))
+      dispatch(changeColor("#FF4F4F"))
     }
     if (index === 1) {
       setBgcolor(background1)
       setSlider(sliderImage1)
-      dispatch(changeColor("yellow"))
+      dispatch(changeColor("#ffde39"))
     }
     if (index === 2) {
       setBgcolor(background2)
       setSlider(sliderImage2)
-      dispatch(changeColor("green"))
+      dispatch(changeColor("#2dc83c"))
     }
   }
   const toggleClick = () => {
@@ -70,7 +68,7 @@ function Header() {
               </div>
               <div className="basis-12/12 flex">
                 <div className="basis-4/12 header-display"></div>
-                <div className="basis-8/12">
+                <div className="basis-8/12 ">
                   <img loading="lazy" src={slider} className="header-img" />
                 </div>
               </div>
@@ -115,16 +113,18 @@ function Header() {
                 <div className="basis-8/12 flex justify-end relative">
                   {PouchData.map((item, index) => {
                     return (
-                      <div>
+                      <div className="hover:scale-110 transition-all">
                         <img
                           loading="lazy"
                           src={item.masalaImg}
-                          onClick={() => changeColor(index)}
+                          onClick={() => {
+                            changeTheColor(index)
+                          }}
                           width={"175px"}
                           className="pr-3 cursor-pointer"
                         />
                         <div
-                          className={`${item.pouchProperty1} flex justify-center items-end absolute`}
+                          className={`${item.pouchProperty1} flex justify-center items-end absolute `}
                           style={{ display: "none" }}
                         ></div>
                       </div>

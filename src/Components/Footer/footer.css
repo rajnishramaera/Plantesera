@@ -106,7 +106,7 @@
     flex-direction: column;
   }
   .imaged {
-    height: 200px;
+    height: auto;
     /* background-size: contain; */
     width: 100%;
   }

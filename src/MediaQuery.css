@@ -34,11 +34,9 @@
   }
 
   .experience-bg {
-    background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
     border-radius: 15px;
     width: 326px;
     height: 94px;
-    box-shadow: 0px 4px 3px rgb(255 13 13 / 25%);
     border: 1px solid white;
   }
 
@@ -66,19 +64,62 @@
   }
 
   .bussiness-head-mobile {
-    font-family: myfont;
+    font-family: "Montserrat";
     color: #ff4f4f;
-    text-shadow: 0px 4px 3px rgba(255, 13, 13, 0.25);
-    font-size: 37px;
-  }
-
-  .bussiness-head-mobile-technology {
-    font-family: myfont;
-    color: #ff4f4f;
-    text-shadow: 0px 4px 3px rgba(255, 13, 13, 0.25);
+    /* text-shadow: 0px 4px 3px rgba(255, 13, 13, 0.25); */
     font-size: 30px;
   }
 
+  .experience-heading {
+    color: #ff4f4f;
+    font-family: "Montserrat";
+    font-size: 30px;
+  }
+
+  .bussiness-head {
+    font-family: "Montserrat";
+    font-size: 30px;
+  }
+
+  .bussiness-head-mobile-technology {
+    font-family: "Montserrat";
+    color: #ff4f4f;
+    /* text-shadow: 0px 4px 3px rgba(255, 13, 13, 0.25); */
+    font-size: 28px;
+  }
+  .masalaTab {
+    display: block !important;
+  }
+
+  .manu-text {
+    font-family: "Josefin Sans";
+    color: #1e1e1e;
+    text-align: justify;
+    line-height: 33px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .manuAb {
+    position: absolute;
+    top: 647px !important;
+    max-width: 137% !important;
+  }
+
+  .blogTab {
+    margin-top: 86px !important;
+  }
+
+  .produce-heading {
+    font-family: "Montserrat";
+    font-size: 30px;
+    /* line-height: 126px; */
+  }
+
+  .taste {
+    color: #ff4f4f;
+    font-family: "Montserrat";
+    font-size: 28px;
+  }
   .spices-pad {
     padding-right: 1.25rem;
     padding-left: 1.25rem;
@@ -101,7 +142,6 @@
   }
 
   .foodyBackground {
-    background-image: url(./assets/images/background-1.png);
     height: 1000px;
     background-size: cover;
   }
@@ -194,16 +234,8 @@
     cursor: pointer;
   }
 
-  .heading-text {
-    font-family: "oriyafont";
-    color: #ff4f4f;
-    text-shadow: 1px 1px 2px #ff4f4f;
-    font-weight: 400;
-    font-size: 52px !important;
-  }
-
   .slider-Image {
-    background-image: url("@assets/images/background.png");
+    background-image: url("../assets/images/background.png");
     background-repeat: no-repeat;
     background-size: contain !important;
     order: 1;
@@ -256,23 +288,6 @@
   .mt-24 {
     margin-top: 0rem !important;
   }
-
-  /* .explore{ */
-  /* display: flex; */
-  /* border-radius: 30.5px; */
-  /* text-align: center; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* color: #ffffff; */
-  /* font-family: 'myregular'; */
-  /* width: 145px; */
-  /* height: 56px; */
-  /* border: 1px solid white; */
-  /* box-shadow: 0px 0px 9px 0px #fe7171; */
-  /* background-image: linear-gradient(#FF4F4F 0%, #FE7171 100%); */
-  /* font-size: 14px; */
-  /* transition:ease-out 0.4s; */
-  /* } */
 
   .slideRight {
     top: -20px;
@@ -381,21 +396,17 @@
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    font-family: "myregular";
+    font-family: "'Montserrat'";
     width: 165px;
     height: 56px;
     border: 1px solid white;
-    box-shadow: 0px 0px 9px 0px #fe7171;
-    background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
     font-size: 16px;
     padding: 22px;
   }
   .btn1 {
-    box-shadow: inset 0 0 0 0 #ff4f4f;
     transition: ease-out 0.4s;
   }
   .btn1:hover {
-    box-shadow: inset 400px 0 0 0 #ff4f4f;
   }
 
   .explore-foody {
@@ -410,13 +421,10 @@
   }
 
   .btn2 {
-    box-shadow: inset 0 0 0 0 #ff4f4f;
     transition: ease-out 0.4s;
   }
 
   .btn2:hover {
-    box-shadow: inset 400px 0 0 0 #ff4f4f;
-    color: #ffffff;
   }
 
   .desktop-display {
@@ -427,6 +435,42 @@
   }
   .w-1\/2 {
     width: 100% !important;
+  }
+
+  .productionLine {
+    display: none;
+  }
+
+  .planetseraLine {
+    display: none;
+  }
+
+  .technologyLine {
+    display: none;
+  }
+
+  .desireLine {
+    display: none;
+  }
+
+  .ordinaryLine {
+    display: none;
+  }
+
+  .masalaLine {
+    display: none;
+  }
+
+  .lastestLine {
+    display: none;
+  }
+
+  .spciesLine {
+    display: none;
+  }
+
+  .whyLine {
+    display: none;
   }
 }
 
@@ -474,11 +518,9 @@
   }
 
   .experience-bg {
-    background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
     border-radius: 15px;
     width: 374px;
     height: 94px;
-    box-shadow: 0px 4px 3px rgb(255 13 13 / 25%);
     border: 1px solid white;
   }
 
@@ -505,13 +547,15 @@
     font-family: "Montserrat";
     color: #ff4f4f;
     /* text-shadow: 0px 4px 3px rgba(255, 13, 13, 0.25); */
-    font-size: 46px;
+    font-size: 45px;
+    letter-spacing: 3px;
   }
 
   .bussiness-head-mobile-technology {
     font-family: "Montserrat";
     color: #ff4f4f;
     font-size: 45px;
+    letter-spacing: 3px;
   }
 
   .spices-pad {
@@ -581,16 +625,18 @@
     display: none;
   }
 
-  .heading-text {
+  .heading-textt {
     font-family: "oriyafont";
-    color: #ff4f4f;
-    text-shadow: 1px 1px 2px #ff4f4f;
-    font-weight: 400;
-    font-size: 70px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 81px;
+    line-height: 81px;
+    letter-spacing: 3px;
   }
 
   .slider-Image {
-    background-image: url("@assets/images/background.png");
+    background-image: url("../assets/images/background.png");
     background-repeat: no-repeat;
     background-size: contain;
     order: 2;
@@ -638,12 +684,10 @@
     align-items: center;
     justify-content: center;
     color: #ffffff;
-    font-family: "myregular";
+    font-family: "Montserrat";
     width: 165px;
     height: 56px;
     border: 1px solid white;
-    box-shadow: 0px 0px 9px 0px #fe7171;
-    background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%);
     font-size: 16px;
   }
 
@@ -653,7 +697,6 @@
   }
 
   .btn1:hover {
-    box-shadow: inset 400px 0 0 0 #ff4f4f;
   }
   .slideRight {
     position: absolute;
@@ -713,46 +756,10 @@
   }
 
   .btn2 {
-    box-shadow: inset 0 0 0 0 #ff4f4f;
     transition: ease-out 0.4s;
   }
 
   .btn2:hover {
-    box-shadow: inset 400px 0 0 0 #ff4f4f;
-    color: #ffffff;
-  }
-
-  .myHover {
-    box-shadow: inset 0 0 0 0 #ff5252;
-    color: #ffffff;
-    padding: 0 0.25rem;
-    margin: 0 -0.25rem;
-    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    display: block;
-  }
-
-  .myHover:hover {
-    color: #fff;
-    box-shadow: inset 465px 0 0 0 #ff5758;
-    display: block;
-    font-family: "oriyafont";
-    text-shadow: 1px 1px 2px #090000;
-  }
-
-  .myHover-taste {
-    box-shadow: inset 0 0 0 0 #ff5252;
-    color: #ffffff;
-    padding: 0 0.25rem;
-    margin: 0 -0.25rem;
-    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    display: block;
-  }
-  .myHover-taste:hover {
-    color: #fff;
-    box-shadow: inset 172px 0 0 0 #ff5758;
-    display: block;
-    font-family: "oriyafont";
-    text-shadow: 1px 1px 2px #090000;
   }
 
   .zoom {
@@ -778,7 +785,6 @@
   }
 
   .btn-masala:hover {
-    box-shadow: inset 400px 0 0 0 #ffffff;
     color: black;
     /* background-color: black; */
     outline: 1px solid black;
@@ -805,4 +811,85 @@
 .redChilli {
   position: absolute;
   top: -162px;
+}
+
+.productionLine {
+  width: 227px;
+  height: 2px;
+  position: absolute;
+  left: 131px;
+  top: 70px;
+}
+
+.planetseraLine {
+  width: 129px;
+  height: 2px;
+  position: absolute;
+  left: 131px;
+  top: 70px;
+}
+
+.technologyLine {
+  width: 120px;
+  height: 2px;
+  position: absolute;
+  left: 66px;
+  top: 210px;
+}
+
+.desireLine {
+  width: 168px;
+  height: 2px;
+  position: absolute;
+  left: 7px;
+  bottom: 0;
+}
+
+.ordinaryLine {
+  width: 176px;
+  height: 2px;
+  position: absolute;
+  /* left: 0px; */
+  top: 205px;
+}
+
+.masalaLine {
+  width: 107px;
+  height: 2px;
+  position: absolute;
+  left: 192px;
+  bottom: 7px;
+}
+
+.lastestLine {
+  width: 122px;
+  height: 2px;
+  position: absolute;
+  left: 332px;
+  /* top: 190px; */
+}
+
+.spciesLine {
+  width: 122px;
+  height: 2px;
+  position: absolute;
+  left: 495px;
+  top: 61px;
+}
+
+.whyLine {
+  width: 169px;
+  height: 2px;
+  position: absolute;
+  left: 7px;
+  top: 61px;
+}
+
+.masalaTab {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blogTab {
+  margin-top: 0px;
 }

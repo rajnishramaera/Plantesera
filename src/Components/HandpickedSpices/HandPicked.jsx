@@ -1,13 +1,13 @@
-import React, { useEffect } from "react"
-import mixSpices from "@assets/mixspices.png"
-import "./handpicked.css"
-import AOS from "aos"
-import "aos/dist/aos.css"
+import React, { useEffect } from "react";
+import mixSpices from "../../../src/assets/mixspices.png";
+import "./handpicked.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const HandPicked = () => {
   useEffect(() => {
-    AOS.init()
-  }, [])
+    AOS.init();
+  }, []);
   return (
     <div className="mix-spices flex flex-col items-center justify-center relative">
       <div
@@ -16,11 +16,11 @@ const HandPicked = () => {
         // data-aos-anchor-placement="top-center"
       >
         <div className="mix-spices-img">
-          <img loading="lazy" src={mixSpices} alt="" />
+          <img src={mixSpices} alt="" />
         </div>
       </div>
-      <div className="handpicked absolute top-[40%] bg-center bg-cover">
-        <div className="para-container mt-20 lg:ml-10">
+      <div className="handpicked absolute top-[40%] bg-center bg-cover flex items-center">
+        <div className="para-container lg:ml-10">
           <div data-aos="fade-right">
             <p className="hand-para">
               Spices that are grown organically and handpicked for uncompromised
@@ -35,14 +35,15 @@ const HandPicked = () => {
             </p>
           </div>
           <div className="btn-container" data-aos="fade-up">
-            <button className="hand-btn border border-red-500 rounded-full text-white mt-7 btn2">
+            <button className="hand-btn rounded-full text-white mt-7 uncompromiseButton">
               Read More
             </button>
+            {/* first page */}
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default HandPicked
+export default HandPicked;

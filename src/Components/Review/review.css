@@ -11,13 +11,12 @@
 .review-info-para {
   font-family: "Josefin Sans";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
   line-height: 24px;
   width: 80%;
 }
 .small-box1 {
-  background: linear-gradient(107.77deg, #ff4f4f 15.95%, #fe7171 100%);
   border-radius: 20px;
   position: absolute;
   top: 8%;
@@ -188,14 +187,14 @@
   --border-radius: 23px;
   --border-size: 0.1rem;
   --border-bg: conic-gradient(
-    #ff4f4f 0turn 0.125turn,
-    #ff4f4f 0.125turn 0.25turn,
-    #ff4f4f 0.25turn 0.375turn,
+    #8d8585 0turn 0.125turn,
+    #8d8585 0.125turn 0.25turn,
+    #8d8585 0.25turn 0.375turn,
     #ffff 0.375turn 0.5turn,
-    #ff4f4f 0.5turn 0.625turn,
-    #ff4f4f 0.625turn 0.75turn,
-    #ff4f4f 0.75turn 0.875turn,
-    #ff4f4f 0.875turn 1turn
+    #8d8585 0.5turn 0.625turn,
+    #8d8585 0.625turn 0.75turn,
+    #8d8585 0.75turn 0.875turn,
+    #8d8585 0.875turn 1turn
   );
 
   text-transform: uppercase;

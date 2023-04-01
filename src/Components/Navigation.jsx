@@ -1,8 +1,14 @@
 import React, { useState } from "react"
 import { Link } from "react-router-dom"
-import "./HeaderTwo.css"
+import { useDispatch } from "react-redux"
 
+import "./HeaderTwo.css"
 const Navigation = () => {
+  const dispatch = useDispatch()
+
+  const changeColor = () => {
+    dispatch(changeColor("#FF4F4F"))
+  }
   const [show1, setShow1] = useState(true)
   const [show2, setShow2] = useState(false)
   const [show3, setShow3] = useState(false)
@@ -55,7 +61,9 @@ const Navigation = () => {
       className="hidden md:flex space-x-6 lg:float-right text-white rounded-3xl px-20"
     >
       <li className={show1 ? "active-11" : ""} onClick={handleClick1}>
-        <Link to="/">Home</Link>
+        <Link to="/" onClick={() => changeColor()}>
+          Home
+        </Link>
       </li>
       <li className={show2 ? "active-11" : ""} onClick={handleClick2}>
         <Link to="/products">Our Products</Link>

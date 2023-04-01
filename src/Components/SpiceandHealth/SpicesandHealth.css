@@ -13,6 +13,7 @@
   width: 47%;
 }
 .black-pepper {
+  background-image: url("../../src/assets/blackpepper.jpeg");
   width: 60px;
   height: 60px;
   background-position: center;
@@ -22,6 +23,7 @@
 }
 
 .cardamom {
+  background-image: url("../../src/assets/cardamom.jpeg");
   width: 60px;
   height: 60px;
   background-position: center;
@@ -31,6 +33,7 @@
 }
 
 .cumin {
+  background-image: url("../../src/assets/cumin-1.png");
   width: 60px;
   height: 60px;
   background-position: center;
@@ -40,6 +43,7 @@
 }
 
 .fenugreek {
+  background-image: url("../../src/assets/Fenugreek.png");
   width: 60px;
   height: 60px;
   background-position: center;
@@ -49,6 +53,7 @@
 }
 
 .mustard {
+  background-image: url("../../src/assets/mustard-1.png");
   width: 60px;
   height: 60px;
   background-position: center;
@@ -58,6 +63,7 @@
 }
 
 .star {
+  background-image: url("../../src/assets/star.png");
   width: 60px;
   height: 60px;
   background-position: center;
@@ -67,6 +73,7 @@
 }
 
 .clove {
+  background-image: url("../../src/assets/clove.png");
   width: 60px;
   height: 60px;
   background-position: center;
@@ -76,6 +83,7 @@
 }
 
 .cinamon {
+  background-image: url("../../src/assets/cinamon.png");
   width: 60px;
   height: 60px;
   background-position: center;
@@ -85,6 +93,7 @@
 }
 
 .nut {
+  background-image: url("../../src/assets/nut.png");
   width: 60px;
   height: 60px;
   background-position: center;
@@ -99,11 +108,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
-  background: linear-gradient(107.77deg, #ff4f4f 15.95%, #fe7171 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
 }
 .scroll::-webkit-scrollbar {
   width: 10px;
@@ -119,14 +123,10 @@
 .scroll::-webkit-scrollbar-thumb {
   width: 21px;
 
-  background: linear-gradient(107.77deg, #ff4f4f 15.95%, #fe7171 100%);
+  background: grey;
   border-radius: 20px;
 }
 
-/* Handle on hover */
-/* ::-webkit-scrollbar-thumb:hover {
-    background: #b30000; 
-  } */
 .cardamom-para {
   font-family: "Josefin Sans";
   font-style: normal;
@@ -134,6 +134,7 @@
   font-size: 18px;
   line-height: 18px;
   color: #000000;
+  font-weight: 300;
 }
 
 .bar {
