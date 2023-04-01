@@ -1,21 +1,24 @@
 import "./FallLove.css"
 import masala1 from "@assets/images/falllove-1.png"
 import masala2 from "@assets/images/falllove-2.png"
+import solutionBg from "@assets/images/desireAb.png"
+
 const FallLove = () => {
   return (
     <>
-      <div className="container fallloveBackground mt-40 px-6">
-        <div className="basis-12/12 flex">
+      <img loading="lazy" src={solutionBg} style={{margin:"50px 0"}} />
+
+     <div className="basis-4/12 flex flex-col justify-center m-auto">
+            <h1 className="falllove-heading">
+            "Get fit with flavor - PlanetsEra spices bring a healthy kick to your meals."
+            </h1>
+      </div>
+      <div className="container fallloveBackground mt-20 px-6">
+        <div className="basis-12/12 flex justify-between">
           <div className="basis-4/12">
             <img loading="lazy" src={masala1} className="myMenuImage" />
           </div>
-
-          <div className="basis-4/12 flex flex-col justify-center">
-            <p className="falllove-text">OUR MENU</p>
-            <h1 className="falllove-heading">
-              Menu That Always Makes You Fall In Love
-            </h1>
-          </div>
+         
           <div className="basis-4/12 myMenuImage-2 ">
             <img loading="lazy" src={masala2} className="myMenuImage" />
           </div>
