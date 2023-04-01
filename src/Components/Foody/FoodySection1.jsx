@@ -1,4 +1,8 @@
+import { useSelector } from "react-redux"
+
 const FoodySection1 = () => {
+  const colorMe = useSelector((state) => state.colorUs.color)
+
   return (
     <div className="basis-5/12 p-14">
       <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
@@ -20,6 +24,7 @@ const FoodySection1 = () => {
       <div className="basis-4/12"></div>
       <div class="clearfix"></div>
       <a
+        style={{ color: colorMe }}
         href="#"
         className="explore-foody btn2 flex bg-white p-4 justify-center items-center my-3"
       >

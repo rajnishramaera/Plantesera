@@ -1,9 +1,22 @@
 import React from "react"
 import machines from "@assets/images/machine.png"
 import { useSelector } from "react-redux"
+import machines2 from "@assets/images/machine2.png"
+import machines3 from "@assets/images/machine3.png"
 
 const TechnologySection2 = () => {
   const colorMe = useSelector((state) => state.colorUs.color)
+  const checkbg = (colorMe) => {
+    if (colorMe === "#FF4F4F") {
+      return machines
+    }
+    if (colorMe === "#ffde39") {
+      return machines2
+    }
+    if (colorMe === "#2dc83c") {
+      return machines3
+    }
+  }
 
   return (
     <div className="basis-12/12 bussiness-Flex">
@@ -40,7 +53,7 @@ const TechnologySection2 = () => {
       >
         <div data-aos="fade-up-left">
           <img
-            src={machines}
+            src={checkbg(colorMe)}
             className="float-right bussiness-image w-max-full"
           />
         </div>

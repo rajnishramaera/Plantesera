@@ -1,8 +1,14 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
 import logoImage from "@assets/images/logo.png"
+import { useDispatch } from "react-redux"
 
 const NavigationMobile = () => {
+  const dispatch = useDispatch()
+
+  const changeColor = () => {
+    dispatch(changeColor("#FF4F4F"))
+  }
   const [showMenu, setShowMenu] = useState(false)
   const toggleClick = () => {
     setShowMenu(true)
@@ -40,7 +46,9 @@ const NavigationMobile = () => {
         <div id="navDropdown" className="w-full">
           <ul id="mobilenavigation">
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" onClick={() => changeColor()}>
+                Home
+              </Link>
             </li>
             <li>
               <a href="#">About</a>

@@ -1,15 +1,30 @@
 import spice from "@assets/images/spcies.png"
-import solutionBg from "@assets/images/solutionbg.png"
+import spice2 from "@assets/images/spcies2.png"
+import spice3 from "@assets/images/spcies3.png"
+import spicebg from "@assets/images/desireAb.png"
 import { useSelector } from "react-redux"
 
 function SolutionSection() {
   const colorMe = useSelector((state) => state.colorUs.color)
-
+  const checkbg = (colorMe) => {
+    if (colorMe === "#FF4F4F") {
+      return spice
+    }
+    if (colorMe === "#ffde39") {
+      return spice2
+    }
+    if (colorMe === "#2dc83c") {
+      return spice3
+    }
+  }
   return (
     <div className="container mt-96">
       <div className="basis-12/12 bussiness-Flex">
         <div className="basis-7/12 solution-background" data-aos="slide-right">
-          <img src={spice} class="solution-image w-max-full h-auto" />
+          <img
+            src={checkbg(colorMe)}
+            class="solution-image w-max-full h-auto"
+          />
         </div>
         {/* <div className="basis-1/12"></div> */}
 
@@ -28,9 +43,8 @@ function SolutionSection() {
             </p>
           </div>
         </div>
-        {/* <img src={solutionBg} className="spciesImage" /> */}
       </div>
-      <img src="../src/assets/images/desireAb.png" />
+      <img src={spicebg} />
     </div>
   )
 }

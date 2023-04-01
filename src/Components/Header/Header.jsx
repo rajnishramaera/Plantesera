@@ -13,7 +13,6 @@ import masala1 from "@assets/images/spi-2.png"
 import { useDispatch } from "react-redux"
 import { PouchData } from "./PouchData"
 import { changeColor } from "../../../state/slice/colorUsSlice"
-
 function Header() {
   const dispatch = useDispatch()
   const [showMenu, setShowMenu] = useState(false)
@@ -69,7 +68,7 @@ function Header() {
               </div>
               <div className="basis-12/12 flex">
                 <div className="basis-4/12 header-display"></div>
-                <div className="basis-8/12">
+                <div className="basis-8/12 ">
                   <img loading="lazy" src={slider} className="header-img" />
                 </div>
               </div>
@@ -114,7 +113,7 @@ function Header() {
                 <div className="basis-8/12 flex justify-end relative">
                   {PouchData.map((item, index) => {
                     return (
-                      <div>
+                      <div className="hover:scale-110 transition-all">
                         <img
                           loading="lazy"
                           src={item.masalaImg}
@@ -125,7 +124,7 @@ function Header() {
                           className="pr-3 cursor-pointer"
                         />
                         <div
-                          className={`${item.pouchProperty1} flex justify-center items-end absolute`}
+                          className={`${item.pouchProperty1} flex justify-center items-end absolute `}
                           style={{ display: "none" }}
                         ></div>
                       </div>

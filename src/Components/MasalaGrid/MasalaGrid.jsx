@@ -74,7 +74,7 @@ function MasalaGrid() {
           <div className="basis-5/12"></div>
           <div className="basis-2/12 flex justify-center items-center">
             <a
-              style={{ backgroundColor: colorMe, outline: "1px solid grey" }}
+              style={{ backgroundColor: colorMe, outline: "1px solid white" }}
               href="#"
               className="masala-button mx-auto flex justify-center items-center btn-masala"
             >

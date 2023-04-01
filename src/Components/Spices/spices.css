@@ -1,5 +1,4 @@
 .small-box {
-  background: linear-gradient(107.77deg, #ff4f4f 15.95%, #fe7171 100%);
   border-radius: 30px;
   left: 70px;
 }
@@ -36,7 +35,6 @@
 
 .small-box2 {
   top: 80%;
-  background: linear-gradient(107.77deg, #ff4f4f 15.95%, #fe7171 100%);
   border-radius: 30px;
   left: 24%;
 }

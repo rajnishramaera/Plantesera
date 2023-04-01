@@ -5,7 +5,7 @@ import masala3 from "@assets/images/header-sabji.png"
 export const PouchData = [
   {
     masalaImg: masala1,
-    pouchProperty1: "pouch-box-1",
+    pouchProperty1: "pouch-box-1  ",
   },
   {
     masalaImg: masala2,
