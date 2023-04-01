@@ -23,7 +23,7 @@ const Products = () => {
       <HeaderTwo />
       <GalleryMenu />
       <MasalaGallery />
-      <SuccessSection />
+      {/* <SuccessSection /> */}
       <SpicySection />
       <ExtraOrdinarySection />
       <FallLove />
