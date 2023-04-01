@@ -10,7 +10,6 @@ import masala3 from "@assets/images/ourproduct-2.png"
 import masala4 from "@assets/images/ourproduct-3.png"
 import masala5 from "@assets/images/ourproduct-4.png"
 import masala6 from "@assets/images/ourproduct-5.png"
-
 const MasalaGallery = () => {
   return (
     <>
@@ -27,7 +26,6 @@ const MasalaGallery = () => {
                 />
               </div>
               <h1 className="text-center invention-text">Red Chilli Powder</h1>
-
               <div className="inventionBorder"></div>
             </div>
           </li>
@@ -42,11 +40,10 @@ const MasalaGallery = () => {
                 />
               </div>
               <h1 className="text-center invention-text">Sabji Masala</h1>
-
               <div className="inventionBorder"></div>
             </div>
           </li>
-          <li>
+          <li class="slide-visible">
             <div class="h-100 relative">
               <div class="ratio ratio-16x9">
                 <img
@@ -57,11 +54,10 @@ const MasalaGallery = () => {
                 />
               </div>
               <h1 className="text-center invention-text">Chat Masala</h1>
-
               <div className="inventionBorder"></div>
             </div>
           </li>
-          <li>
+          <li class="slide-visible">     
             <div class="h-100 relative">
               <div class="ratio ratio-16x9">
                 <img
@@ -74,7 +70,7 @@ const MasalaGallery = () => {
               <h1 className="text-center invention-text">Amchur Powder</h1>
             </div>
           </li>
-          <li>
+          <li class="slide-visible">    
             <div class="h-100 relative">
               <div class="ratio ratio-16x9">
                 <img
@@ -88,7 +84,7 @@ const MasalaGallery = () => {
               <div className="inventionLeftBorder"></div>
             </div>
           </li>
-          <li>
+          <li class="slide-visible">    
             <div class="h-100">
               <div class="ratio ratio-16x9">
                 <img
@@ -98,7 +94,6 @@ const MasalaGallery = () => {
                   alt="..."
                 />
               </div>
-
               <h1 className="text-center invention-text">
                 Black Pepper Powder
               </h1>
@@ -106,7 +101,6 @@ const MasalaGallery = () => {
             </div>
           </li>
         </ul>
-
         <div class="slider-indicators pt-20 pb-12">
           <button class="active" aria-label="Go to slide"></button>
           <button aria-label="Go to slide"></button>
@@ -118,5 +112,4 @@ const MasalaGallery = () => {
     </>
   )
 }
-
 export default MasalaGallery

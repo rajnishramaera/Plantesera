@@ -23,6 +23,25 @@
   padding: 0px 0px 78px 11px;
   cursor: pointer;
 }
+
 .background:hover {
   transform: translateY(-20px);
+}
+
+@media screen and (max-width: 600px){
+  .containerSpicy{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: unset !important;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .imgSpicy{
+    width: 120px;
+    flex-basis: unset !important;
+  }
 }

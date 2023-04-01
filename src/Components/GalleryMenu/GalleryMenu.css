@@ -36,3 +36,10 @@ button,
   -webkit-filter: none;
   filter: none;
 }
+
+@media screen and (max-width: 600px){
+  .galleryContainer{
+    margin-top: 50px !important;
+    margin-bottom: 20px !important;
+  }
+}

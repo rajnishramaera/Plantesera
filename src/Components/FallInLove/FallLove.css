@@ -13,6 +13,12 @@
   background-size: cover;
 } */
 
+@media screen and (max-width: 600px){
+  .fallloveBackground{
+   margin-top: 20px !important;
+  }
+}
+
 .myMenuImage {
   max-width: -moz-fit-content;
   /* max-width: fit-content;
@@ -24,18 +30,40 @@
   max-width: fit-content;
 }
 
+@media screen and (max-width: 600px){
+  .myMenuImage{
+    width: 175px;
+    height: 150px;
+  }
+}
+
 .lovePad {
   padding: 0px 40px;
 }
 
 .falllove-heading {
-  font-size: 46px;
-  font-family: "oriyafont";
+  font-size: 45px;
+  font-family: "Montserrat";
   text-align: center;
   background: -webkit-linear-gradient(#ff4f4f, #fe7171);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  width: 80%;
+  margin: auto;
+  font-weight: 400;
+  letter-spacing:5px;
+  line-height: 60px;
 }
+
+@media screen and (max-width: 600px){
+  .falllove-heading{
+    width: 90%;
+    font-size: 1.5rem;
+    letter-spacing:1px;
+    line-height: 40px;
+  }
+}
+
 .falllove-text {
   font-family: myregular;
   color: white;
