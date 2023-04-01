@@ -3,11 +3,11 @@ import SpicyData from "./SpicyData"
 
 const SpicySection = () => {
   return (
-    <div className="container mt-40 px-6">
-      <div className="basis-12/12 flex ml-7">
+    <div className="container mt-40 px-6 ">
+      <div className="basis-12/12 flex ml-7 containerSpicy">
         {SpicyData.map((items) => {
           return (
-            <div className="basis-2/12 relative flex">
+            <div className="basis-2/12 relative flex imgSpicy">
               <div className="background" style={{ width: "81%" }}>
                 <img
                   loading="lazy"

@@ -37,6 +37,14 @@
   line-height: 78px;
 }
 
+@media screen and (max-width: 600px){
+  .SecondPageHeading{
+    font-size: 40px;
+    line-height: 45px;
+    margin-top: 20px;
+  }
+}
+
 .SecondPageHeading-text {
   font-family: "myregular";
   color: #ededed;
@@ -118,6 +126,12 @@
   background-position: center center;
 }
 
+@media screen and (max-width: 600px){
+  .hero-Image{
+    height: 755px;
+  }
+}
+
 .image-box {
   position: relative;
 }
@@ -183,6 +197,14 @@
   top: -16px;
 }
 
+@media screen and (max-width: 600px){
+  .pouchAlignment{
+    max-width: 125% !important;
+    left: -40px;
+    top: -45px;
+  }
+}
+
 .btn2 {
   box-shadow: inset 0 0 0 0 #ff4f4f;
   transition: ease-out 0.4s;
@@ -191,3 +213,22 @@
   box-shadow: inset 400px 0 0 0 #ffffff;
   color: #111010;
 }
+
+.navMobile{
+  display: none ;
+}
+
+@media screen and (max-width: 600px){
+  .navMobile{
+    display: flex;
+    position: absolute;
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .detailContainer{
+    display: none !important;
+  }
+}
+

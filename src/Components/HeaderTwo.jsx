@@ -3,19 +3,25 @@ import Logo from "./logo";
 import Navigation from "./Navigation";
 import SocialSection from "./SocialSection";
 import PouchSection from "./PouchSection";
-
+import NavigationMobile from "./MobileNavigation/NavigationMobile";
 const HeaderTwo = () => {
   return (
     <>
-      <div className="image-box flex absolute z-10 w-full flex-wrap px-6">
-        <div className="basis-2/12 flex justify-start ">
+    <div className="navMobile">
+    <NavigationMobile />
+    </div>
+      
+
+      <div className="image-box flex absolute z-10 w-full flex-wrap px-6 ">
+
+        <div className="basis-2/12 flex justify-start detailContainer">
           <Logo />
         </div>
-        <div className="basis-9/12 flex justify-end items-baseline ">
+        <div className="basis-9/12 flex justify-end items-baseline detailContainer">
           <Navigation />
         </div>
 
-        <div className="basis-1/12">
+        <div className="basis-1/12 detailContainer">
           <SocialSection />
         </div>
 
@@ -61,7 +67,7 @@ const HeaderTwo = () => {
         <PouchSection />
       </div>
 
-      <div className="container flex hero-Image"></div>
+      <div className=" flex hero-Image"></div>
     </>
   );
 };
