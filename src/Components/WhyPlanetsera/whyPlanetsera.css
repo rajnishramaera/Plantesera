@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat&family=Nunito&display=swap");
+
+.icon-text {
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.planetseraHeading {
+  font-size: 65px;
+  font-weight: 300;
+  line-height: 75px;
+  font-family: "Montserrat", sans-serif;
+  background: -webkit-linear-gradient(#20932c, #a0fd90);
+  background-image: linear-gradient(to right, #20932c, #a0fd90);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 300;
+}
+.planetseraText {
+  font-size: 29px;
+  line-height: 60px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+}

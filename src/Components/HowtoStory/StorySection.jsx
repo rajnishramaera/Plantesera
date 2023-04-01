@@ -3,9 +3,9 @@ import "./StorySection.css";
 const StorySection = () => {
   return (
     <>
-      <div className="container px-4">
+      <div className="container px-6 mt-40">
         <div className="basis-12/12">
-          <h1 className="story-heading">How Our Story</h1>
+          <h1 className="story-heading mb-5">How Our Story</h1>
           <p className="story-text">
             When bad fortune hits hard, one usually looks towards one’s
             strongest skill, as that’s always the best bet to help stay afloat.
@@ -17,6 +17,7 @@ const StorySection = () => {
             recipes and the quality of the masalas. There was no looking back!
             By the time the next generation got involved, the business was
             already quite large. <br />
+            <br />
             The Founder couple’s sons Mr. Rajkumar Chordia and Mr. Pradip
             Chordia acquired land in Hadaspar Industrial Estate, where they
             established a manufacturing unit. The product range was expanded

@@ -8,7 +8,9 @@
 }
 
 .aboutbanner-text {
-  font-size: 75px;
-  color: white;
+  font-size: 100px;
+  color: #ffffff;
   text-align: center;
+  line-height: 56px;
+  font-family: "Josefin Sans", sans-serif;
 }

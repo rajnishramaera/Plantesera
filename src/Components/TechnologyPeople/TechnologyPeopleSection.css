@@ -2,3 +2,34 @@
   top: 200px;
   left: -100px;
 }
+
+.technology-heading {
+  font-size: 48px;
+  font-family: "Montserrat", sans-serif;
+  background: -webkit-linear-gradient(#20932c, #a0fd90);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 300;
+}
+
+.technology-text1 {
+  font-size: 19px;
+  line-height: 32px;
+  margin-bottom: 33px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.technology-text2 {
+  font-size: 19px;
+  line-height: 32px;
+  margin-bottom: 33px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.technology-text3 {
+  font-size: 19px;
+  line-height: 32px;
+  margin-bottom: 33px;
+  font-family: "Montserrat", sans-serif;
+}
