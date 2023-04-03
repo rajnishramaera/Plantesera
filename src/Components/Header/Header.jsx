@@ -77,12 +77,15 @@ function Header() {
                 style={{ right: "0%", top: "38%" }}
               >
                 <div className="basis-12/12 flex justify-between relative w-full">
-                  {PouchData.map((item) => {
+                  {PouchData.map((item, index) => {
                     return (
                       <div classsName={`${item.mobileBox1}`} flex justify-start>
                         <img
                           loading="lazy"
                           src={item.masalaImg}
+                          onClick={() => {
+                            changeTheColor(index)
+                          }}
                           className={`${item.imageBox1}`}
                           absolute
                           z-10
