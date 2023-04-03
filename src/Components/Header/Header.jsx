@@ -67,7 +67,7 @@ function Header() {
               <div className="basis-12/12 flex">
                 <div className="basis-4/12 header-display"></div>
                 <div className="basis-8/12 ">
-                  <img loading="lazy" src={slider} className="header-img" />
+                  <img src={slider} className="header-img" />
                 </div>
               </div>
             </div>
