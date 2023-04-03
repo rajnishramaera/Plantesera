@@ -32,32 +32,9 @@ const ProductInfoSection = () => {
                 <div style={{color:"white"}}><ArrowForwardIosIcon/></div>
               </div>
               <h1 className="headingZoom">Sabji Masala</h1>
-              <h3 className="titleZoom">Nutrition Information</h3>
-              <div className="masala-details">
-              <div><p>Calories</p></div>
-              <div><p>219.9 kcal</p></div>
-             </div>
-              
-              <div className="masala-details">
-              <div><p>Total Fat</p></div>
-              <div><p>10.7 g</p></div>
+              <h3 className="titleZoom">PlanetsEra’s Sabji Masala is an evergreen everyday Indian spice added to Indian food. A blend of spices for day-to-day  preparations in any vegetarian/non-vegetarian dish.</h3>
+              <button className="buttonZoomView">View</button>
               </div>
-
-              <div className="masala-details">
-              <div><p>Protein</p></div>
-              <div><p>7.9 g</p></div>
-              </div>
-
-              <div className="masala-details">
-              <div><p>Carbohydrate</p></div>
-              <div><p>22.3 g</p></div>
-              </div>
-
-              <div className="masala-details">
-              <div><p>Cholesterol</p></div>
-              <div><p>37.4 mg</p></div>
-              </div>
-            </div>
           </div>
         </div>
     </div> 
@@ -90,31 +67,8 @@ const ProductInfoSection = () => {
                 <div style={{color:"white"}}><ArrowForwardIosIcon/></div>
               </div>
               <h1 className="headingZoom">Garam Masala</h1>
-              <h3 className="titleZoom">Nutrition Information</h3>
-              <div className="masala-details">
-              <div><p>Calories</p></div>
-              <div><p>219.9 kcal</p></div>
-             </div>
-              
-              <div className="masala-details">
-              <div><p>Total Fat</p></div>
-              <div><p>10.7 g</p></div>
-              </div>
-
-              <div className="masala-details">
-              <div><p>Protein</p></div>
-              <div><p>7.9 g</p></div>
-              </div>
-
-              <div className="masala-details">
-              <div><p>Carbohydrate</p></div>
-              <div><p>22.3 g</p></div>
-              </div>
-
-              <div className="masala-details">
-              <div><p>Cholesterol</p></div>
-              <div><p>37.4 mg</p></div>
-              </div>
+              <h3 className="titleZoom">PlanetsEra’s Garam Masala is an evergreen everyday Indian spice added to Indian food. A blend of spices for day-to-day  preparations in any vegetarian/non-vegetarian dish.</h3>
+              <button className="buttonZoomView">View</button>        
             </div>
           </div>
         </div>
@@ -146,31 +100,8 @@ const ProductInfoSection = () => {
                 <div style={{color:"white"}}><ArrowForwardIosIcon/></div>
               </div>
               <h1 className="headingZoom">Jaljeera MASALA</h1>
-              <h3 className="titleZoom">Nutrition Information</h3>
-              <div className="masala-details">
-              <div><p>Calories</p></div>
-              <div><p>219.9 kcal</p></div>
-             </div>
-              
-              <div className="masala-details">
-              <div><p>Total Fat</p></div>
-              <div><p>10.7 g</p></div>
-              </div>
-
-              <div className="masala-details">
-              <div><p>Protein</p></div>
-              <div><p>7.9 g</p></div>
-              </div>
-
-              <div className="masala-details">
-              <div><p>Carbohydrate</p></div>
-              <div><p>22.3 g</p></div>
-              </div>
-
-              <div className="masala-details">
-              <div><p>Cholesterol</p></div>
-              <div><p>37.4 mg</p></div>
-              </div>
+              <h3 className="titleZoom">PlanetsEra’s Jaljeera Masala is an evergreen everyday Indian spice added to Indian food. A blend of spices for day-to-day  preparations in any vegetarian/non-vegetarian dish.</h3>
+              <button className="buttonZoomView">View</button>
             </div>
           </div>
         </div>
@@ -203,31 +134,8 @@ const ProductInfoSection = () => {
                 <div style={{color:"white"}}><ArrowForwardIosIcon/></div>
               </div>
               <h1 className="headingZoom">Cumin Powder</h1>
-              <h3 className="titleZoom">Nutrition Information</h3>
-              <div className="masala-details">
-              <div><p>Calories</p></div>
-              <div><p>219.9 kcal</p></div>
-             </div>
-              
-              <div className="masala-details">
-              <div><p>Total Fat</p></div>
-              <div><p>10.7 g</p></div>
-              </div>
-
-              <div className="masala-details">
-              <div><p>Protein</p></div>
-              <div><p>7.9 g</p></div>
-              </div>
-
-              <div className="masala-details">
-              <div><p>Carbohydrate</p></div>
-              <div><p>22.3 g</p></div>
-              </div>
-
-              <div className="masala-details">
-              <div><p>Cholesterol</p></div>
-              <div><p>37.4 mg</p></div>
-              </div>
+              <h3 className="titleZoom">PlanetsEra’sCumin Powder is an evergreen everyday Indian spice added to Indian food. A blend of spices for day-to-day  preparations in any vegetarian/non-vegetarian dish.</h3>
+              <button className="buttonZoomView">View</button>
             </div>
           </div>
         </div>

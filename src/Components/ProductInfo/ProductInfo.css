@@ -15,6 +15,12 @@
     margin:10px
   }
 
+  @media screen and (max-width: 600px){
+    .containerZoom{
+      height: 650px;
+    }
+    }
+
  #containerZoom1{
     background: linear-gradient(to right, #CED8CF, #C9D2B3);  
   }
@@ -69,11 +75,24 @@
       color: #fff;
   }
   
+  @media screen and (max-width: 600px){
+    .containerZoom .cardZoom .iconZoom .fa {
+      top:30%;
+    }
+  }
+
   .containerZoom .cardZoom .slide {
       width: 300px;
       height: 200px;
       transition: 0.5s;
   }
+
+  /* @media screen and (max-width: 600px){
+    .containerZoom .cardZoom .slide{
+      width: 160px;
+      height: 250px;
+    }
+  } */
   
   .containerZoom .cardZoom .slide.slide1 {
       position: relative;
@@ -89,7 +108,13 @@
   .containerZoom .cardZoom:hover .slide.slide1{
     transform: translateY(0px);
   }
-  
+
+  /* @media screen and (max-width: 600px){
+    .containerZoom .cardZoom .slide.slide1 {
+      transform: translateY(0px);
+      }
+    }
+   */
   .containerZoom .cardZoom .slide.slide2 {
     position: relative;
     display: none;
@@ -99,7 +124,7 @@
     box-sizing: border-box;
     transition: .8s;
     transform: translateY(-100px);
-    height: 43vh;
+    height: 52vh;
     border-radius: 10px;
   }
   
@@ -132,6 +157,14 @@
       display: block;
   }
   
+  @media screen and (max-width: 600px){
+  .containerZoom .cardZoom .slide.slide2 {
+      display: block;
+      transform: translateY(0);
+    }
+  }
+
+
   /* .containerZoom .cardZoom .slide.slide2::after{
     content: "";
     position: absolute;
@@ -159,16 +192,34 @@
    padding: 0;
    color: white;
   } 
+
+  @media screen and (max-width: 600px){
+    .containerZoom .cardZoom .slide.slide2 .contentZoom .headingZoom {
+      margin: 100px 0 10px 0;
+        }
+    }
   
   .containerZoom .cardZoom .slide.slide2 .contentZoom .titleZoom {
    font-size: 20px;
-   font-weight: 600;
+   font-weight: 200;
    text-align: left;
    padding: 0;
    font-size: 20px;
    color: white;
   } 
-  
+
+  .buttonZoomView{
+    border-radius: 50px;
+    padding: 12px 55px;
+    border: 1px solid white;
+    margin: auto;
+    background-color: unset !important;
+    color: white;
+    display: flex;
+    font-family: Montserrat;
+    font-weight: 500;
+  }
+
   .masala-details{
     display: flex;
     justify-content: space-between;
@@ -184,3 +235,8 @@
     top:-150px;
     width: 90%;
   }
+  @media screen and (max-width: 600px){
+    .masala-details-arrow{
+        top:-80px;
+      }
+    }
