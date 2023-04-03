@@ -6,9 +6,13 @@ import AboutBannerSection from "@components/AboutBanner/AboutBannerSection";
 import WhyPlanetseraSection from "@components/WhyPlanetsera/WhyPlanetseraSection";
 import ProcessSection from "@components/Process/ProcessSection";
 import AdvanceSection from "@components/AdvanceTechnology/AdvanceSection";
+import DishSection from "@components/Dish/DishSection";
+import IngredientSection from "@components/Ingredients/IngredientSection";
 const index = () => {
   return (
     <>
+      <DishSection />
+      <IngredientSection />
       <AdvanceSection />
       <ProcessSection />
       <WhyPlanetseraSection />

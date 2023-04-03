@@ -1,34 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat&family=Nunito&display=swap");
+.ingreIcon {
+  width: 80px;
+}
 
-.icon-text {
+.ingredient-heading {
   font-size: 32px;
   line-height: 40px;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-}
-.planetseraHeading {
-  font-size: 55px;
-  font-weight: 300;
-  line-height: 75px;
-  font-family: "Montserrat", sans-serif;
-  background: -webkit-linear-gradient(#20932c, #a0fd90);
-  background-image: linear-gradient(to right, #20932c, #a0fd90);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  font-weight: 300;
-}
-.planetseraText {
-  font-size: 29px;
-  line-height: 60px;
-  font-weight: 300;
-  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
 }
 
-.planetHeading {
-  font-size: 72px;
+.ingredient-text {
+  font-family: "Josefin Sans";
   font-weight: 300;
-  line-height: 85px;
+  font-size: 17px;
+}
+
+.ingredient-heading {
+  font-size: 32px;
   font-family: "Montserrat", sans-serif;
   background: -webkit-linear-gradient(#20932c, #a0fd90);
   background-image: linear-gradient(to right, #20932c, #a0fd90);
@@ -36,4 +23,29 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-weight: 300;
+}
+
+.delicious-heading {
+  font-size: 60px;
+  font-family: "Montserrat", sans-serif;
+  background: -webkit-linear-gradient(#20932c, #a0fd90);
+  background-image: linear-gradient(to right, #20932c, #a0fd90);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 300;
+  text-align: center;
+}
+
+.delicious-text {
+  font-size: 27px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 400;
+  text-align: center;
+}
+
+.myImage-main {
+  margin: 0px -60px;
+  max-width: 132%;
 }

@@ -5,7 +5,7 @@ import "./AboutBanner.css";
 const AboutBannerSection = () => {
   return (
     <>
-      <div className="container aboutbanner flex justify-center items-center">
+      <div className="container aboutbanner flex justify-center items-center mt-40">
         {/* <img src={bannerOne} /> */}
 
         <div className="basis-12/12">
