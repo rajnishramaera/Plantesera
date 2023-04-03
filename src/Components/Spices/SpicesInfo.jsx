@@ -18,7 +18,8 @@ const SpicesInfo = () => {
           style={{ backgroundColor: colorMe, cursor: "default" }}
           className="btn hand"
         >
-          Handpicked from the best <br /> farms
+          Handpicked from the <br />
+          best farms
         </div>
         <div
           style={{ backgroundColor: colorMe, cursor: "default" }}
