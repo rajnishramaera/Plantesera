@@ -13,7 +13,6 @@
   width: 47%;
 }
 .black-pepper {
-  background-image: url("../../src/assets/blackpepper.jpeg");
   width: 60px;
   height: 60px;
   background-position: center;
@@ -23,7 +22,6 @@
 }
 
 .cardamom {
-  background-image: url("../../src/assets/cardamom.jpeg");
   width: 60px;
   height: 60px;
   background-position: center;
@@ -33,7 +31,6 @@
 }
 
 .cumin {
-  background-image: url("../../src/assets/cumin-1.png");
   width: 60px;
   height: 60px;
   background-position: center;
@@ -43,7 +40,6 @@
 }
 
 .fenugreek {
-  background-image: url("../../src/assets/Fenugreek.png");
   width: 60px;
   height: 60px;
   background-position: center;
@@ -53,7 +49,6 @@
 }
 
 .mustard {
-  background-image: url("../../src/assets/mustard-1.png");
   width: 60px;
   height: 60px;
   background-position: center;
@@ -63,7 +58,6 @@
 }
 
 .star {
-  background-image: url("../../src/assets/star.png");
   width: 60px;
   height: 60px;
   background-position: center;
@@ -73,7 +67,6 @@
 }
 
 .clove {
-  background-image: url("../../src/assets/clove.png");
   width: 60px;
   height: 60px;
   background-position: center;
@@ -83,7 +76,6 @@
 }
 
 .cinamon {
-  background-image: url("../../src/assets/cinamon.png");
   width: 60px;
   height: 60px;
   background-position: center;
@@ -93,7 +85,6 @@
 }
 
 .nut {
-  background-image: url("../../src/assets/nut.png");
   width: 60px;
   height: 60px;
   background-position: center;

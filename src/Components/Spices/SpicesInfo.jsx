@@ -14,20 +14,32 @@ const SpicesInfo = () => {
         stores, so that there is no compromise in the health of our consumers.
       </p>
       <div className="flex btn-container mt-10">
-        <button style={{ backgroundColor: colorMe }} className="btn hand">
+        <div
+          style={{ backgroundColor: colorMe, cursor: "default" }}
+          className="btn hand"
+        >
           Handpicked from the best <br /> farms
-        </button>
-        <button style={{ backgroundColor: colorMe }} className="btn ml-5 hand">
+        </div>
+        <div
+          style={{ backgroundColor: colorMe, cursor: "default" }}
+          className="btn ml-5 hand"
+        >
           Grinded at lower temperatures
-        </button>
+        </div>
       </div>
       <div className="flex btn-container mt-4">
-        <button style={{ backgroundColor: colorMe }} className="btn hand">
+        <div
+          style={{ backgroundColor: colorMe, cursor: "default" }}
+          className="btn hand"
+        >
           Hygienic manufacturing
-        </button>
-        <button style={{ backgroundColor: colorMe }} className="btn ml-5 hand">
+        </div>
+        <div
+          style={{ backgroundColor: colorMe, cursor: "default" }}
+          className="btn ml-5 hand"
+        >
           Quality preservation
-        </button>
+        </div>
       </div>
     </div>
   )

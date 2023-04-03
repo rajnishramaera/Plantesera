@@ -25,7 +25,7 @@ const Home = () => {
       <MasalaGrid />
       <Recipes />
       <HandPicked />
-      <NewsandBlog />
+      {/*  <NewsandBlog /> */}
       <Review />
       <SpiceandHealth />
       <Spices />

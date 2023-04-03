@@ -1,5 +1,5 @@
-import React from "react";
-import "./footer.css";
+import React from "react"
+import "./footer.css"
 
 const SideBar = () => {
   return (
@@ -8,7 +8,7 @@ const SideBar = () => {
         {/* <div className="lg:basis-9/12 lg:h-[21.5rem] bg-red-50 imaged"></div> */}
 
         <div className="lg:basis-3/12 lg:h-[21.5rem] bg-black flex flex-col justify-start side-bar">
-          <div className="lg:w-40 lg:my-auto ml-10 siderbar-container">
+          {/* <div className="lg:w-40 lg:my-auto ml-10 siderbar-container">
             <div className="mb-5">
               <p className="text-sm text-white">More Opinions</p>
               <p className="text-xs text-gray-400 font-thin">
@@ -30,11 +30,11 @@ const SideBar = () => {
                 amet sint.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default SideBar;
+export default SideBar

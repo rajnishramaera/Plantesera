@@ -24,9 +24,9 @@ const LogoSection = () => {
         </p>
 
         <a
-          href="#"
+          href="#produce"
           className="explore btn1 "
-          style={{ backgroundColor: colorMe }}
+          style={{ backgroundColor: colorMe, cursor: "pointer", zIndex: "99" }}
         >
           Explore More
         </a>

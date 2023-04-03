@@ -51,7 +51,7 @@ function Header() {
     <>
       <header className="bg-white">
         <nav className="relative">
-          <NavigationMobile />
+          {/*   <NavigationMobile /> */}
 
           <div className="container nav-flex">
             <LogoSection />
@@ -62,9 +62,7 @@ function Header() {
               }}
             >
               <div className="basis-12/12 flex items-center justify-center">
-                <div className="basis-8/12">
-                  <NavItem />
-                </div>
+                <div className="basis-8/12">{/*  <NavItem /> */}</div>
               </div>
               <div className="basis-12/12 flex">
                 <div className="basis-4/12 header-display"></div>

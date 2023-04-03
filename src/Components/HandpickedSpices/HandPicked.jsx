@@ -1,13 +1,13 @@
-import React, { useEffect } from "react";
-import mixSpices from "../../../src/assets/mixspices.png";
-import "./handpicked.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React, { useEffect } from "react"
+import mixSpices from "../../../src/assets/mixspices.png"
+import "./handpicked.css"
+import AOS from "aos"
+import "aos/dist/aos.css"
 
 const HandPicked = () => {
   useEffect(() => {
-    AOS.init();
-  }, []);
+    AOS.init()
+  }, [])
   return (
     <div className="mix-spices flex flex-col items-center justify-center relative">
       <div
@@ -35,15 +35,14 @@ const HandPicked = () => {
             </p>
           </div>
           <div className="btn-container" data-aos="fade-up">
-            <button className="hand-btn rounded-full text-white mt-7 uncompromiseButton">
+            {/* <button className="hand-btn rounded-full text-white mt-7 uncompromiseButton">
               Read More
-            </button>
-            {/* first page */}
+            </button> */}
           </div>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default HandPicked;
+export default HandPicked

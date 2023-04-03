@@ -63,10 +63,10 @@ const ReviewInfo = () => {
               Customer
             </p>
           </div>
-          <div>
+          {/*  <div>
             <WestIcon />
             <EastIcon className="ml-2" />
-          </div>
+          </div> */}
         </div>
       </div>
       {/* <img src={transparentbg} alt="" className="absolute transbg" /> */}

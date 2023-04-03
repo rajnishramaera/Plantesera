@@ -7,7 +7,7 @@ function SectionMain() {
   const colorMe = useSelector((state) => state.colorUs.color)
 
   return (
-    <div className="container mt-401 bg-no-repeat relative">
+    <div id="produce" className="container mt-401 bg-no-repeat relative">
       <div className="basis-12/12 flex taste-cooking">
         {/* <div className="basis-1/12 cooking-dis"></div> */}
         <div className="basis-12/12 w-full">

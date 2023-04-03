@@ -4,7 +4,7 @@ export const SocialIcon = [
     commentIcon: "../../../src/assets/comment.png",
     likeIcon: "../../../src/assets/like.png",
     instaLink:
-      "https://www.instagram.com/p/CoUKDFpOFgS/?utm_source=ig_web_copy_link",
+      "https://www.instagram.com/reel/CqZ4jj5jbof/?utm_source=ig_web_copy_link",
   },
 
   {
@@ -12,7 +12,7 @@ export const SocialIcon = [
     commentIcon: "../../../src/assets/comment.png",
     likeIcon: "../../../src/assets/like.png",
     instaLink:
-      "https://www.instagram.com/p/CoUKDFpOFgS/?utm_source=ig_web_copy_link",
+      "https://www.instagram.com/reel/CqSqcGpD1HF/?utm_source=ig_web_copy_link",
   },
 
   {
@@ -20,6 +20,6 @@ export const SocialIcon = [
     commentIcon: "../../../src/assets/comment.png",
     likeIcon: "../../../src/assets/like.png",
     instaLink:
-      "https://www.instagram.com/p/CoUKDFpOFgS/?utm_source=ig_web_copy_link",
+      "https://www.instagram.com/reel/CoyxknzDmQq/?utm_source=ig_web_copy_link",
   },
 ]
