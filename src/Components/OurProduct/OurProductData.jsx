@@ -7,53 +7,60 @@ import masala6 from "@assets/images/ourproduct-5.png"
 import masala7 from "@assets/images/ourproduct-6.png"
 import masala8 from "@assets/images/ourproduct-7.png"
 import masala9 from "@assets/images/ourproduct-8.png"
+import masala10 from "@assets/images/ourproduct-10.png"
 
 const Our = [
   {
-    masalaImg: masala2,
-    masalaName: "Sabji Masala",
-    gradientProperty1: "gra-box",
-  },
-  {
-    masalaImg: masala3,
-    masalaName: "Chat Masala",
-    gradientProperty1: "gra-box",
+    masalaImg: masala1,
+    masalaName: "Red Chilli Powder",
+    masalaGaram: "(50gm,100gm)"
   },
   {
     masalaImg: masala4,
     masalaName: "Amchur Powder",
-    gradientProperty1: "gra-box",
+    masalaGaram: "(50gm)"
   },
   {
-    masalaImg: masala5,
-    masalaName: "Garam Masala",
-    gradientProperty1: "gra-box",
+    masalaImg: masala10,
+    masalaName: "Turmeric Powder",
+    masalaGaram: "(50gm,100gm)"
   },
   {
     masalaImg: masala6,
     masalaName: "Black Pepper Powder",
-    gradientProperty1: "gra-box",
+    masalaGaram: "(50gm)"
+  },
+  {
+    masalaImg: masala2,
+    masalaName: "Sabji Masala",
+    masalaGaram: "(50gm,100gm)"
+  },
+  {
+    masalaImg: masala8,
+    masalaName: "Cumin Powder",
+    masalaGaram: "(50gm)"
+  },
+  {
+    masalaImg: masala5,
+    masalaName: "Garam Masala",
+    masalaGaram: "(50gm,100gm)"
   },
   {
     masalaImg: masala7,
     masalaName: "Jaljera Powder",
-    gradientProperty1: "gra-box",
-  },
-  {
-    masalaImg: masala8,
-    masalaName: "Jeera Powder",
-    gradientProperty1: "gra-box",
+    masalaGaram: "(50gm)"
   },
   {
     masalaImg: masala9,
     masalaName: "Meat Masala",
-    gradientProperty1: "gra-box",
-  },
+    masalaGaram: "(50gm,100gm)"
+  },  
   {
-    masalaImg: masala1,
-    masalaName: "Red Chilli Powder",
-    gradientProperty1: "gra-box",
+    masalaImg: masala3,
+    masalaName: "Chat Masala",
+    masalaGaram: "(50gm,100gm)"
   },
+  
 ]
 
 export default Our

@@ -31,28 +31,57 @@
   bottom: 42px;
 }
 
+@media screen and (max-width: 600px){
+  .myMenu{
+    width: 200px;
+    bottom: -275px;
+  }
+}
+
 .masalaAlignment {
   position: absolute;
   bottom: 140px;
   left: -47px;
 }
 
-.groundbg {
+/* .groundbg {
   background-image: url(../src/assets/images/groundbg.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 270px;
+} */
+
+@media screen and (max-width: 600px){
+  .groundbg {
+    margin-top: 15rem ;
+  }
 }
 
+
 .grounded-text {
-  font-size: 22px;
-  font-family: "myfont";
-  text-align: center;
-  line-height: 28px;
-  letter-spacing: 2px;
-  margin: 60px;
-  color: #727272;
+  font-size: 40px;
+  font-family: 'Josefin Sans';
+ font-weight: 300;
+ text-align: center;
+ line-height: 54px;
+ letter-spacing: 2px;
+ margin: 50px 0px;
+ color: black;
 }
+
+@media screen and (max-width: 600px){
+  .grounded-text {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .groundedImg {
+    flex: unset !important;
+    margin-bottom: unset !important;
+  }
+}
+
 
 .grounded-text3 {
   text-align: center;
