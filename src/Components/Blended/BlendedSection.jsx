@@ -5,33 +5,35 @@ import masala3 from "@assets/images/blended-3.png"
 import masala4 from "@assets/images/blended-4.png"
 import masala5 from "@assets/images/blended-5.png"
 import masala6 from "@assets/images/menu.png"
+import BlendedSpicesBg from "@assets/images/BlendedSpicesBg.png"
 
 const BlendedSection = () => {
   return (
     <div className="container relative">
-      <div className="basis-12/12 mt-40 blendedbg"></div>
-      <div className="basis-12/12 flex">
+      <div className="basis-12/12 blendedbg">
+        <img src={BlendedSpicesBg}/>
+      </div>
+      <div className="basis-12/12">
         <div className="basis-1/12"></div>
         <div className="basis-10/12">
           <p className="blended-text">
-            Why go outside when you can get restaurant-quality food in your
-            home? Cookme brings to you authentic multi cuisine dishes that are
-            as good as the food you get outside, in fact even better hassle free
-            cooking!
+          Craving for restaurant-like food at home?
+          <br/>
+          Bring home the multi-cuisine spice blends by PlanetsEra to get amazing restaurant-like food at home along with the ease of hassle free cooking.
           </p>
         </div>
         <div className="basis-1/12"></div>
       </div>
 
       <div class="container grid grid-cols-3 gap-2 mx-auto blended">
-        <div class="w-full rounded">
+        <div class="w-full rounded spaceBlendedImg">
           <img loading="lazy" src={masala1} className="mx-auto" />
           <h2 className="blended-text2">Garam Masala</h2>
           <br />
           <p className="blended-text3">(50gm, 100gm)</p>
           <p className="blended-text4">(Zipper Pouch)</p>
         </div>
-        <div class="w-full rounded">
+        <div class="w-full rounded spaceBlendedImg">
           <img loading="lazy" src={masala2} className="mx-auto" />
           <h2 className="delight-text2">Jaljeera Masala</h2>
           <br />

@@ -8,21 +8,28 @@
   src: url(oriyafont.ttc);
 }
 
-.blendedbg {
+/* .blendedbg {
   background-image: url(../src/assets/images/Blendedbg.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 270px;
-}
+} */
 
 .blended-text {
-  font-size: 22px;
-  font-family: "myfont";
-  text-align: center;
-  line-height: 28px;
-  letter-spacing: 2px;
-  margin: 60px;
-  color: #727272;
+  font-size: 43px;
+  font-family: 'Josefin Sans';
+ font-weight: 300;
+ text-align: center;
+ line-height: 54px;
+ letter-spacing: 2px;
+ margin: 50px 40px;
+ color: black;
+}
+
+@media screen and (max-width: 600px){
+  .blended-text {
+    font-size: 22px;
+  }
 }
 
 .blended-text2 {
@@ -58,9 +65,31 @@
   height: 403px !important;
 }
 
-
 .blendedMenuImg{
   position: absolute;
     right: 0;
     bottom: -100px;
+}
+
+.blendedbg {
+  margin-top: 10rem ;
+}
+
+@media screen and (max-width: 600px){
+  .blendedbg {
+    margin-top: 15rem ;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .blendedMenuImg{
+    width: 200px;
+    bottom: -275px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .spaceBlendedImg{
+   margin-bottom: 50px;
+  }
 }
