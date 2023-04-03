@@ -5,41 +5,23 @@ import masala3 from "@assets/images/delight-3.png"
 import masala4 from "@assets/images/delight-4.png"
 import masala5 from "@assets/images/delight-5.png"
 import masala6 from "@assets/images/menu.png"
-
+import DelightBg from "@assets/images/DelightBg.png"
 const DelightSection = () => {
   return (
     <div className="container relative">
-      <div className="basis-12/12 flex my-24">
-        <div className="basis-3/12"></div>
-        <div className="basis-6/12">
-          <h1 className="traditionalHead">Our Product</h1>
-          <p className="traditionalText">
-            Live in deliciousness every day. Cookme brings you authentic recipes
-            and cooking range to give your taste buds a traditional treat.
-          </p>
-        </div>
-        <div className="basis-3/12"></div>
-      </div>
-      <div className="basis-12/12 delightbg"></div>
-      <div className="basis-12/12 flex">
-        <div className="basis-1/12"></div>
-        <div className="basis-10/12">
-          <p className="delight-text">
-            Live in deliciousness every day. Cookme brings you authentic recipes
-            and cooking range to give your taste buds a traditional treat.
-          </p>
-        </div>
-        <div className="basis-1/12"></div>
+      
+      <div className="basis-12/12 delightbg">
+        <img src={DelightBg} />
       </div>
 
       <div class="container grid grid-cols-3 gap-2 mx-auto">
-        <div class="w-full rounded">
+        <div class="w-full rounded spaceContainer">
           <img loading="lazy" src={masala1} className="mx-auto pouch-size" />
           <h2 className="delight-text2">Sabji Masala</h2>
 
           <p className="delight-text3">(Pouch)</p>
         </div>
-        <div class="w-full rounded">
+        <div class="w-full rounded spaceContainer">
           <img loading="lazy" src={masala2} className="mx-auto pouch-size" />
           <h2 className="delight-text2">Jaljeera Masala</h2>
 

@@ -9,15 +9,14 @@
 }
 
 .delightbg {
-  background-image: url(../src/assets/images/delight-background.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 270px;
+  margin: 100px 0;
 }
 
 .delight-text {
   font-size: 22px;
-  font-family: "myfont";
+  font-family: "Original Surfer";
   text-align: center;
   line-height: 28px;
   letter-spacing: 2px;
@@ -35,7 +34,7 @@
 
 .delight-text2 {
   font-size: 20px;
-  font-family: "myfont";
+  font-family: "Original Surfer";
   line-height: 40px;
   letter-spacing: 2px;
   text-align: center;
@@ -43,7 +42,7 @@
 
 .delight-text3 {
   text-align: center;
-  font-family: "myfont";
+  font-family: "Original Surfer";
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 2px;
@@ -61,10 +60,22 @@
 
 .traditionalText {
   font-size: 18px;
-  font-family: "myfont";
+  font-family: "Original Surfer";
   text-align: center;
   line-height: 28px;
   letter-spacing: 2px;
   /* margin: 60px; */
   color: #727272;
+}
+
+@media screen and (max-width:600px){
+  .grid{
+    display: block !important;
+  }
+}
+
+@media screen and (max-width:600px){
+  .spaceContainer{
+    margin-bottom: 65px;
+  }
 }
