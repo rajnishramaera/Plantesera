@@ -4,6 +4,8 @@ import bg5 from "@assets/images/img-5.png"
 import bg4 from "@assets/images/img-4.png"
 import bg8 from "@assets/images/img-8.png"
 import bg6 from "@assets/images/img-6.png"
+import bg99 from "@assets/images/masalaAbsolute.png"
+
 import masalaBackground from "@assets/images/masalabg.png"
 // import { MasalaGridData } from "./MasalaGridData";
 import Our from "./MasalaGridData"
@@ -84,7 +86,7 @@ function MasalaGrid() {
           <div className="basis-5/12"></div>
         </div>
       </div>
-      <img src="../src/assets/images/masalaAbsolute.png" />
+      <img src={bg99} />
     </>
   )
 }

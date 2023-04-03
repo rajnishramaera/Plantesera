@@ -46,7 +46,7 @@ function TechnologySection() {
         <TechnologySection1 />
         <TechnologySection2 />
 
-        <img src={checkbg(colorMe)} className="manuAb" />
+        <img className=" manuAb " src={checkbg(colorMe)} />
       </div>
     </>
   )

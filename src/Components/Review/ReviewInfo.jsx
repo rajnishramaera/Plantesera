@@ -20,7 +20,7 @@ const ReviewInfo = () => {
     }
   }
   return (
-    <div className="review-info lg:ml-10">
+    <div className="review-info   mt-64 md:mt-0">
       <h1 style={{ color: colorMe }} className="heading">
         Customer Review
       </h1>

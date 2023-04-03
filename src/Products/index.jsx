@@ -1,21 +1,21 @@
-import HeaderTwo from "@components/HeaderTwo"
-import ProductSection from "@components/ProductSection/ProductSection"
-import InboxSection from "@components/InboxSection/InboxSection"
-import GallerySection from "@components/Gallery/GallerySection"
-import ExtraOrdinarySection from "@components/ExtraOrdinary/ExtraOrdinarySection"
-import SpicySection from "@components/Spicy/SpicySection"
-import OurProduct from "@components/OurProduct/OurProduct"
-import RecipeMethod from "@components/RecipeMethod/RecipeMethod"
-import MasalaGallery from "@components/masalaGallery/masalaGallery"
-import FallLove from "@components/FallInLove/FallLove"
-import GalleryMenu from "@components/GalleryMenu/GalleryMenu"
-import InstagramRecipe from "@components/InstagramRecipe/InstagramRecipe"
-import SliderProduct from "@components/Slider/SliderProduct"
-import SuccessSection from "@components/ScreteSuccess/SuccessSection"
-import DelightSection from "@components/HomeDelight/DelightSection"
-import BlendedSection from "@components/Blended/BlendedSection"
-import Footer from "@components/Footer/Footer"
-import ProductInfoSection from "@components/ProductInfo/ProductInfoSection"
+import HeaderTwo from "@Components/HeaderTwo"
+import ProductSection from "@Components/ProductSection/ProductSection"
+import InboxSection from "@Components/InboxSection/InboxSection"
+import GallerySection from "@Components/Gallery/GallerySection"
+import ExtraOrdinarySection from "@Components/ExtraOrdinary/ExtraOrdinarySection"
+import SpicySection from "@Components/Spicy/SpicySection"
+import OurProduct from "@Components/OurProduct/OurProduct"
+import RecipeMethod from "@Components/RecipeMethod/RecipeMethod"
+import MasalaGallery from "@Components/MasalaGallery/MasalaGallery"
+import FallLove from "@Components/FallInLove/FallLove"
+import GalleryMenu from "@Components/GalleryMenu/GalleryMenu"
+import InstagramRecipe from "@Components/InstagramRecipe/InstagramRecipe"
+import SliderProduct from "@Components/Slider/SliderProduct"
+import SuccessSection from "@Components/ScreteSuccess/SuccessSection"
+import DelightSection from "@Components/HomeDelight/DelightSection"
+import BlendedSection from "@Components/Blended/BlendedSection"
+import Footer from "@Components/Footer/Footer"
+import ProductInfoSection from "@Components/ProductInfo/ProductInfoSection"
 
 const Products = () => {
   return (
@@ -28,7 +28,7 @@ const Products = () => {
       <ExtraOrdinarySection />
       <FallLove />
       <ProductInfoSection />
-      {/* <SliderProduct /> */}  
+      {/* <SliderProduct /> */}
       <ProductSection />
       <DelightSection />
       <BlendedSection />

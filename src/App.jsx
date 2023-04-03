@@ -1,6 +1,7 @@
 import { useEffect } from "react"
 import { Routes, Route } from "react-router-dom"
 import Home from "./Home"
+import PageNotFound from "./PageNotFound"
 import Products from "./Products"
 import PrivacyPolicy from "./PrivacyPolicy"
 import About from "./About"
@@ -19,7 +20,8 @@ const App = () => {
       <Route path={"/"} element={<Home />} />
       {/*  <Route path={"products"} element={<Products />} />
       <Route path={"privacypolicy"} element={<PrivacyPolicy />} />
-      <Route path={"about"} element={<About />} /> */}
+    <Route path={"about"} element={<About />} /> */}
+      <Route path={"*"} element={<PageNotFound />} />
     </Routes>
   )
 }

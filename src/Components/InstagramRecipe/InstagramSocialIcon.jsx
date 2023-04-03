@@ -1,32 +1,35 @@
+import shareIcon1 from "@assets/share.png"
+import commentIcon1 from "@assets/comment.png"
+import likeIcon1 from "@assets/like.png"
 export const InstagramSocialIcon = [
   {
-    shareIcon: "../../../src/assets/share.png",
-    commentIcon: "../../../src/assets/comment.png",
-    likeIcon: "../../../src/assets/like.png",
+    shareIcon: shareIcon1,
+    commentIcon: commentIcon1,
+    likeIcon: likeIcon1,
     instaLink:
       "https://www.instagram.com/p/CoUKDFpOFgS/?utm_source=ig_web_copy_link",
   },
 
   {
-    shareIcon: "../../../src/assets/share.png",
-    commentIcon: "../../../src/assets/comment.png",
-    likeIcon: "../../../src/assets/like.png",
+    shareIcon: shareIcon1,
+    commentIcon: commentIcon1,
+    likeIcon: likeIcon1,
     instaLink:
       "https://www.instagram.com/p/CoUKDFpOFgS/?utm_source=ig_web_copy_link",
   },
 
   {
-    shareIcon: "../../../src/assets/share.png",
-    commentIcon: "../../../src/assets/comment.png",
-    likeIcon: "../../../src/assets/like.png",
+    shareIcon: shareIcon1,
+    commentIcon: commentIcon1,
+    likeIcon: likeIcon1,
     instaLink:
       "https://www.instagram.com/p/CoUKDFpOFgS/?utm_source=ig_web_copy_link",
   },
   {
-    shareIcon: "../../../src/assets/share.png",
-    commentIcon: "../../../src/assets/comment.png",
-    likeIcon: "../../../src/assets/like.png",
+    shareIcon: shareIcon1,
+    commentIcon: commentIcon1,
+    likeIcon: likeIcon1,
     instaLink:
       "https://www.instagram.com/p/CoUKDFpOFgS/?utm_source=ig_web_copy_link",
   },
-];
+]

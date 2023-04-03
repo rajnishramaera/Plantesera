@@ -64,7 +64,7 @@ function SolutionSection() {
         <div className="basis-7/12 solution-background" data-aos="slide-right">
           <img
             src={checkbg(colorMe)}
-            class="solution-image w-max-full h-auto"
+            className="solution-image w-max-full h-auto my-12 md:my-0"
           />
         </div>
         <div className="basis-1/12"></div>

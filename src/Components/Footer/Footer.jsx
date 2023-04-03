@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="basis-12/12 flex">
               <div className="basis-1/12"></div>
               <div className="basis-10/12">
-                <h1 className="diverse-text text-center">
+                <h1 className="diverse-text text-center p-8 text-5xl md:text-8xl md:p-2s">
                   Authentic taste of culture with PlanetsEra's spices
                 </h1>
               </div>

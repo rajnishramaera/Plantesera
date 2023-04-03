@@ -57,7 +57,7 @@ const MasalaGallery = () => {
               <div className="inventionBorder"></div>
             </div>
           </li>
-          <li class="slide-visible">     
+          <li class="slide-visible">
             <div class="h-100 relative">
               <div class="ratio ratio-16x9">
                 <img
@@ -70,7 +70,7 @@ const MasalaGallery = () => {
               <h1 className="text-center invention-text">Amchur Powder</h1>
             </div>
           </li>
-          <li class="slide-visible">    
+          <li class="slide-visible">
             <div class="h-100 relative">
               <div class="ratio ratio-16x9">
                 <img
@@ -84,7 +84,7 @@ const MasalaGallery = () => {
               <div className="inventionLeftBorder"></div>
             </div>
           </li>
-          <li class="slide-visible">    
+          <li class="slide-visible">
             <div class="h-100">
               <div class="ratio ratio-16x9">
                 <img

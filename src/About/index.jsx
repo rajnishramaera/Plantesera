@@ -1,8 +1,8 @@
-import React from "react";
-import QualitySection from "@components/QualityManagement/QualitySection";
-import StorySection from "@components/HowtoStory/StorySection";
-import TechnologyPeopleSection from "@components/TechnologyPeople/TechnologyPeopleSection";
-import AboutBannerSection from "@components/AboutBanner/AboutBannerSection";
+import React from "react"
+import QualitySection from "@Components/QualityManagement/QualitySection"
+import StorySection from "@Components/HowtoStory/StorySection"
+import TechnologyPeopleSection from "@Components/TechnologyPeople/TechnologyPeopleSection"
+import AboutBannerSection from "@Components/AboutBanner/AboutBannerSection"
 const index = () => {
   return (
     <>
@@ -11,7 +11,7 @@ const index = () => {
       <QualitySection />
       <TechnologyPeopleSection />
     </>
-  );
-};
+  )
+}
 
-export default index;
+export default index
