@@ -9,13 +9,24 @@
 }
 
 .ProductSection-text {
-  font-family: myregular;
-  font-size: 100px !important;
-  font-weight: 400;
+  font-family: Josefin Sans;
+  font-size: 100px ;
+  font-weight: 500;
   color: #ffffff;
   text-align: center;
-  line-height: 56px;
+  line-height: 6rem;
+  width: 90%;
+  text-align: left;
 }
+
+@media screen and (max-width: 600px){
+  .ProductSection-text {
+    font-size: 45px;
+    line-height: 5rem;
+    text-align: center;
+  }
+}
+
 .SecondPageButton {
   font-family: "myregular";
   color: #ededed;
@@ -31,13 +42,20 @@
 }
 
 .ProductSectionImg {
-  background-image: url("@assets/images/ProductSectionImg.png");
-
+  background-image: url("@assets/images/productSection.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 480px;
+  height: 550px;
   background-attachment: fixed;
 }
+
+@media screen and (max-width: 600px){
+  .ProductSectionImg {
+    height: unset;
+    background-attachment: unset;
+  }
+}
+
 
 .btn2 {
   box-shadow: inset 0 0 0 0 #ff4f4f;
@@ -63,6 +81,13 @@
   top: -288px;
   left: 524px;
   width: 500px;
+}
+
+@media screen and (max-width: 600px){
+  .spi-alignment {
+    top: -245px;
+    left: unset;
+  }
 }
 
 .spi-container {

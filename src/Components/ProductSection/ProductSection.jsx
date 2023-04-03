@@ -9,7 +9,7 @@ const ProductSection = () => {
       </div>
       <div className="container w-full flex ProductSectionImg mt-40 flex-wrap relative">
         <div className="basis-12/12 flex justify-center items-center w-full productSec">
-          <h2 className="ProductSection-text">Cardamom / Clove / Cumin</h2>
+          <h2 className="ProductSection-text">Spices that aid gut health with incredible taste</h2>
         </div>
       </div>
     </>
