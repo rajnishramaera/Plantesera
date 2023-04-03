@@ -51,7 +51,7 @@ function Header() {
     <>
       <header className="bg-white">
         <nav className="relative">
-          {/*   <NavigationMobile /> */}
+          <NavigationMobile />
 
           <div className="container nav-flex">
             <LogoSection />

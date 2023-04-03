@@ -25,7 +25,7 @@ const NavigationMobile = () => {
 
   return (
     <div className="container">
-      <div id="mobileNav" className="container flex w-full pb-1 nav-shadow">
+      <div id="mobileNav" className="container flex w-full pb-1">
         <div className="basis-3/12 pl-3">
           <img
             loading="lazy"
@@ -34,15 +34,15 @@ const NavigationMobile = () => {
             className="h-auto my-4"
           />
         </div>
-        <div className="basis-9/12 flex justify-end pr-3">
+        {/* <div className="basis-9/12 flex justify-end pr-3">
           <i
             class="fa fa-bars self-center icon-design"
             aria-hidden="true"
             onClick={toggleClick}
           ></i>
-        </div>
+        </div> */}
       </div>
-      {showMenu && (
+      {/* {showMenu && (
         <div id="navDropdown" className="w-full">
           <ul id="mobilenavigation">
             <li>
@@ -64,7 +64,7 @@ const NavigationMobile = () => {
             </li>
           </ul>
         </div>
-      )}
+      )} */}
     </div>
   )
 }
