@@ -59,7 +59,7 @@ function SolutionSection() {
     }
   }
   return (
-    <div className="container mt-96">
+    <div className="container mt-[500px] md:mt-96">
       <div className="basis-12/12 bussiness-Flex">
         <div className="basis-7/12 solution-background" data-aos="slide-right">
           <img
@@ -70,7 +70,10 @@ function SolutionSection() {
         <div className="basis-1/12"></div>
         <div className="basis-5/12 self-center spices-pad">
           <div data-aos="fade-up">
-            <h1 style={{ color: colorMe }} class="bussiness-head-mobile my-3">
+            <h1
+              style={{ color: colorMe }}
+              class="bussiness-head-mobile my-24 md:my-3"
+            >
               Get the Desired Flavour and Aroma with PlanetsEra Spices
             </h1>
             <div className="desireLine"></div>

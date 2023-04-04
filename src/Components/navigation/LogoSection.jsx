@@ -13,10 +13,10 @@ const LogoSection = () => {
         alt="logo"
         className="max-w-auto h-auto "
       />
-      <div className="basis-4/12 mt-14 text-alignment">
+      <div className="basis-4/12 mt-12   text-alignment">
         <h1
           style={{ color: colorMe }}
-          className="heading-textt text-3xl mt-2 md:text-7xl"
+          className="heading-textt text-4xl mt-32 md:text-7xl"
         >
           Diverse blend of culture and taste.
         </h1>

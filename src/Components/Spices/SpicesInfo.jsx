@@ -16,14 +16,14 @@ const SpicesInfo = () => {
       <div className="flex btn-container mt-10">
         <div
           style={{ backgroundColor: colorMe, cursor: "default" }}
-          className="btn hand"
+          className="btn hand p-2"
         >
           Handpicked from the <br />
           best farms
         </div>
         <div
           style={{ backgroundColor: colorMe, cursor: "default" }}
-          className="btn ml-5 hand"
+          className="btn ml-5 hand p-2"
         >
           Grinded at lower temperatures
         </div>
@@ -31,13 +31,13 @@ const SpicesInfo = () => {
       <div className="flex btn-container mt-4">
         <div
           style={{ backgroundColor: colorMe, cursor: "default" }}
-          className="btn hand"
+          className="btn hand p-2"
         >
           Hygienic manufacturing
         </div>
         <div
           style={{ backgroundColor: colorMe, cursor: "default" }}
-          className="btn ml-5 hand"
+          className="btn ml-5 hand p-2"
         >
           Quality preservation
         </div>
