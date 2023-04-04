@@ -9,7 +9,7 @@ import LogoSection from "@Components/Navigation/LogoSection"
 import NavItem from "@Components/Navigation/NavItem"
 import NavigationMobile from "@Components/MobileNavigation/NavigationMobile"
 import { useState } from "react"
-import masala1 from "@assets/images/spi-2.png"
+import masalabg from "@assets/images/spi-2.png"
 import { useDispatch } from "react-redux"
 import { PouchData } from "./PouchData"
 import { changeColor } from "../../../state/slice/colorUsSlice"
@@ -108,7 +108,7 @@ function Header() {
                 className="basis-12/12 flex absolute image-top w-full"
                 style={{ top: "100%" }}
               >
-                <img loading="lazy" src={masala1} className="redChilli" />
+                <img loading="lazy" src={masalabg} className="redChilli" />
                 <div className="basis-4/12 flex"></div>
 
                 <div className="basis-8/12 flex justify-end relative">

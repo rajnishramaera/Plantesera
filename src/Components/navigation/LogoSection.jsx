@@ -18,7 +18,7 @@ const LogoSection = () => {
           style={{ color: colorMe }}
           className="heading-textt text-4xl md:text-7xl"
         >
-          Diverse blend of culture and taste
+          Diverse blend of culture and taste.
         </h1>
 
         <p className="sub-text my-3">
