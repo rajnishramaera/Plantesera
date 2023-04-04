@@ -1,0 +1,57 @@
+.discover-heading {
+  font-size: 61px;
+  font-family: "Montserrat", sans-serif;
+  background: -webkit-linear-gradient(#20932c, #a0fd90);
+  background-image: linear-gradient(to right, #20932c, #a0fd90);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 300;
+  line-height: 60px;
+  text-align: center;
+}
+
+.discover-quality {
+  text-align: center;
+  font-size: 100px;
+  font-family: "Montserrat";
+  letter-spacing: 23px;
+}
+
+.quality-alignment {
+  width: 100%;
+  justify-content: space-between;
+  height: 247px;
+}
+/* .wrapper {
+  max-width: 50rem;
+  width: 100%;
+  margin: 0 auto;
+} */
+
+.quality-alignment h1 {
+  font-size: 36px;
+  font-family: "Montserrat";
+  font-weight: 300;
+  line-height: 50px;
+}
+
+.quality-alignment1 {
+  border-right: 1px solid black;
+  padding: 0px 56px;
+  background-color: transparent;
+  /* transition: 1s linear; */
+}
+
+.discover-alignment {
+  position: absolute;
+  top: -237px;
+}
+.quality-alignment1:hover {
+  background-image: linear-gradient(#20932c 0%, #a0fd90 100%);
+  font-family: "Montserrat";
+  color: white;
+  margin: 0px 0px 0px -9px;
+  /* padding: 0px 56px; */
+  cursor: pointer;
+}

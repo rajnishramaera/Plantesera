@@ -8,12 +8,16 @@ import ProcessSection from "@components/Process/ProcessSection";
 import AdvanceSection from "@components/AdvanceTechnology/AdvanceSection";
 import DishSection from "@components/Dish/DishSection";
 import IngredientSection from "@components/Ingredients/IngredientSection";
+import PlanetseraSection from "@components/PlanetseraMasala/PlanetseraSection";
+import DiscoverSection from "@components/Discover/DiscoverSection";
 const index = () => {
   return (
     <>
+      <DiscoverSection />
       <DishSection />
       <IngredientSection />
       <AdvanceSection />
+      <PlanetseraSection />
       <ProcessSection />
       <WhyPlanetseraSection />
       <AboutBannerSection />

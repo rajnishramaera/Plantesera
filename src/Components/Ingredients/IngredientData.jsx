@@ -2,6 +2,9 @@ import React from "react";
 import ingredientOne from "@assets/images/ingredientIcon-1.png";
 import ingredientTwo from "@assets/images/ingredientIcon-2.png";
 import ingredientThree from "@assets/images/ingredientIcon-3.png";
+import ingredientFour from "@assets/images/ingredientIcon-4.png";
+import ingredientFive from "@assets/images/ingredientIcon-5.png";
+import ingredientSix from "@assets/images/ingredientIcon-6.png";
 
 const IngredientData = [
   {
@@ -21,6 +24,24 @@ const IngredientData = [
     myIngreFormat2:
       "PlanetsEra Spices are finely ground and blended with the use of efficiently advanced technology.",
   },
+  // {
+  //   myIngre1: ingredientFour,
+  //   myIngreFormat1: "Expertly blended",
+  //   myIngreFormat2:
+  //     "PlanetsEra Spices are finely ground and blended with the use of efficiently advanced technology.",
+  // },
+  // {
+  //   myIngre1: ingredientFive,
+  //   myIngreFormat1: "Expertly blended",
+  //   myIngreFormat2:
+  //     "PlanetsEra Spices are finely ground and blended with the use of efficiently advanced technology.",
+  // },
+  // {
+  //   myIngre1: ingredientSix,
+  //   myIngreFormat1: "Expertly blended",
+  //   myIngreFormat2:
+  //     "PlanetsEra Spices are finely ground and blended with the use of efficiently advanced technology.",
+  // },
 ];
 
 export default IngredientData;
