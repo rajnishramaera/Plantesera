@@ -56,15 +56,15 @@ function Header() {
           <div className="container nav-flex">
             <LogoSection />
             <div
-              className="basis-8/12 slider-Image"
+              className="basis-8/12 slider-Image w-[75vw] relative top-[-35px] ml-auto"
               style={{
                 backgroundImage: `url(${bgcolor})`,
               }}
             >
-              <div className="basis-12/12 flex items-center justify-center">
+              <div className=" basis-12/12 flex  items-center justify-center">
                 <div className="basis-8/12">{/*  <NavItem /> */}</div>
               </div>
-              <div className="basis-12/12 flex">
+              <div className="  basis-12/12 flex">
                 <div className="basis-4/12 header-display"></div>
                 <div className="basis-8/12 ">
                   <img src={slider} className="header-img" />
@@ -76,7 +76,7 @@ function Header() {
                 className="basis-12/12 flex absolute image-top w-full"
                 style={{ right: "0%", top: "38%" }}
               >
-                <div className="basis-12/12 flex justify-between relative w-full">
+                <div className="basis-12/12 flex justify-between relative scale-90 w-full">
                   {PouchData.map((item, index) => {
                     return (
                       <div classsName={`${item.mobileBox1}`} flex justify-start>

@@ -31,7 +31,7 @@ const NavigationMobile = () => {
             loading="lazy"
             src={logoImage}
             alt="logo"
-            className="h-auto my-4"
+            className=" absolute w-16 mt-[10px]"
           />
         </div>
         {/* <div className="basis-9/12 flex justify-end pr-3">

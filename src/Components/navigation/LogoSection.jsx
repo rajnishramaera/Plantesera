@@ -5,18 +5,18 @@ import { useSelector } from "react-redux"
 const LogoSection = () => {
   const colorMe = useSelector((state) => state.colorUs.color)
   return (
-    <div className="basis-4/12 pl-5 myPos">
+    <div className="mt-[50px] basis-4/12 pl-5 myPos">
       <img
         loading="lazy"
         id="desktopNav"
         src={logoImage}
         alt="logo"
-        className="max-w-auto h-auto my-4"
+        className="max-w-auto h-auto "
       />
-      <div className="basis-4/12 text-alignment">
+      <div className="basis-4/12 mt-14 text-alignment">
         <h1
           style={{ color: colorMe }}
-          className="heading-textt text-4xl md:text-7xl"
+          className="heading-textt text-3xl mt-2 md:text-7xl"
         >
           Diverse blend of culture and taste.
         </h1>
