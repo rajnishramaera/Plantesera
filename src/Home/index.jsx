@@ -26,7 +26,7 @@ const Home = () => {
       <Recipes />
       <HandPicked />
       {/*  <NewsandBlog /> */}
-      <Review />
+      {/* <Review /> */}
       <SpiceandHealth />
       <Spices />
       <Footer />
