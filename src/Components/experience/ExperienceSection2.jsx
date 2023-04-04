@@ -9,7 +9,7 @@ export default function ExperienceSection2() {
       <div className="basis-6/12 self-center p-14" data-aos="slide-left">
         <div>
           <h1 style={{ color: colorMe }} className="experience-heading mb-3">
-            Extra ordinary taste And Experienced
+            Extraordinary taste and Experienced
           </h1>
           <div className="ordinaryLine"></div>
         </div>
