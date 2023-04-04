@@ -13,6 +13,7 @@ import NewsandBlog from "@Components/NewsandBlog/NewsandBlog"
 import HandPicked from "@Components/HandpickedSpices/HandPicked"
 import Recipes from "@Components/Recipes/Recipes"
 
+//checkweiuhfciwefhowefiejwoil
 const Home = () => {
   return (
     <>

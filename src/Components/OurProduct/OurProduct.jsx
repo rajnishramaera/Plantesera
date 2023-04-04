@@ -3,7 +3,6 @@ import Our from "./OurProductData"
 
 import masala2 from "@assets/images/masalabg.png"
 import masala3 from "@assets/images/menu.png"
-
 const OurProduct = () => {
   return (
     <div className="container relative mt-40 containerBorder">
