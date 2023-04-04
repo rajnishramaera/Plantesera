@@ -42,10 +42,7 @@ function MasalaGrid() {
           {Our.map((items) => {
             return (
               <div className="basis-4/12 mb-20">
-                <img
-                  src={items.ourproductImage}
-                  style={{ width: "fit-content", height: "fit-content" }}
-                />
+                <img src={items.ourproductImage} className="w-full" />
 
                 <h2 className="grounded-text5">{items.productText}</h2>
                 <p className="grounded-text3">{items.productGaram}</p>
