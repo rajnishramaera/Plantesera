@@ -6,19 +6,24 @@ import GalleryImageThree from "./GalleryImageThree"
 import GalleryImageFour from "./GalleryImageFour"
 import GalleryImageFive from "./GalleryImageFive"
 import GalleryImageSix from "./GalleryImageSix"
+import RecycleInfo from "@assets/images/recycleInfo.png"
+import VariousSpices from "@assets/images/various-spices.png"
 
 const GallerySection = () => {
   return (
-    <div className="container mt-40 px-6">
+    <div className="container  px-6">
+      <div className="recycleImg">
+        <img src={RecycleInfo}/>
+      </div>
       <div className="basis-12/12 flex justify-evenly w-full ">
         <div className="">
           <div class="content">
-            <a href="#">
+            <a href="">
               <GalleryImageTwo />
             </a>
           </div>
           <div class="content">
-            <a href="#">
+            <a href="">
               <GalleryImageThree />
             </a>
           </div>
@@ -26,17 +31,20 @@ const GallerySection = () => {
 
         <div className="">
           <div class="content">
-            <a href="#">
+            <a href="">
               <GalleryImageFive />
             </a>
           </div>
 
           <div class="content">
-            <a href="#">
+            <a href="">
               <GalleryImageSix />
             </a>
           </div>
         </div>
+      </div>
+      <div className="variousSpicesImg">
+        <img src={VariousSpices}/>
       </div>
     </div>
   )

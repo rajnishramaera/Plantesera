@@ -33,6 +33,7 @@
 
 @media screen and (max-width: 600px){
   .myMenu{
+    display: none;
     width: 200px;
     bottom: -275px;
   }
@@ -53,7 +54,7 @@
 
 @media screen and (max-width: 600px){
   .groundbg {
-    margin-top: 15rem ;
+    margin-top: 5rem ;
   }
 }
 
@@ -79,9 +80,16 @@
   .groundedImg {
     flex: unset !important;
     margin-bottom: unset !important;
+    width: 150px !important;
+    margin-bottom: 20px !important;
   }
 }
 
+@media screen and (max-width: 600px){
+  .groundedImg img {
+    height: 150px !important;
+  }
+}
 
 .grounded-text3 {
   text-align: center;
@@ -121,6 +129,12 @@
   color: #000000;
 }
 
+@media screen and (max-width: 600px){
+  .grounded-text5 {
+    font-size: 20px;
+  }
+}
+
 .ourbg {
   opacity: 0.1;
   position: absolute;
@@ -133,4 +147,13 @@
 
 .containerBorder {
   border-bottom: 1.2px solid #d9d9d9;
+}
+
+@media screen and (max-width: 600px){
+  .groundedContainer{
+    padding:0 1rem;
+    display: flex !important;  
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }

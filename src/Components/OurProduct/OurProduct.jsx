@@ -22,7 +22,7 @@ const OurProduct = () => {
         </div>
         <div className="basis-1/12"></div>
       </div>
-      <div className="basis-12/12 flex flex-wrap ml-4">
+      <div className="basis-12/12 flex flex-wrap ml-4 groundedContainer">
         {Our.map((items) => {
           return (
             <div className="basis-4/12 mb-20 groundedImg">

@@ -1,5 +1,5 @@
-import PrivacySection from "@components/PrivacyPolicy/PrivacySection"
-import Footer from "@components/Footer/Footer"
+import PrivacySection from "@Components/PrivacyPolicy/PrivacySection"
+import Footer from "@Components/Footer/Footer"
 
 const PrivacyPolicy = () => {
   return (

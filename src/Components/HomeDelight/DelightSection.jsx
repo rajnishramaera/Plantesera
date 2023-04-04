@@ -14,35 +14,33 @@ const DelightSection = () => {
         <img src={DelightBg} />
       </div>
 
-      <div class="container grid grid-cols-3 gap-2 mx-auto">
-        <div class="w-full rounded spaceContainer">
+      <div class="container grid grid-cols-3 gap-2 mx-auto delightContainer">
+        <div class="w-full rounded spaceContainer widthMob">
           <img loading="lazy" src={masala1} className="mx-auto pouch-size" />
           <h2 className="delight-text2">Sabji Masala</h2>
 
           <p className="delight-text3">(Pouch)</p>
         </div>
-        <div class="w-full rounded spaceContainer">
+        <div class="w-full rounded spaceContainer widthMob">
           <img loading="lazy" src={masala2} className="mx-auto pouch-size" />
           <h2 className="delight-text2">Jaljeera Masala</h2>
 
           <p className="delight-text3">(Pouch)</p>
         </div>
-        <div class="w-full rounded">
+        <div class="w-full rounded spaceContainer widthMob">
           <img loading="lazy" src={masala3} className="mx-auto pouch-size" />
           <h2 className="delight-text2">Garam Masala</h2>
 
           <p className="delight-text3">(Pouch)</p>
         </div>
-        <div class="w-full rounded">
+        <div class="w-full rounded widthMob2">
           <img loading="lazy" src={masala4} className="mx-auto pouch-size1" />
           <h2 className="delight-text2">Chat Masala</h2>
 
           <p className="delight-text3">(Pouch)</p>
         </div>
-        <div class="w-full rounded">
-          <img
-            loading="lazy"
-            src={masala5}
+        <div class="w-full rounded widthMob2">
+          <img loading="lazy" src={masala5}
             className="mx-auto pouch-size1"
             style={{ marginLeft: "50px" }}
           />

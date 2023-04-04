@@ -414,6 +414,7 @@ button,
 
 @media screen and (max-width: 600px){
   .slide-visible{
-    width: 180px;
+    width: 175px ;
+    height: 250px;
   }
 }

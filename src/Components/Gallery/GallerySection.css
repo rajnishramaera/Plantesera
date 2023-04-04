@@ -206,26 +206,47 @@
   color: white;
 }
 
+@media screen and (max-width: 600px){
+  .gallery-text {
+    font-size: 1rem;
+  }
+}
+
 .gallery-heading {
   position: absolute;
-  top: 44%;
+  top: 50%;
   /* display: flex; */
-
   /* z-index: 100; */
-
   font-family: myfont;
   font-size: 50px;
   color: white;
 }
 
+@media screen and (max-width: 600px){
+  .gallery-heading {
+    position: unset;
+    font-size: 1rem;
+    top: 0%;
+  }
+}
+
 .gallery-contentfirst {
   position: absolute;
-  top: 44%;
+  top: 30%;
   /* display: flex; */
   left: 12%;
   /* z-index: 100; */
   width: 70%;
   font-family: myfont;
+}
+
+@media screen and (max-width: 600px){
+  .gallery-contentfirst {
+    top: 10%;
+    left: 0%;
+    padding: 1rem;
+    width: 100%;
+  }
 }
 
 .myPhoto {
@@ -235,6 +256,12 @@
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 600px){
+  .myPhoto {
+    margin: 3px;
+  }
+}
+
 .myPhoto img {
   transition: transform 2s;
 }
@@ -242,3 +269,30 @@
 .myPhoto:hover img {
   transform: scale(1.2);
 }
+
+.recycleImg{
+display: flex;
+align-self: center;
+justify-content: center;
+margin: 100px 0;
+}
+
+@media screen and (max-width: 600px){
+  .recycleImg{
+    margin: 30px 0;
+    }
+}
+
+.variousSpicesImg{
+display: flex;
+align-self: center;
+justify-content: center;
+margin: 100px 0 20px 0;
+}
+
+@media screen and (max-width: 600px){
+  .variousSpicesImg{
+    margin: 30px 0;
+    }
+}
+

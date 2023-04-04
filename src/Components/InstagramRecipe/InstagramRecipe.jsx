@@ -8,12 +8,12 @@ import insta from "@assets/images/instagramMasala.png"
 
 const InstagramRecipe = () => {
   return (
-    <div className="container mt-40 instagram-background relative">
+    <div className="container  instagram-background relative">
       <InstagramHeading />
-      <div className="basis-12/12 flex justify-center mt-16">
+      <div className="basis-12/12 flex justify-center mt-6 instContainer">
         {InstagramSocialIcon.map((item) => {
           return (
-            <div className="basis-2/12 px-5">
+            <div className="basis-2/12 p-5">
               <div
                 className="shadow-lg p-4 relative"
                 style={{ backgroundColor: "white" }}
@@ -28,7 +28,7 @@ const InstagramRecipe = () => {
         })}
       </div>
       <InstagramButton />
-      <img loading="lazy" src={insta} className="instagram-masala" />
+      {/* <img loading="lazy" src={insta} className="instagram-masala" /> */}
     </div>
   )
 }

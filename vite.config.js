@@ -10,7 +10,7 @@ export default defineConfig({
     extensions: [".jsx", ".tsx", ".json", ".js", ".ts"],
     alias: {
       "@assets": path.resolve(__dirname, "./src/assets"),
-      "@components": path.resolve(__dirname, "./src/components"),
+      "@Components": path.resolve(__dirname, "./src/Components"),
     },
   },
 })

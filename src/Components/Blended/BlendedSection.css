@@ -28,17 +28,32 @@
 
 @media screen and (max-width: 600px){
   .blended-text {
+    margin: 10px;
     font-size: 22px;
   }
 }
 
 .blended-text2 {
   font-size: 25px;
-  font-family: "myfont";
+  font-family: "Original Surfer";
   line-height: 40px;
   letter-spacing: 2px;
   text-align: center;
   color: #0d0d0d;
+}
+
+@media screen and (max-width: 600px){
+  .blended-text2 {
+    font-size: 22px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .delight-text2 {
+    font-size: 22px;
+    line-height: 20px;
+  }
 }
 
 .blended-text3 {
@@ -53,6 +68,12 @@
   color: #0d0d0d;
 }
 
+@media screen and (max-width: 600px){
+  .blended-text3 {
+    font-size: 18px;
+  }
+}
+
 .blended-text4 {
   text-align: center;
   font-family: "myfont";
@@ -61,14 +82,20 @@
   color: #0d0d0d;
 }
 
+@media screen and (max-width: 600px){
+  .blended-text4 {
+    font-size: 18px;
+  }
+}
+
 .blended img {
   height: 403px !important;
 }
 
 .blendedMenuImg{
   position: absolute;
-    right: 0;
-    bottom: -100px;
+  right: 0;
+  bottom: -100px;
 }
 
 .blendedbg {
@@ -77,19 +104,41 @@
 
 @media screen and (max-width: 600px){
   .blendedbg {
-    margin-top: 15rem ;
+    margin-top: 5rem ;
   }
 }
 
 @media screen and (max-width: 600px){
   .blendedMenuImg{
     width: 200px;
-    bottom: -275px;
+    bottom: 0px;
   }
 }
 
 @media screen and (max-width: 600px){
   .spaceBlendedImg{
    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .blended{
+   padding:0 1rem;
+   display: flex !important;  
+   flex-wrap: wrap;
+   justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .blendedImgBox{
+    width: 150px !important;
+    margin-top: unset !important;
+ }
+}
+
+@media screen and (max-width: 600px){
+  .blended img {
+    height: 150px !important;
   }
 }

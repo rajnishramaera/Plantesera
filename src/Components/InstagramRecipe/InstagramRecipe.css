@@ -1,11 +1,19 @@
 .PlanteraHeading {
-  font-family: "Oriya MN";
-  color: white;
+  font-family: "Montserrat";
+  color: #ff4f4f;
   background-clip: text;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 48px;
   line-height: 56px;
+  text-align: left;
+}
+
+@media screen and (max-width: 600px){
+  .PlanteraHeading{
+    font-size: 28px;
+    line-height: 30px;
+  }
 }
 
 .PlanteraText {
@@ -31,9 +39,17 @@ iframe {
 }
 
 .instagram-background {
-  background-image: url(@assets/images/instagramBackground.png);
+  /* background-image: url(@assets/images/instagramBackground.png); */
+  background: #F0F0F0;
   background-size: cover;
-  height: 1001px;
+  height: 100%;
+  margin-top: 5rem;
+}
+
+@media screen and (max-width: 600px){
+  .instagram-background{
+    margin-top: 1rem !important;
+    }
 }
 
 .instagramBtn {
@@ -50,8 +66,8 @@ iframe {
   border: 1px solid white;
   box-shadow: 1px 2px 5px 0px #ff6261;
   display: flex;
-  display: flex;
   justify-content: space-around;
+  margin-bottom: 3rem;
 }
 
 .instagramBtn:hover {
@@ -84,4 +100,9 @@ iframe {
   right: 2px;
   bottom: -217px;
   height: 398px;
+}
+
+.instContainer{
+  display: flex;
+  flex-wrap: wrap;
 }

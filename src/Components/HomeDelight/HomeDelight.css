@@ -76,6 +76,43 @@
 
 @media screen and (max-width:600px){
   .spaceContainer{
-    margin-bottom: 65px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width:600px){
+  .widthMob{
+    width: 150px !important;
+  }
+}
+
+@media screen and (max-width:600px){
+  .widthMob2{
+    width: 165px !important;
+  }
+}
+
+@media screen and (max-width:600px){
+  .delightContainer{
+    width: 90% !important;
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width:600px){
+  .pouch-size {
+    height: 160px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width:600px){
+  .pouch-size1 {
+    height: 194px;
+    width: 163px;
+    margin-top: -32px;
+    margin-left: unset !important;
   }
 }

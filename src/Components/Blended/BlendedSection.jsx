@@ -26,35 +26,35 @@ const BlendedSection = () => {
       </div>
 
       <div class="container grid grid-cols-3 gap-2 mx-auto blended">
-        <div class="w-full rounded spaceBlendedImg">
+        <div class="w-full rounded spaceBlendedImg blendedImgBox">
           <img loading="lazy" src={masala1} className="mx-auto" />
           <h2 className="blended-text2">Garam Masala</h2>
           <br />
           <p className="blended-text3">(50gm, 100gm)</p>
           <p className="blended-text4">(Zipper Pouch)</p>
         </div>
-        <div class="w-full rounded spaceBlendedImg">
+        <div class="w-full rounded spaceBlendedImg blendedImgBox">
           <img loading="lazy" src={masala2} className="mx-auto" />
           <h2 className="delight-text2">Jaljeera Masala</h2>
           <br />
           <p className="blended-text3">(50gm)</p>
           <p className="blended-text4">(Zipper Pouch)</p>
         </div>
-        <div class="w-full rounded">
+        <div class="w-full rounded spaceBlendedImg blendedImgBox">
           <img loading="lazy" src={masala3} className="mx-auto" />
           <h2 className="delight-text2">Meat Masala</h2>
           <br />
           <p className="blended-text3">(50gm, 100gm)</p>
           <p className="blended-text4">(Zipper Pouch)</p>
         </div>
-        <div class="w-full rounded mt-10">
+        <div class="w-full rounded mt-10 spaceBlendedImg blendedImgBox">
           <img loading="lazy" src={masala4} className="mx-auto" />
           <h2 className="delight-text2">Chaat Masala</h2>
           <br />
           <p className="blended-text3">(50gm, 100gm)</p>
           <p className="blended-text4">(Zipper Pouch)</p>
         </div>
-        <div class="w-full rounded mt-10">
+        <div class="w-full rounded mt-10 blendedImgBox">
           <img loading="lazy" src={masala5} className="mx-auto" />
           <h2 className="delight-text2">Sabji Masala</h2>
           <br />
