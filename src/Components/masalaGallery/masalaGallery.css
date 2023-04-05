@@ -343,7 +343,6 @@
 button,
 [type="reset"],
 [type="submit"] {
-  background-color: #ff5556 !important;
   background-image: none;
 }
 .myFood-2 {

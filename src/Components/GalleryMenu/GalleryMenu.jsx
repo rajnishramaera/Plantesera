@@ -2,7 +2,7 @@ import "./GalleryMenu.css"
 
 const GalleryMenu = () => {
   return (
-    <div className="container mt-56 mb-20 galleryContainer">
+    <div id="exploreSection" className="container mt-56 mb-20 galleryContainer">
       <div className="basis-12/12 flex text-center justify-center">
         {/* <div className="basis-3/12"></div> */}
         <div>

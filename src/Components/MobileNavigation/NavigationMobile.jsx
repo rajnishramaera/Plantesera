@@ -58,7 +58,7 @@ const NavigationMobile = () => {
             </li>
 
             <li>
-              <Link to="/contactUs">Contact Us</Link>
+              <Link to="/ContactUs">Contact Us</Link>
             </li>
           </ul>
         </div>

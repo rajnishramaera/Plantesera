@@ -9,6 +9,7 @@ import AOS from "aos"
 import "aos/dist/aos.css"
 import "./App.css"
 import "./MediaQuery.css"
+import ContactUs from "./ContactUs/ContactUs"
 
 const App = () => {
   useEffect(() => {
@@ -19,6 +20,7 @@ const App = () => {
     <Routes>
       <Route path={"/"} element={<Home />} />
       <Route path={"products"} element={<Products />} />
+      <Route path={"ContactUs"} element={<ContactUs />} />
       {/* <Route path={"privacypolicy"} element={<PrivacyPolicy />} />
     <Route path={"about"} element={<About />} /> */}
       <Route path={"*"} element={<PageNotFound />} />

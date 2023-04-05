@@ -16,13 +16,13 @@
   -webkit-text-fill-color: transparent;
   font-weight: 400;
   text-align: center;
-  margin:1rem 0;
+  margin: 1rem 0;
 }
 
-@media screen and (max-width: 600px){
-  .GalleryMenuHeading{
+@media screen and (max-width: 600px) {
+  .GalleryMenuHeading {
     font-size: 1.8rem;
-    margin:3rem 0 1rem 0;
+    margin: 3rem 0 1rem 0;
   }
 }
 
@@ -31,13 +31,13 @@
   margin: auto;
   font-size: 22px;
   font-family: "Josefin Sans";
-  color: #1E1E1E;
+  color: #1e1e1e;
   padding: 0 10px;
   font-weight: 300;
 }
 
-@media screen and (max-width: 600px){
-  .GalleryMenuText{
+@media screen and (max-width: 600px) {
+  .GalleryMenuText {
     width: 96%;
     font-size: 1rem;
   }
@@ -46,7 +46,6 @@
 button,
 [type="reset"],
 [type="submit"] {
-  background-color: #ff5d5d !important;
   /* background-image: none; */
 }
 
@@ -56,8 +55,8 @@ button,
   filter: none;
 }
 
-@media screen and (max-width: 600px){
-  .galleryContainer{
+@media screen and (max-width: 600px) {
+  .galleryContainer {
     margin-top: 50px !important;
     margin-bottom: 20px !important;
   }

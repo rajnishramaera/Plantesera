@@ -9,7 +9,7 @@ const Footer = () => {
     <>
       <div
         style={{ backgroundImage: `url(${bg})` }}
-        className="main-container lg:w-[100%] mt-20 imaged"
+        className="main-container lg:w-[100%] mt-8 imaged"
       >
         <div className="footer flex bg-center bg-cover">
           <div className="basis-9/12 flex items-center">

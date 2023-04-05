@@ -16,19 +16,19 @@ const MasalaGallery = () => {
       <div class="swiffy-slider slider-item-show2 slider-item-reveal slider-nav-outside slider-nav-round slider-nav-visible slider-indicators-outside slider-indicators-round slider-indicators-dark slider-nav-animation slider-nav-animation-fadein slider-item-first-visible containerBorder  slider-nav-autoplay slider-nav-autopause">
         <ul class="slider-container py-24">
           {/* <li class="slide-visible">
-            <div class="h-100 relative">
-              <div class="ratio ratio-16x9">
-                <img
-                  loading="lazy"
-                  src={masala1}
-                  class="card-img-top"
-                  alt="..."
-                />
-              </div>
-              <h1 className="text-center invention-text">Red Chilli Powder</h1>
-              <div className="inventionBorder"></div>
+          <div class="h-100 relative">
+            <div class="ratio ratio-16x9">
+              <img
+                loading="lazy"
+                src={masala1}
+                class="card-img-top"
+                alt="..."
+              />
             </div>
-          </li> */}
+            <h1 className="text-center invention-text">Red Chilli Powder</h1>
+            <div className="inventionBorder"></div>
+          </div>
+        </li> */}
           <li class="slide-visible">
             <div class="h-100 relative">
               <div class="ratio ratio-16x9">
@@ -43,7 +43,7 @@ const MasalaGallery = () => {
               <div className="inventionBorder"></div>
             </div>
           </li>
-          <li class="slide-visible">    
+          <li class="slide-visible">
             <div class="h-100 relative">
               <div class="ratio ratio-16x9">
                 <img
@@ -57,7 +57,7 @@ const MasalaGallery = () => {
               <div className="inventionBorder"></div>
             </div>
           </li>
-          <li class="slide-visible">
+
           <li class="slide-visible">
             <div class="h-100 relative">
               <div class="ratio ratio-16x9">
@@ -72,7 +72,7 @@ const MasalaGallery = () => {
               <div className="inventionBorder"></div>
             </div>
           </li>
-          <li class="slide-visible">     
+          <li class="slide-visible">
             <div class="h-100 relative">
               <div class="ratio ratio-16x9">
                 <img
@@ -86,21 +86,21 @@ const MasalaGallery = () => {
             </div>
           </li>
           {/* <li class="slide-visible">    
-            <div class="h-100">
-              <div class="ratio ratio-16x9">
-                <img
-                  loading="lazy"
-                  src={masala6}
-                  class="card-img-top"
-                  alt="..."
-                />
-              </div>
-              <h1 className="text-center invention-text">
-                Black Pepper Powder
-              </h1>
-              <div className="inventionLeftBorder"></div>
+          <div class="h-100">
+            <div class="ratio ratio-16x9">
+              <img
+                loading="lazy"
+                src={masala6}
+                class="card-img-top"
+                alt="..."
+              />
             </div>
-          </li> */}
+            <h1 className="text-center invention-text">
+              Black Pepper Powder
+            </h1>
+            <div className="inventionLeftBorder"></div>
+          </div>
+        </li> */}
         </ul>
         <div class="slider-indicators pt-20 pb-12">
           <button class="active" aria-label="Go to slide"></button>

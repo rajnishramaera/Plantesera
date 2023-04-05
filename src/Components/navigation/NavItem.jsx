@@ -26,7 +26,7 @@ const NavItem = ({ page }) => {
       </li>
 
       <li className={page === "contactUs" ? "active-11" : ""}>
-        <a href="#" className="mr-1">
+        <a href="ContactUs" className="mr-1">
           Contact Us
         </a>
       </li>
