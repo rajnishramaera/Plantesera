@@ -7,7 +7,7 @@ const Logo = () => {
       loading="lazy"
       src={logoImage}
       alt="logo"
-      className="max-w-auto h-auto mt-1"
+      className="max-w-auto h-14 mt-4 "
     />
   )
 }

@@ -9,7 +9,7 @@ const SpiceandHealth = () => {
   const colorMe = useSelector((state) => state.colorUs.color)
 
   return (
-    <div className="spicesandHealth relative">
+    <div className="spicesandHealth relative mt-32 md:mt-0">
       <h1 style={{ color: colorMe }} className="heading text-center space-x-1">
         Spices and Health
       </h1>

@@ -21,8 +21,8 @@ const NewsInfo = () => {
               every flavor of different spices in our country reflect the taste
               of the region and carry the story of the richness of our country.
               Relishing your taste buds with the best quality of spices to add
-              spice to your life and devouring delicacies, Ramaera spices is a
-              step ahead.
+              spice to your life and devouring delicacies, Planetsera spices is
+              a step ahead.
             </p>
           </div>
         </div>

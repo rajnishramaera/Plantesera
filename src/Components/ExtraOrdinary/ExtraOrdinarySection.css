@@ -13,12 +13,17 @@
   width: 100%;
 } */
 
-@media screen and (max-width: 600px){
-  .ordinaryConatiner{
+@media screen and (max-width: 600px) {
+  .ordinaryConatiner {
     margin-top: 20px !important;
   }
 }
 
+@media screen and (max-width: 600px) {
+  .ordinaryConatiner {
+    margin-top: 20px !important;
+  }
+}
 
 .imgHeight2 {
   height: 400px;
@@ -275,9 +280,9 @@
   width: 37%;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .ordinary-alignment {
-    top:40%;
+    top: 40%;
     width: 80%;
   }
 }
@@ -290,10 +295,10 @@
   width: 37%;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .ordinary-alignment2 {
-    top:30%;
-    left:unset;
+    top: 30%;
+    left: unset;
     width: 80%;
   }
 }
@@ -307,14 +312,14 @@
   /* width: 319px; */
 }
 
-@media screen and (max-width: 1200px){
-  .ordinary-text{
+@media screen and (max-width: 1200px) {
+  .ordinary-text {
     font-size: 1.5rem;
   }
 }
 
-@media screen and (max-width: 600px){
-  .ordinary-text{
+@media screen and (max-width: 600px) {
+  .ordinary-text {
     font-size: 1.3rem;
     line-height: 22px;
   }
@@ -328,10 +333,18 @@
   width: 37%;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .ordinary-alignment4 {
-    top:30%;
-    left:unset;
+    top: 30%;
+    left: unset;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ordinary-alignment4 {
+    top: 30%;
+    left: unset;
     width: 80%;
   }
 }
@@ -343,7 +356,7 @@
   margin: 10px;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .photo {
     margin: 3px;
   }

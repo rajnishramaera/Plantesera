@@ -27,8 +27,8 @@
   width: 81%;
 }
 
-@media screen and (max-width: 600px){
-  .background{
+@media screen and (max-width: 600px) {
+  .background {
     width: 100%;
     transition: unset;
     transform: unset;
@@ -39,14 +39,14 @@
   transform: translateY(-20px);
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .background:hover {
     transform: unset;
   }
 }
 
-@media screen and (max-width: 600px){
-  .containerSpicy{
+@media screen and (max-width: 600px) {
+  .containerSpicy {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -56,19 +56,19 @@
   }
 }
 
-@media screen and (max-width: 600px){
-  .imgSpicy{
+@media screen and (max-width: 600px) {
+  .imgSpicy {
     width: 150px;
     flex-basis: unset !important;
   }
 }
 
-.spicyMainContainer{
+.spicyMainContainer {
   margin-top: 5rem;
 }
 
-@media screen and (max-width: 600px){
-  .spicyMainContainer{
+@media screen and (max-width: 600px) {
+  .spicyMainContainer {
     margin-top: 1rem;
   }
 }

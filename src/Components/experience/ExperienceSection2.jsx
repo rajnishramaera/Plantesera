@@ -9,7 +9,7 @@ export default function ExperienceSection2() {
       <div className="basis-6/12 self-center p-14" data-aos="slide-left">
         <div>
           <h1 style={{ color: colorMe }} className="experience-heading mb-3">
-            Extra ordinary taste And Experienced
+            Extraordinary taste and Experienced
           </h1>
           <div className="ordinaryLine"></div>
         </div>
@@ -31,9 +31,9 @@ export default function ExperienceSection2() {
             <span>30+</span>
           </div>
           <div>
-            <span className="experience-point-1">Year of</span>
+            <span className="experience-point-1">Years of</span>
             <br />
-            <span className="experience-point-2">Experienced</span>
+            <span className="experience-point-2">Experience</span>
           </div>
         </div>
       </div>

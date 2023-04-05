@@ -5,12 +5,13 @@ import sliderImage2 from "@assets/images/slider2.png"
 import background0 from "@assets/images/background.png"
 import background1 from "@assets/images/background2.png"
 import background2 from "@assets/images/background3.png"
-import LogoSection from "@Components/navigation/LogoSection"
-import NavItem from "@Components/navigation/NavItem"
+import LogoSection from "@Components/Navigation/LogoSection"
+import NavItem from "@Components/Navigation/NavItem"
 import NavigationMobile from "@Components/MobileNavigation/NavigationMobile"
 import { useState } from "react"
-import masala1 from "@assets/images/spi-2.png"
+import masalabg from "@assets/images/spi-2.png"
 import { useDispatch } from "react-redux"
+//import Navigation from "@Components/Navigation"
 import { PouchData } from "./PouchData"
 import { changeColor } from "../../../state/slice/colorUsSlice"
 function Header() {
@@ -56,20 +57,21 @@ function Header() {
           <div className="container nav-flex">
             <LogoSection />
             <div
-              className="basis-8/12 slider-Image"
+              className="basis-8/12 slider-Image w-[75vw] relative top-[-35px] md:top-0 ml-auto"
               style={{
                 backgroundImage: `url(${bgcolor})`,
               }}
             >
-              <div className="basis-12/12 flex items-center justify-center">
-                <div className="basis-8/12">
-                  <NavItem />
+              <div className=" basis-12/12 flex  items-center justify-center">
+                <div className="basis-12/12 ml-12">
+                  {/* <Navigation page={"home"} /> */}
+                  {<NavItem page={"home"} />}
                 </div>
               </div>
-              <div className="basis-12/12 flex">
+              <div className="  basis-12/12 flex">
                 <div className="basis-4/12 header-display"></div>
                 <div className="basis-8/12 ">
-                  <img loading="lazy" src={slider} className="header-img" />
+                  <img src={slider} className="header-img" />
                 </div>
               </div>
             </div>
@@ -78,13 +80,16 @@ function Header() {
                 className="basis-12/12 flex absolute image-top w-full"
                 style={{ right: "0%", top: "38%" }}
               >
-                <div className="basis-12/12 flex justify-between relative w-full">
-                  {PouchData.map((item) => {
+                <div className="basis-12/12 flex justify-between relative scale-90 w-full">
+                  {PouchData.map((item, index) => {
                     return (
                       <div classsName={`${item.mobileBox1}`} flex justify-start>
                         <img
                           loading="lazy"
                           src={item.masalaImg}
+                          onClick={() => {
+                            changeTheColor(index)
+                          }}
                           className={`${item.imageBox1}`}
                           absolute
                           z-10
@@ -107,7 +112,7 @@ function Header() {
                 className="basis-12/12 flex absolute image-top w-full"
                 style={{ top: "100%" }}
               >
-                <img loading="lazy" src={masala1} className="redChilli" />
+                {/* <img loading="lazy" src={masalabg} className="redChilli" /> */}
                 <div className="basis-4/12 flex"></div>
 
                 <div className="basis-8/12 flex justify-end relative">

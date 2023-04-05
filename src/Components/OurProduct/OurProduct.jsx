@@ -11,13 +11,15 @@ const OurProduct = () => {
         <img loading="lazy" src={masala2} />
       </div>
       <div className="basis-12/12 groundbg">
-        <img src={GroundSpicesBg}/>
+        <img src={GroundSpicesBg} />
       </div>
       <div className="basis-12/12 flex">
         <div className="basis-1/12"></div>
         <div className="basis-10/12">
           <p className="grounded-text">
-          Every spice carries a story and expresses the cultural richness of every region. With PlanetsEra Spices, we preserve the richness and authenticity of our Indian cuisine.
+            Every spice carries a story and expresses the cultural richness of
+            every region. With PlanetsEra Spices, we preserve the richness and
+            authenticity of our Indian cuisine.
           </p>
         </div>
         <div className="basis-1/12"></div>

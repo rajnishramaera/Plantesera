@@ -30,10 +30,10 @@ const Products = () => {
       <ExtraOrdinarySection />
       <FallLove />
       <ProductInfoSection />
-      {/* <SliderProduct /> */}  
+      {/* <SliderProduct /> */}
       <ProductSection />
-      <SpicesInfo/>
-      <BuyPlatform/>
+      <SpicesInfo />
+      <BuyPlatform />
       <DelightSection />
       <BlendedSection />
       <OurProduct />

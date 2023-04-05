@@ -25,25 +25,25 @@ const NavigationMobile = () => {
 
   return (
     <div className="container">
-      <div id="mobileNav" className="container flex w-full pb-1 nav-shadow">
+      <div id="mobileNav" className="container flex w-full pb-1">
         <div className="basis-3/12 pl-3">
           <img
             loading="lazy"
             src={logoImage}
             alt="logo"
-            className="h-auto my-4"
+            className=" absolute w-16 mt-[10px]"
           />
         </div>
-        <div className="basis-9/12 flex justify-end pr-3">
+        <div className="basis-9/12 flex justify-end pr-3 absolute right-0 z-30">
           <i
-            class="fa fa-bars self-center icon-design"
+            class="fa fa-bars self-center icon-design text-white"
             aria-hidden="true"
             onClick={toggleClick}
           ></i>
         </div>
       </div>
       {showMenu && (
-        <div id="navDropdown" className="w-full">
+        <div id="navDropdown" className="w-full z-20  top-0 absolute">
           <ul id="mobilenavigation">
             <li>
               <Link to="/" onClick={() => changeColor()}>
@@ -51,16 +51,14 @@ const NavigationMobile = () => {
               </Link>
             </li>
             <li>
-              <a href="#">About</a>
+              <Link to="/products">Products</Link>
             </li>
             <li>
-              <a href="#">Features</a>
+              <Link to="/aboutUs">About Us</Link>
             </li>
 
-            <li className="flex relative group">
-              <a href="#" className="mr-1">
-                Pages
-              </a>
+            <li>
+              <Link to="/contactUs">Contact Us</Link>
             </li>
           </ul>
         </div>

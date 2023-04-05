@@ -3,12 +3,7 @@
   font-family: "Josefin Sans", sans-serif;
 }
 .imaged {
-  background-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0)
-    ),
-    url("../../src/assets/footerbg.jpeg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
   /* height: 536px; */
   background-position-x: center;
   background-position-y: 16%;
@@ -39,7 +34,6 @@
 }
 
 .diverse-text {
-  font-size: 63px;
   color: rgb(206 201 201);
   /* text-align: center; */
   font-family: myfont;

@@ -58,6 +58,7 @@ const MasalaGallery = () => {
             </div>
           </li>
           <li class="slide-visible">
+          <li class="slide-visible">
             <div class="h-100 relative">
               <div class="ratio ratio-16x9">
                 <img

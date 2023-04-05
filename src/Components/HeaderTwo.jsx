@@ -5,6 +5,13 @@ import SocialSection from "./SocialSection"
 import PouchSection from "./PouchSection"
 import bg from "@assets/images/HeroSlider.png"
 import NavigationMobile from "./MobileNavigation/NavigationMobile"
+import "./HeaderTwo.css"
+import Logo from "./logo"
+import Navigation from "./Navigation"
+import SocialSection from "./SocialSection"
+import PouchSection from "./PouchSection"
+import bg from "@assets/images/HeroSlider.png"
+import NavigationMobile from "./MobileNavigation/NavigationMobile"
 const HeaderTwo = () => {
   return (
     <>
@@ -14,14 +21,16 @@ const HeaderTwo = () => {
 
       <div className="image-box flex absolute z-10 w-full flex-wrap px-6 ">
         <div className="basis-2/12 flex justify-start detailContainer">
+      <div className="navMobile">
+        <NavigationMobile />
+      </div>
+
+      <div className="image-box flex absolute z-10 w-full flex-wrap px-6 ">
+        <div className="basis-2/12 flex justify-start detailContainer">
           <Logo />
         </div>
-        <div className="basis-9/12 flex justify-end items-baseline detailContainer">
-          <Navigation />
-        </div>
-
-        <div className="basis-1/12 detailContainer">
-          <SocialSection />
+        <div className="basis-12/12 flex justify-end ml-auto items-baseline detailContainer">
+          <Navigation page={"products"} />
         </div>
 
         <div className="container flex flex-wrap w-full mt-40">
@@ -68,7 +77,13 @@ const HeaderTwo = () => {
         style={{ backgroundImage: `url(${bg})` }}
         className="container flex hero-Image"
       ></div>
+      <div
+        style={{ backgroundImage: `url(${bg})` }}
+        className="container flex hero-Image"
+      ></div>
     </>
+  )
+}
   )
 }
 

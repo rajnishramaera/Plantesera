@@ -11,10 +11,13 @@ const LogoSection = () => {
         id="desktopNav"
         src={logoImage}
         alt="logo"
-        className="max-w-auto h-auto my-4"
+        className="max-w-auto h-14 mt-4 "
       />
-      <div className="basis-4/12 text-alignment">
-        <h1 style={{ color: colorMe }} className="heading-textt">
+      <div className="basis-4/12 mt-12   text-alignment">
+        <h1
+          style={{ color: colorMe }}
+          className="heading-textt text-4xl mt-32 md:text-7xl"
+        >
           Diverse blend of culture and taste
         </h1>
 
@@ -24,9 +27,9 @@ const LogoSection = () => {
         </p>
 
         <a
-          href="#"
-          className="explore btn1 "
-          style={{ backgroundColor: colorMe }}
+          href="#produce"
+          className="explore btn1 py-4 "
+          style={{ backgroundColor: colorMe, cursor: "pointer", zIndex: "19" }}
         >
           Explore More
         </a>

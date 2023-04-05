@@ -7,7 +7,7 @@ import ordinary4 from "@assets/images/ordinary-4.png"
 
 const ExtraOrdinarySection = () => {
   return (
-    <div className="container mt-60 px-6 ordinaryConatiner" >
+    <div className="container mt-60 px-6 ordinaryConatiner">
       <div className="basis-12/12 flex justify-evenly w-full">
         <div className="">
           <div className="basis-6/12 relative flex justify-center">

@@ -93,9 +93,9 @@
 }
 .myhoverBoxButton1 {
   font-family: "myregular";
-  color: #EDEDED;
+  color: #ededed;
   text-align: center;
-  background-image: linear-gradient(#FF4F4F 0%, #FE7171 100%) !important;
+  background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%) !important;
   width: 117px;
   height: 41px;
   padding: 10px;
@@ -210,9 +210,9 @@
   font-family: "myregular";
   width: 113px;
   height: 29px;
-  color: #A6AB16;
+  color: #a6ab16;
   /* text-shadow: 0px 1px 1px #20932C; */
-  outline: 1px solid #D3D91B;
+  outline: 1px solid #d3d91b;
 }
 .sliderButton-meat {
   position: absolute;
@@ -224,7 +224,7 @@
   width: 113px;
   height: 29px;
   color: #923700;
-  outline: 1px solid #C9731D;
+  outline: 1px solid #c9731d;
 }
 .sliderButton-kali {
   position: absolute;
@@ -236,7 +236,7 @@
   width: 113px;
   height: 29px;
   color: #171715;
-  outline: 1px solid #5F4C2E;
+  outline: 1px solid #5f4c2e;
 }
 .sliderButton-garam {
   position: absolute;
@@ -247,7 +247,7 @@
   font-family: "myregular";
   width: 113px;
   height: 29px;
-  color: #9C310F;
+  color: #9c310f;
   /* text-shadow: 0px 1px 1px #20932C; */
   outline: 1px solid #996329;
 }
@@ -260,9 +260,9 @@
   font-family: "myregular";
   width: 113px;
   height: 29px;
-  color: #695C99;
+  color: #695c99;
   /* text-shadow: 0px 1px 1px #20932C; */
-  outline: 1px solid #6D5F9F;
+  outline: 1px solid #6d5f9f;
 }
 .sliderButton-1 {
   position: absolute;
@@ -273,9 +273,9 @@
   font-family: "myregular";
   width: 113px;
   height: 29px;
-  color: #45B14A;
+  color: #45b14a;
   /* text-shadow: 0px 1px 1px #20932C; */
-  outline: 1px solid #86E97C;
+  outline: 1px solid #86e97c;
 }
 .sliderButton-2 {
   position: absolute;
@@ -288,7 +288,7 @@
   height: 29px;
   color: #896636;
   /* text-shadow: 0px 1px 1px #20932C; */
-  outline: 1px solid #835F37;
+  outline: 1px solid #835f37;
 }
 .sliderButton-start {
   position: absolute;
@@ -299,9 +299,9 @@
   font-family: "myregular";
   width: 113px;
   height: 29px;
-  color: #FF5353;
+  color: #ff5353;
   /* text-shadow: 0px 1px 1px #20932C; */
-  outline: 1px solid #FF5758;
+  outline: 1px solid #ff5758;
 }
 /* .splide__arrow--prev {
   left: 1em;
@@ -336,14 +336,14 @@
   display: none;
 }
 .splide__pagination__page.is-active {
-  background: #FF5657;
+  background: #ff5657;
   transform: scale(1.4);
   z-index: 1;
 }
 button,
 [type="reset"],
 [type="submit"] {
-  background-color: #FF5556 !important;
+  background-color: #ff5556 !important;
   background-image: none;
 }
 .myFood-2 {
@@ -363,60 +363,57 @@ button,
   display: none !important;
 }
 .containerBorder {
-  border-bottom: 1.2px solid #D9D9D9;
+  border-bottom: 1.2px solid #d9d9d9;
 }
 .invention-text {
   font-family: "Original Surfer";
   letter-spacing: 2px;
   font-size: 20px;
-  color: #75797F;
+  color: #75797f;
 }
 .inventionBorder {
   width: 0.99px;
   height: 178px;
-  background-color: #B0B0B0;
+  background-color: #b0b0b0;
   position: absolute;
   top: 71px;
   right: 0px;
 }
 
-@media screen and (max-width: 600px){
-  .inventionBorder{
-   display: none;
-   width: 0;
+@media screen and (max-width: 600px) {
+  .inventionBorder {
+    display: none;
+    width: 0;
   }
 }
 
 .inventionLeftBorder {
   width: 0.99px;
   height: 178px;
-  background-color: #B0B0B0;
+  background-color: #b0b0b0;
   position: absolute;
   top: 71px;
   left: 0px;
 }
 
-@media screen and (max-width: 600px){
-  .inventionLeftBorder{
-   display: none;
-   width: 0;
+@media screen and (max-width: 600px) {
+  .inventionLeftBorder {
+    display: none;
+    width: 0;
   }
 }
 
-@media screen and (max-width: 600px){
-  .slider-container{
+@media screen and (max-width: 600px) {
+  .slider-container {
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    padding-top: 1rem !important;
-    padding-bottom: 0 !important;
   }
 }
 
-@media screen and (max-width: 600px){
-  .slide-visible{
-    width: 175px ;
-    height: 250px;
+@media screen and (max-width: 600px) {
+  .slide-visible {
+    width: 180px;
   }
 }

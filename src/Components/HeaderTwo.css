@@ -37,8 +37,8 @@
   line-height: 78px;
 }
 
-@media screen and (max-width: 600px){
-  .SecondPageHeading{
+@media screen and (max-width: 600px) {
+  .SecondPageHeading {
     font-size: 30px;
     line-height: 45px;
     margin-top: 20px;
@@ -94,7 +94,8 @@
   box-shadow: 1px 2px 2px 0px rgb(100 40 21 / 35%);
   /* outline: 1px solid #ff4f4f; */
   margin-top: -1px;
-  color: #ff4f4f;
+  color: #6f6f6f;
+  font-weight: 800;
   font-size: 18px;
   font-family: myregular;
 }
@@ -125,8 +126,8 @@
   background-position: center center;
 }
 
-@media screen and (max-width: 600px){
-  .hero-Image{
+@media screen and (max-width: 600px) {
+  .hero-Image {
     background-size: unset;
     height: 740px;
   }
@@ -197,8 +198,8 @@
   top: -16px;
 }
 
-@media screen and (max-width: 600px){
-  .pouchAlignment{
+@media screen and (max-width: 600px) {
+  .pouchAlignment {
     max-width: 125% !important;
     left: -40px;
     top: -45px;
@@ -214,7 +215,7 @@
   color: #111010;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
   .btn2:hover {
     box-shadow: inset 0 0 0 0 #ff4f4f !important;
     background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%) !important;
@@ -222,21 +223,20 @@
   }
 }
 
-.navMobile{
-  display: none ;
+.navMobile {
+  display: none;
 }
 
-@media screen and (max-width: 600px){
-  .navMobile{
+@media screen and (max-width: 600px) {
+  .navMobile {
     display: flex;
     position: absolute;
     width: 100vw;
   }
 }
 
-@media screen and (max-width: 600px){
-  .detailContainer{
+@media screen and (max-width: 600px) {
+  .detailContainer {
     display: none !important;
   }
 }
-

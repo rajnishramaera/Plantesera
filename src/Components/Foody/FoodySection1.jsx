@@ -12,7 +12,7 @@ const FoodySection1 = () => {
       </div>
       <div data-aos="fade-down" data-aos-anchor-placement="top-bottom">
         <p className="mb-3">
-          With no artificial preservatives, we ensure that Ramaera spices are
+          With no artificial preservatives, we ensure that Planetsera spices are
           produced with the essence of nature and are true to their taste.
           Caring for your health and requirements <br />
           <br />
@@ -23,13 +23,13 @@ const FoodySection1 = () => {
       </div>
       <div className="basis-4/12"></div>
       <div class="clearfix"></div>
-      <a
+      {/*  <a
         style={{ color: colorMe }}
         href="#"
         className="explore-foody btn2 flex bg-white p-4 justify-center items-center my-3"
       >
         Read More
-      </a>
+      </a> */}
     </div>
   )
 }
