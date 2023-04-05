@@ -16,12 +16,8 @@ const HeaderTwo = () => {
         <div className="basis-2/12 flex justify-start detailContainer">
           <Logo />
         </div>
-        <div className="basis-9/12 flex justify-end items-baseline detailContainer">
-          <Navigation />
-        </div>
-
-        <div className="basis-1/12 detailContainer">
-          <SocialSection />
+        <div className="basis-12/12 flex justify-end ml-auto items-baseline detailContainer">
+          <Navigation page={"products"} />
         </div>
 
         <div className="container flex flex-wrap w-full mt-40">

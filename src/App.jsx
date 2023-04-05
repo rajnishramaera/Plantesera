@@ -18,8 +18,8 @@ const App = () => {
   return (
     <Routes>
       <Route path={"/"} element={<Home />} />
-      {/*  <Route path={"products"} element={<Products />} />
-      <Route path={"privacypolicy"} element={<PrivacyPolicy />} />
+      <Route path={"products"} element={<Products />} />
+      {/* <Route path={"privacypolicy"} element={<PrivacyPolicy />} />
     <Route path={"about"} element={<About />} /> */}
       <Route path={"*"} element={<PageNotFound />} />
     </Routes>

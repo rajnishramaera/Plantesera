@@ -11,6 +11,7 @@ import NavigationMobile from "@Components/MobileNavigation/NavigationMobile"
 import { useState } from "react"
 import masalabg from "@assets/images/spi-2.png"
 import { useDispatch } from "react-redux"
+//import Navigation from "@Components/Navigation"
 import { PouchData } from "./PouchData"
 import { changeColor } from "../../../state/slice/colorUsSlice"
 function Header() {
@@ -56,13 +57,16 @@ function Header() {
           <div className="container nav-flex">
             <LogoSection />
             <div
-              className="basis-8/12 slider-Image w-[75vw] relative top-[-35px] ml-auto"
+              className="basis-8/12 slider-Image w-[75vw] relative top-[-35px] md:top-0 ml-auto"
               style={{
                 backgroundImage: `url(${bgcolor})`,
               }}
             >
               <div className=" basis-12/12 flex  items-center justify-center">
-                <div className="basis-8/12">{/*  <NavItem /> */}</div>
+                <div className="basis-12/12 ml-12">
+                  {/* <Navigation page={"home"} /> */}
+                  {<NavItem page={"home"} />}
+                </div>
               </div>
               <div className="  basis-12/12 flex">
                 <div className="basis-4/12 header-display"></div>
