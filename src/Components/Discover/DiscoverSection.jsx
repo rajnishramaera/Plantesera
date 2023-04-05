@@ -7,9 +7,10 @@ const DiscoverSection = () => {
     <>
       <div className="container mb-40 relative">
         <img src={DiscoverOne} className="discover-alignment" />
-        <div className="basis-12/12 mb-24">
+        <div className="basis-12/12 mb-24 relative">
           <h1 className="discover-heading">Discover more about PlanetsEra</h1>
-          <h2 className="discover-quality">QUALITIES</h2>
+          <div className="discover-line"></div>
+          <h2 className="discover-quality mt-20">QUALITIES</h2>
         </div>
 
         <div class="basis-12/12 flex quality-alignment">

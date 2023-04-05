@@ -33,3 +33,39 @@
 .processMax {
   max-width: 103%;
 }
+
+.manufacturing-line {
+  background-image: linear-gradient(to right, #20932c, #a0fd90);
+  width: 184px;
+  height: 2px;
+  position: absolute;
+  left: 193px;
+  top: 72px;
+}
+
+.organic-line {
+  background-image: linear-gradient(to right, #20932c, #a0fd90);
+  width: 184px;
+  height: 2px;
+  position: absolute;
+  left: 14px;
+  top: 73px;
+}
+
+.expert-line {
+  background-image: linear-gradient(to right, #20932c, #a0fd90);
+  width: 184px;
+  height: 2px;
+  position: absolute;
+  left: 6px;
+  top: 73px;
+}
+
+.airtight-line {
+  background-image: linear-gradient(to right, #20932c, #a0fd90);
+  width: 184px;
+  height: 2px;
+  position: absolute;
+  left: 0px;
+  top: 73px;
+}

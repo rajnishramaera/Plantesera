@@ -9,8 +9,9 @@ const WhyPlanetseraSection = () => {
   return (
     <>
       <div className="container px-6">
-        <div className="basis-12/12">
+        <div className="basis-12/12 relative">
           <h1 className="planetHeading text-center mb-20">Why PlanetsEra?</h1>
+          <div className="why-line"></div>
         </div>
         <div className="basis-12/12 flex">
           <div className="basis-4/12">

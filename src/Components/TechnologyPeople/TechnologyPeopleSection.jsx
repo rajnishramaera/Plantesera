@@ -8,8 +8,9 @@ const TechnologyPeopleSection = () => {
     <>
       <div className="container quality-container px-6">
         <div className="basis-12/12 flex">
-          <div className="basis-6/12 self-center">
+          <div className="basis-6/12 self-center relative">
             <h1 className="technology-heading mb-5">TECHNOLOGY</h1>
+            <div className="technology-line"></div>
             <p className="technology-text1">
               Thousands of people dream of having their own business and even
               more so be a successful entrepreneur. But what does it take to

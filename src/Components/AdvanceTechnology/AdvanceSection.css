@@ -1,5 +1,5 @@
 .advanceHeading {
-  font-size: 35px;
+  font-size: 34px;
   line-height: 49px;
   font-family: "Montserrat", sans-serif;
   background: -webkit-linear-gradient(#20932c, #a0fd90);
@@ -22,4 +22,37 @@
 
 .advance-alignment {
   margin-left: -32px;
+}
+
+.plan-line {
+  background-image: linear-gradient(to right, #20932c, #a0fd90);
+  width: 82px;
+  height: 2px;
+  position: absolute;
+  left: 728px;
+  top: 147px;
+}
+.except-line {
+  background-image: linear-gradient(to right, #20932c, #a0fd90);
+  width: 91px;
+  height: 2px;
+  position: absolute;
+  left: 2px;
+  top: 48px;
+}
+.develop-line {
+  background-image: linear-gradient(to right, #20932c, #a0fd90);
+  width: 89px;
+  height: 2px;
+  position: absolute;
+  left: 4px;
+  top: 46px;
+}
+.pure-line {
+  background-image: linear-gradient(to right, #20932c, #a0fd90);
+  width: 82px;
+  height: 2px;
+  position: absolute;
+  left: 1px;
+  top: 45px;
 }

@@ -55,3 +55,12 @@
   /* padding: 0px 56px; */
   cursor: pointer;
 }
+
+.discover-line {
+  background-image: linear-gradient(to right, #20932c, #a0fd90);
+  width: 243px;
+  height: 2px;
+  position: absolute;
+  left: 237px;
+  top: 72px;
+}

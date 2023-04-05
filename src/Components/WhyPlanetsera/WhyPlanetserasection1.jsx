@@ -9,8 +9,9 @@ const WhyPlanetserasection1 = () => {
         <div className="basis-12/12 flex mb-20">
           <div className="basis-1/12"></div>
 
-          <div className="basis-4/12 self-center">
+          <div className="basis-4/12 self-center relative">
             <h1 className="planetseraHeading">Precision milling</h1>
+            <div className="precision-line"></div>
             <p className="planetseraText">
               The spices are precisely milled to preserve their authenticity and
               pungency for a longer period.
@@ -30,8 +31,9 @@ const WhyPlanetserasection1 = () => {
             <img src={planetseraOne} />
           </div>
           <div className="basis-1/12"></div>
-          <div className="basis-4/12 self-center">
+          <div className="basis-4/12 self-center relative">
             <h1 className="planetseraHeading">Lab Testing</h1>
+            <div className="lab-line"></div>
             <p className="planetseraText">
               Our spices undergo rigorous lab testing to ensure their safety,
               quality, and compliance with regulatory standards.

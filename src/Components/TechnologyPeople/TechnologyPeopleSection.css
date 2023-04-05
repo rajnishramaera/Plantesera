@@ -34,3 +34,12 @@
   margin-bottom: 33px;
   font-family: "Montserrat", sans-serif;
 }
+
+.technology-line {
+  background-image: linear-gradient(to right, #20932c, #a0fd90);
+  width: 115px;
+  height: 2px;
+  position: absolute;
+  left: 12px;
+  top: 73px;
+}

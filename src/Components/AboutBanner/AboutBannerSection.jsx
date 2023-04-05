@@ -1,10 +1,13 @@
 import React from "react";
 import "./AboutBanner.css";
-// import bannerOne from "@assets/images/aboutBannerAbsolute.png";
+import bannerOne from "@assets/images/aboutBannerAbsolute.png";
 
 const AboutBannerSection = () => {
   return (
     <>
+      <div className="container">
+        <img src={bannerOne} />
+      </div>
       <div className="container aboutbanner flex justify-center items-center mt-40">
         {/* <img src={bannerOne} /> */}
 

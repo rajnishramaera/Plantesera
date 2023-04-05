@@ -12,10 +12,11 @@ const IngredientSection = () => {
   return (
     <>
       <div className="container mt-40">
-        <div className="basis-12/12">
+        <div className="basis-12/12 relative">
           <h1 className="delicious-heading">
             Spices like no other - PlanetsEra Spices
           </h1>
+          <div className="spices-line"></div>
           <p className="delicious-text  mb-20">
             Delicious and natural way to enhance your well-being.
           </p>
@@ -39,8 +40,6 @@ const IngredientSection = () => {
               </div>
             );
           })}
-
-          
         </div>
 
         <div className="basis-5/12">
@@ -88,7 +87,7 @@ const IngredientSection = () => {
             </div>
           </div>
         </div>
-          {/* <div className="basis-12/12 flex flex-col" style={{ width: "41.66%" }}>
+        {/* <div className="basis-12/12 flex flex-col" style={{ width: "41.66%" }}>
           {myOur.map((items) => {
             return (
               <div className="basis-5/12 flex">
@@ -108,13 +107,6 @@ const IngredientSection = () => {
 
           
         </div> */}
-
-
-
-
-
-
-
       </div>
       <div className="container">
         <img src={ingredientab} className="mt-10" />

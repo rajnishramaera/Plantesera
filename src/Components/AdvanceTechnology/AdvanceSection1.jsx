@@ -24,6 +24,7 @@ const AdvanceSection1 = () => {
               Experience the Flavours of Precision: The Advanced Technology
               Behind PlanetsEra Spices
             </h3>
+            <div className="plan-line"></div>
             <p class="advanceText">
               At PlanetsEra Spices, we utilise the most advanced technology for
               the manufacturing of our spices.We ensure complete precision in
@@ -39,10 +40,11 @@ const AdvanceSection1 = () => {
                   <div className="basis-2/12">
                     <img src={advanceOne} />
                   </div>
-                  <div className="basis-10/12">
+                  <div className="basis-10/12 relative">
                     <h4 className="advanceHeading">
                       Exceptional Quality Spices
                     </h4>
+                    <div className="except-line"></div>
                     <p className="advanceText">
                       We are committed to delivering exceptional quality spices
                       through our focus on precision manufacturing techniques
@@ -56,8 +58,9 @@ const AdvanceSection1 = () => {
                   <div className="basis-2/12">
                     <img src={advanceTwo} />
                   </div>
-                  <div className="basis-10/12">
+                  <div className="basis-10/12 relative">
                     <h4 className="advanceHeading">Developed by Experts</h4>
+                    <div className="develop-line"></div>
                     <p className="advanceText">
                       Expertly crafted premium spices for elevated culinary
                       experiences, made from only the finest organic ingredients
@@ -71,10 +74,11 @@ const AdvanceSection1 = () => {
                   <div className="basis-2/12">
                     <img src={advanceThree} />
                   </div>
-                  <div className="basis-10/12">
+                  <div className="basis-10/12 relative">
                     <h4 className="advanceHeading">
                       Pure and Balanced Organic Blends
                     </h4>
+                    <div className="pure-line"></div>
                     <p className="advanceText">
                       Our organic spice blends are crafted with care and
                       sustainability. We use only the finest, organically grown

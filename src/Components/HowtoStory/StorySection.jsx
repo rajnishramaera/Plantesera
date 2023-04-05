@@ -4,8 +4,9 @@ const StorySection = () => {
   return (
     <>
       <div className="container px-6 mt-40">
-        <div className="basis-12/12">
+        <div className="basis-12/12 relative">
           <h1 className="story-heading mb-5">How Our Story</h1>
+          <div className="how-line"></div>
           <p className="story-text">
             When bad fortune hits hard, one usually looks towards one’s
             strongest skill, as that’s always the best bet to help stay afloat.

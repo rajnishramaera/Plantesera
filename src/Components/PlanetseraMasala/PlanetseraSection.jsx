@@ -10,7 +10,7 @@ import PlanetseraIconFour from "./PlanetseraIconFour";
 const PlanetseraSection = () => {
   return (
     <>
-      <div className="container my-40 relative">
+      <div className="container my-30 relative">
         <div className="basis-12/12">
           <img src={PlanetseraFirst} />
           <PlanetseraIconOne />

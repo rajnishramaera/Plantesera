@@ -9,8 +9,9 @@ const ProcessSection = () => {
   return (
     <>
       <div className="container px-6 mt-40">
-        <div className="basis-12/12 flex flex-col">
+        <div className="basis-12/12 flex flex-col relative">
           <h1 className="processHeading mb-5">MANUFACTURING PROCESSES</h1>
+          <div className="manufacturing-line"></div>
           <p className="processText">
             At PlanetsEra Spices, we use the most advanced manufacturing
             technology and adhere to strict quality standards to ensure that our

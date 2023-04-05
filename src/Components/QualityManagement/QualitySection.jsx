@@ -12,8 +12,9 @@ const QualitySection = () => {
             <img src={spiac1} className="absolute quality-img" />
           </div>
           <div className="basis-2/12"></div>
-          <div className="basis-6/12 self-center">
+          <div className="basis-6/12 self-center relative">
             <h1 className="management-heading mb-5">QUALITY MANAGEMENT</h1>
+            <div className="quality-line"></div>
             <p className="management-text1">
               Thousands of people dream of having their own business and even
               more so be a successful entrepreneur. But what does it take to

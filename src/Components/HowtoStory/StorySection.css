@@ -17,3 +17,12 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
+
+.how-line {
+  background-image: linear-gradient(to right, #20932c, #a0fd90);
+  width: 108px;
+  height: 2px;
+  position: absolute;
+  left: 514px;
+  top: 73px;
+}

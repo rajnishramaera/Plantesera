@@ -10,20 +10,29 @@ import DishSection from "@components/Dish/DishSection";
 import IngredientSection from "@components/Ingredients/IngredientSection";
 import PlanetseraSection from "@components/PlanetseraMasala/PlanetseraSection";
 import DiscoverSection from "@components/Discover/DiscoverSection";
+import DigitalGallery from "@components/Digital/DigitalGallery";
+import AboutHeader from "@components/AboutHeader/AboutHeader";
+import CompanySection from "@components/CompanyGallery/CompanySection";
+import Footer from "@components/Footer/Footer";
 const index = () => {
   return (
     <>
+      <AboutHeader />
       <DiscoverSection />
       <DishSection />
+      <DigitalGallery />
+      <PlanetseraSection />
       <IngredientSection />
       <AdvanceSection />
-      <PlanetseraSection />
+
       <ProcessSection />
       <WhyPlanetseraSection />
       <AboutBannerSection />
       <StorySection />
       <QualitySection />
       <TechnologyPeopleSection />
+      <CompanySection />
+      <Footer />
     </>
   );
 };
