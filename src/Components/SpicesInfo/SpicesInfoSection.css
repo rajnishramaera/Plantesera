@@ -37,7 +37,7 @@
 
   .delicious-heading {
     font-size: 60px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat";
     background: -webkit-linear-gradient(#FF4F4F, #FE7171);
     background-image: linear-gradient(to right, #FF4F4F, #FE7171);
     -webkit-background-clip: text;
@@ -50,6 +50,7 @@
   @media screen and (max-width: 600px){
     .delicious-heading{
     font-size: 35px;
+    /* line-height: 3rem; */
     }
  }
 
@@ -57,13 +58,14 @@
     font-size: 27px;
     text-align: center;
     font-family: "Montserrat";
-    font-weight: 400;
+    font-weight: 100;
     text-align: center;
   }
 
   @media screen and (max-width: 600px){
     .delicious-text{
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: 1rem !important;
     }
  }
 
@@ -95,5 +97,11 @@
     .spicesBox3{
       order: 3;
       width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .spicesInfoContainer{
+      margin-top:1rem !important;
     }
 }

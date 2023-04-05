@@ -6,7 +6,7 @@ import myOur from "./SpicesInfoData.jsx";
 const SpicesInfoSection = () => {
   return (
     <>
-      <div className="container mt-40">
+      <div className="container mt-20 spicesInfoContainer">
         <div className="basis-12/12">
           <h1 className="delicious-heading">
             Spices like no other - PlanetsEra Spices

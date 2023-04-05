@@ -6,7 +6,7 @@ import solutionBg from "@assets/images/desireAb.png"
 const FallLove = () => {
   return (
     <>
-      <img loading="lazy" src={solutionBg} style={{margin:"50px 0"}} />
+      <img loading="lazy" src={solutionBg} className="sticksLine"/>
 
      <div className="basis-4/12 flex flex-col justify-center m-auto">
             <h1 className="falllove-heading">
@@ -14,7 +14,7 @@ const FallLove = () => {
             </h1>
       </div>
       <div className="container fallloveBackground mt-20 px-6">
-        <div className="basis-12/12 flex justify-between">
+        <div className="basis-12/12 flex justify-between fallLoveConatinerImg">
           <div className="basis-4/12">
             <img loading="lazy" src={masala1} className="myMenuImage" />
           </div>
@@ -27,15 +27,19 @@ const FallLove = () => {
       <div className="container lovePad">
         <div className="basis-12/12 flex">
           <div className="basis-3/12">
+            <a href="#blendedSpices">
             <button type="button" className="fallloveButton mx-auto block">
               Blended
             </button>
+            </a>
           </div>
           <div className="basis-6/12"></div>
           <div className="basis-3/12">
+          <a href="#groundSpices">
             <button type="button" className="fallloveButton mx-auto block mt-3">
               Pure
             </button>
+            </a>
           </div>
         </div>
       </div>

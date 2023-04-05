@@ -12,6 +12,15 @@
   background-image: url(../src/assets/images/falllovebg.png);
   background-size: cover;
 } */
+.sticksLine{
+  margin: 50px 0;
+}
+
+@media screen and (max-width: 600px){
+  .sticksLine{
+   margin: 15px 0;
+  }
+}
 
 @media screen and (max-width: 600px){
   .fallloveBackground{
@@ -38,7 +47,19 @@
 }
 
 .lovePad {
-  padding: 0px 40px;
+  padding: 0px 60px 0 100px;
+}
+
+@media screen and (max-width: 600px){
+  .lovePad{
+    padding: 0 50px 50px 50px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .fallLoveConatinerImg{
+    justify-content: center !important;
+  }
 }
 
 .falllove-heading {
@@ -87,19 +108,29 @@
   box-shadow: 1px 1px 6px 0px #fe6868;
 }
 
+@media screen and (max-width: 600px){
+  .fallloveButton{
+    width: 90px;
+    height:30px;
+  }
+}
+
 .fallloveButton:hover {
-  font-family: "myregular";
   color: #0e0e0e;
-  font-size: 16px;
-  text-align: center;
   background-image: linear-gradient(#ffffff 0%, #ffffff 100%) !important;
-  width: 140px;
-  height: 44px;
-  border-radius: 27px;
-  margin-top: 36px;
   outline: 1px solid #fe6868;
-  margin-top: 12px;
   box-shadow: none;
+}
+
+@media screen and (max-width: 600px){
+  .fallloveButton:hover{
+    width: 90px;
+    height:30px;
+    outline: 1px solid #ffff !important;
+    box-shadow: 1px 1px 6px 0px #fe6868 !important;
+    background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%) !important;
+    color: white !important;
+      }
 }
 
 /* .btn2 {

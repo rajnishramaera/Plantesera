@@ -9,7 +9,7 @@ import BlendedSpicesBg from "@assets/images/BlendedSpicesBg.png"
 
 const BlendedSection = () => {
   return (
-    <div className="container relative">
+    <div className="container relative" id="blendedSpices">
       <div className="basis-12/12 blendedbg">
         <img src={BlendedSpicesBg}/>
       </div>
@@ -29,35 +29,35 @@ const BlendedSection = () => {
         <div class="w-full rounded spaceBlendedImg blendedImgBox">
           <img loading="lazy" src={masala1} className="mx-auto" />
           <h2 className="blended-text2">Garam Masala</h2>
-          <br />
+          {/* <br /> */}
           <p className="blended-text3">(50gm, 100gm)</p>
           <p className="blended-text4">(Zipper Pouch)</p>
         </div>
         <div class="w-full rounded spaceBlendedImg blendedImgBox">
           <img loading="lazy" src={masala2} className="mx-auto" />
           <h2 className="delight-text2">Jaljeera Masala</h2>
-          <br />
+          {/* <br /> */}
           <p className="blended-text3">(50gm)</p>
           <p className="blended-text4">(Zipper Pouch)</p>
         </div>
         <div class="w-full rounded spaceBlendedImg blendedImgBox">
           <img loading="lazy" src={masala3} className="mx-auto" />
           <h2 className="delight-text2">Meat Masala</h2>
-          <br />
+          {/* <br /> */}
           <p className="blended-text3">(50gm, 100gm)</p>
           <p className="blended-text4">(Zipper Pouch)</p>
         </div>
         <div class="w-full rounded mt-10 spaceBlendedImg blendedImgBox">
           <img loading="lazy" src={masala4} className="mx-auto" />
           <h2 className="delight-text2">Chaat Masala</h2>
-          <br />
+          {/* <br /> */}
           <p className="blended-text3">(50gm, 100gm)</p>
           <p className="blended-text4">(Zipper Pouch)</p>
         </div>
         <div class="w-full rounded mt-10 blendedImgBox">
           <img loading="lazy" src={masala5} className="mx-auto" />
           <h2 className="delight-text2">Sabji Masala</h2>
-          <br />
+          {/* <br /> */}
           <p className="blended-text3">(50gm, 100gm)</p>
           <p className="blended-text4">(Zipper Pouch)</p>
         </div>

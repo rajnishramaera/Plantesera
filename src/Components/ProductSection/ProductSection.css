@@ -85,7 +85,7 @@
 
 @media screen and (max-width: 600px){
   .spi-alignment {
-    top: -245px;
+    top: -215px;
     left: unset;
   }
 }
@@ -94,4 +94,10 @@
   position: relative;
   width: 100%;
   margin-top: 280px;
+}
+
+@media screen and (max-width: 600px){
+  .spi-container {
+    margin-top: 220px;
+  }
 }

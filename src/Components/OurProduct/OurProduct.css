@@ -54,7 +54,7 @@
 
 @media screen and (max-width: 600px){
   .groundbg {
-    margin-top: 5rem ;
+    margin-top: 30px 0 ;
   }
 }
 
@@ -72,7 +72,9 @@
 
 @media screen and (max-width: 600px){
   .grounded-text {
-    font-size: 22px;
+    margin: 10px 0 30px 0;
+    font-size: 20px;
+    line-height: 25px;
   }
 }
 
@@ -93,7 +95,7 @@
 
 .grounded-text3 {
   text-align: center;
-  font-family: "myfont";
+  font-family: "Original Surfer";
   line-height: 0px;
   letter-spacing: 2px;
   /* margin-top: 1px; */
@@ -102,18 +104,32 @@
   line-height: 33px;
 }
 
+@media screen and (max-width: 600px){
+  .grounded-text3 {
+    font-size: 9px;
+    line-height: unset;
+  }
+}
+
 .grounded-text4 {
   text-align: center;
-  font-family: "myfont";
+  font-family: "Original Surfer";
   line-height: 0px;
   letter-spacing: 2px;
   color: #0d0d0d;
   line-height: 20px;
 }
 
+@media screen and (max-width: 600px){
+  .grounded-text4 {
+    font-size: 9px;
+    line-height: unset;
+  }
+}
+
 .grounded-text2 {
   font-size: 25px;
-  font-family: "myfont";
+  font-family: "Original Surfer";
   line-height: 40px;
   letter-spacing: 2px;
   text-align: center;
@@ -121,8 +137,8 @@
 }
 
 .grounded-text5 {
-  font-size: 22px;
-  font-family: "myfont";
+  font-size: 30px;
+  font-family: "Original Surfer";
   text-align: center;
   line-height: 28px;
   letter-spacing: 2px;
@@ -131,7 +147,7 @@
 
 @media screen and (max-width: 600px){
   .grounded-text5 {
-    font-size: 20px;
+    font-size: 10px;
   }
 }
 
@@ -139,6 +155,13 @@
   opacity: 0.1;
   position: absolute;
   top: 1153px;
+  margin-top: 10rem;
+}
+
+@media screen and (max-width: 600px){
+  .ourbg {
+    margin: 30px 0;
+  }
 }
 
 .ourbg img {

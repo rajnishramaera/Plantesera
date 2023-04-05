@@ -14,6 +14,16 @@ const DelightSection = () => {
         <img src={DelightBg} />
       </div>
 
+      <div className="basis-12/12">
+        <div className="basis-1/12"></div>
+        <div className="basis-10/12">
+          <p className="blended-text">
+          Gratify your inner child's desire to enjoy tangy and flavorful spice blends by PlanetsEra
+          </p>
+        </div>
+        <div className="basis-1/12"></div>
+      </div>
+
       <div class="container grid grid-cols-3 gap-2 mx-auto delightContainer">
         <div class="w-full rounded spaceContainer widthMob">
           <img loading="lazy" src={masala1} className="mx-auto pouch-size" />

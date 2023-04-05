@@ -22,10 +22,27 @@
   transform: translateY(-3px);
   padding: 0px 0px 78px 11px;
   cursor: pointer;
+  top: -20px;
+  position: relative;
+  width: 81%;
+}
+
+@media screen and (max-width: 600px){
+  .background{
+    width: 100%;
+    transition: unset;
+    transform: unset;
+  }
 }
 
 .background:hover {
   transform: translateY(-20px);
+}
+
+@media screen and (max-width: 600px){
+  .background:hover {
+    transform: unset;
+  }
 }
 
 @media screen and (max-width: 600px){
@@ -41,7 +58,17 @@
 
 @media screen and (max-width: 600px){
   .imgSpicy{
-    width: 120px;
+    width: 150px;
     flex-basis: unset !important;
+  }
+}
+
+.spicyMainContainer{
+  margin-top: 5rem;
+}
+
+@media screen and (max-width: 600px){
+  .spicyMainContainer{
+    margin-top: 1rem;
   }
 }

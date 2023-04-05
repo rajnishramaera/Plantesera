@@ -26,27 +26,25 @@ const HeaderTwo = () => {
 
         <div className="container flex flex-wrap w-full mt-40">
           <div className="basis-12/12 w-full flex">
-            <div className="basis-1/12"></div>
-            <div className="basis-10/12">
+            <div className="basis-12/12">
               <h1 className="text-center SecondPageHeading">
-                Experience a burst of flavors with every sprinkle only with
-                Planetera premium spices
+              Experience a burst of flavors with every sprinkle only with PlanetsEra premium spices
               </h1>
 
               <p className="SecondPageHeading-text mt-5">
-                Unlock the secrets of ancient spice blends and bring the
-                timeless flavors of history into your kitchen
+              Unlock the secrets of ancient spice blends and bring the timeless flavors of history into your kitchen
               </p>
             </div>
 
-            <div className="basis-1/12"></div>
           </div>
           <div className="basis-12/12 flex w-full justify-center">
             <div className="basis-5/12"></div>
             <div className="basis-2/12 flex justify-center">
+              <a href="#exploreSection">
               <button type="button" class="text-white SecondPageButton btn2">
                 Explore More
               </button>
+              </a>
             </div>
             <div className="basis-5/12"></div>
           </div>

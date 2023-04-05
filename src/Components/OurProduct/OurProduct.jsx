@@ -6,7 +6,7 @@ import GroundSpicesBg from "@assets/images/GroundSpicesBg.png"
 
 const OurProduct = () => {
   return (
-    <div className="container relative mt-40 containerBorder">
+    <div className="container relative mt-10 containerBorder" id="groundSpices">
       <div className="basis-12/12 absolute ourbg">
         <img loading="lazy" src={masala2} />
       </div>

@@ -28,13 +28,14 @@
 
 @media screen and (max-width: 600px){
   .blended-text {
-    margin: 10px;
-    font-size: 22px;
+    margin: 10px 10px 30px 10px;
+    font-size: 20px;
+    line-height: 25px;
   }
 }
 
 .blended-text2 {
-  font-size: 25px;
+  font-size: 30px;
   font-family: "Original Surfer";
   line-height: 40px;
   letter-spacing: 2px;
@@ -44,39 +45,42 @@
 
 @media screen and (max-width: 600px){
   .blended-text2 {
-    font-size: 22px;
-    line-height: 20px;
+    font-size: 10px;
+    line-height: 50px;
   }
 }
 
 @media screen and (max-width: 600px){
   .delight-text2 {
-    font-size: 22px;
-    line-height: 20px;
+    font-size: 10px;
+    line-height: 50px;
   }
 }
 
 .blended-text3 {
   text-align: center;
-  font-family: "myfont";
+  font-family: "Original Surfer";
   line-height: 0px;
   letter-spacing: 2px;
   /* margin-top: 1px; */
   margin-bottom: 28px;
   font-weight: 400;
-  margin-top: -12px;
+  margin-top: 15px;
   color: #0d0d0d;
 }
 
 @media screen and (max-width: 600px){
   .blended-text3 {
-    font-size: 18px;
+      font-size: 9px;
+      line-height: unset;
+      margin-bottom: 2px;
+      margin-top: -12px;
   }
 }
 
 .blended-text4 {
   text-align: center;
-  font-family: "myfont";
+  font-family: "Original Surfer";
   line-height: 0px;
   letter-spacing: 2px;
   color: #0d0d0d;
@@ -84,7 +88,8 @@
 
 @media screen and (max-width: 600px){
   .blended-text4 {
-    font-size: 18px;
+    font-size: 9px;
+    line-height: unset;
   }
 }
 
@@ -104,7 +109,7 @@
 
 @media screen and (max-width: 600px){
   .blendedbg {
-    margin-top: 5rem ;
+    margin: 30px 0;
   }
 }
 

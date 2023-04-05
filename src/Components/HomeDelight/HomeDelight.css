@@ -11,7 +11,13 @@
 .delightbg {
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 100px 0;
+  margin: 100px 0 30px 0;
+}
+
+@media screen and (max-width:600px){
+  .delightbg{
+    margin: 30px 0;
+  }
 }
 
 .delight-text {
@@ -33,7 +39,7 @@
 }
 
 .delight-text2 {
-  font-size: 20px;
+  font-size: 30px;
   font-family: "Original Surfer";
   line-height: 40px;
   letter-spacing: 2px;
@@ -46,6 +52,14 @@
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 2px;
+}
+
+@media screen and (max-width: 600px){
+  .delight-text3 {
+    font-size: 9px;
+    line-height: unset;
+    margin-top: -10px;
+  }
 }
 
 .traditionalHead {

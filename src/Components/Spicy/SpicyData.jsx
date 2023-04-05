@@ -1,7 +1,7 @@
 const SpicyData = [
   {
-    spicyImage: "../src/assets/images/corriander.png",
-    spicyImageBox: "../src/assets/images/corriander-box.png",
+    spicyImage: "../src/assets/images/blackPapper.png",
+    spicyImageBox: "../src/assets/images/blackPapper-box.png",
   },
 
   {

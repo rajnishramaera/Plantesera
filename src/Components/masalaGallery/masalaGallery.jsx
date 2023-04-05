@@ -15,7 +15,7 @@ const MasalaGallery = () => {
     <>
       <div class="swiffy-slider slider-item-show2 slider-item-reveal slider-nav-outside slider-nav-round slider-nav-visible slider-indicators-outside slider-indicators-round slider-indicators-dark slider-nav-animation slider-nav-animation-fadein slider-item-first-visible containerBorder  slider-nav-autoplay slider-nav-autopause">
         <ul class="slider-container py-24">
-          <li class="slide-visible">
+          {/* <li class="slide-visible">
             <div class="h-100 relative">
               <div class="ratio ratio-16x9">
                 <img
@@ -28,7 +28,7 @@ const MasalaGallery = () => {
               <h1 className="text-center invention-text">Red Chilli Powder</h1>
               <div className="inventionBorder"></div>
             </div>
-          </li>
+          </li> */}
           <li class="slide-visible">
             <div class="h-100 relative">
               <div class="ratio ratio-16x9">
@@ -40,6 +40,20 @@ const MasalaGallery = () => {
                 />
               </div>
               <h1 className="text-center invention-text">Sabji Masala</h1>
+              <div className="inventionBorder"></div>
+            </div>
+          </li>
+          <li class="slide-visible">    
+            <div class="h-100 relative">
+              <div class="ratio ratio-16x9">
+                <img
+                  loading="lazy"
+                  src={masala5}
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <h1 className="text-center invention-text">Garam Masala</h1>
               <div className="inventionBorder"></div>
             </div>
           </li>
@@ -70,21 +84,7 @@ const MasalaGallery = () => {
               <h1 className="text-center invention-text">Amchur Powder</h1>
             </div>
           </li>
-          <li class="slide-visible">    
-            <div class="h-100 relative">
-              <div class="ratio ratio-16x9">
-                <img
-                  loading="lazy"
-                  src={masala5}
-                  class="card-img-top"
-                  alt="..."
-                />
-              </div>
-              <h1 className="text-center invention-text">Garam Masala</h1>
-              <div className="inventionLeftBorder"></div>
-            </div>
-          </li>
-          <li class="slide-visible">    
+          {/* <li class="slide-visible">    
             <div class="h-100">
               <div class="ratio ratio-16x9">
                 <img
@@ -99,7 +99,7 @@ const MasalaGallery = () => {
               </h1>
               <div className="inventionLeftBorder"></div>
             </div>
-          </li>
+          </li> */}
         </ul>
         <div class="slider-indicators pt-20 pb-12">
           <button class="active" aria-label="Go to slide"></button>
