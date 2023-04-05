@@ -5,13 +5,13 @@ import { useSelector } from "react-redux"
 const LogoSection = () => {
   const colorMe = useSelector((state) => state.colorUs.color)
   return (
-    <div className="mt-[50px] basis-4/12 pl-5 myPos">
+    <div className="basis-4/12 pl-5 myPos">
       <img
         loading="lazy"
         id="desktopNav"
         src={logoImage}
         alt="logo"
-        className="max-w-auto h-auto "
+        className="max-w-auto h-14 mt-4 "
       />
       <div className="basis-4/12 mt-12   text-alignment">
         <h1
@@ -29,7 +29,7 @@ const LogoSection = () => {
         <a
           href="#produce"
           className="explore btn1 py-4 "
-          style={{ backgroundColor: colorMe, cursor: "pointer", zIndex: "99" }}
+          style={{ backgroundColor: colorMe, cursor: "pointer", zIndex: "19" }}
         >
           Explore More
         </a>

@@ -213,8 +213,14 @@
 
   #mobilenavigation {
     width: 100%;
+    height: 100vh;
+    z-index: 10;
     padding-left: 15px;
-    background-color: #ff4f4f;
+    background: rgba(71, 71, 71, 0.55);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
     padding: 22px;
     border-bottom: 2px solid #ffffff;
     box-shadow: 1px 2px 3px 3px #ff4f4f;
@@ -269,8 +275,6 @@
   .icon-design {
     font-size: 21px;
     padding: 11px;
-    background-color: #d3d3d3ba;
-    color: #ff5151;
     border-radius: 10px;
   }
 

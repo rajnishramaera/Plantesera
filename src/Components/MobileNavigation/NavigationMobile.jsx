@@ -34,16 +34,16 @@ const NavigationMobile = () => {
             className=" absolute w-16 mt-[10px]"
           />
         </div>
-        {/* <div className="basis-9/12 flex justify-end pr-3">
+        <div className="basis-9/12 flex justify-end pr-3 absolute right-0 z-30">
           <i
-            class="fa fa-bars self-center icon-design"
+            class="fa fa-bars self-center icon-design text-white"
             aria-hidden="true"
             onClick={toggleClick}
           ></i>
-        </div> */}
+        </div>
       </div>
-      {/* {showMenu && (
-        <div id="navDropdown" className="w-full">
+      {showMenu && (
+        <div id="navDropdown" className="w-full z-20  top-0 absolute">
           <ul id="mobilenavigation">
             <li>
               <Link to="/" onClick={() => changeColor()}>
@@ -51,20 +51,18 @@ const NavigationMobile = () => {
               </Link>
             </li>
             <li>
-              <a href="#">About</a>
+              <Link to="/products">Products</Link>
             </li>
             <li>
-              <a href="#">Features</a>
+              <Link to="/aboutUs">About Us</Link>
             </li>
 
-            <li className="flex relative group">
-              <a href="#" className="mr-1">
-                Pages
-              </a>
+            <li>
+              <Link to="/contactUs">Contact Us</Link>
             </li>
           </ul>
         </div>
-      )} */}
+      )}
     </div>
   )
 }
