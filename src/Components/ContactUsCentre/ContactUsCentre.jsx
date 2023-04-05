@@ -7,8 +7,28 @@ import facebookimage from "@assets/facebook.png"
 import twitterimage from "@assets/twitter.png"
 import { Grid } from "@mui/material"
 import { width } from "@mui/system"
+import { CREATE_CONTACT_RESPONSE } from "../../../apollo/queries"
+import { useMutation } from "@apollo/client"
 
 const ContactUsCentre = () => {
+  const [createContactUsResponse] = useMutation(CREATE_CONTACT_RESPONSE)
+
+  const handleSubmit = (e) => {
+    console.log("form submit")
+    e.preventDefault()
+    // {
+    //   createContactUsResponse({
+    //     variables: {
+    //       name: name,
+    //       email: email,
+    //       company: company,
+    //       Subject: Subject,
+    //       message: message,
+    //     },
+    //   })
+    // }
+  }
+
   return (
     <div
       style={{
@@ -22,37 +42,42 @@ const ContactUsCentre = () => {
           {" "}
           Have a Question?
         </div>
-        <input
-          className="border border-black rounded-2xl w-full md:w-[48%] md:my-4 my-1 p-2 md:mr-2"
-          type="text"
-          placeholder="Name"
-        />
-        <input
-          className="border  border-black rounded-2xl w-full md:w-[48%] md:my-4 my-1 p-2 m md:mr-2"
-          type="text"
-          placeholder="Email"
-        />
+        <form onSubmit={(e) => handleSubmit(e)}>
+          <input
+            className="border border-black rounded-2xl w-full md:w-[48%] md:my-4 my-1 p-2 md:mr-2"
+            type="text"
+            placeholder="Name"
+          />
+          <input
+            className="border  border-black rounded-2xl w-full md:w-[48%] md:my-4 my-1 p-2 m md:mr-2"
+            type="text"
+            placeholder="Email"
+          />
 
-        <input
-          className="border border-black rounded-2xl w-full md:w-[48%] md:my-4 my-1 p-2 md:mr-2"
-          type="text"
-          placeholder="Subject"
-        />
-        <input
-          className="border border-black rounded-2xl w-full md:w-[48%] md:my-4 my-1 p-2 md:mr-2"
-          type="text"
-          placeholder="Phone"
-        />
+          <input
+            className="border border-black rounded-2xl w-full md:w-[48%] md:my-4 my-1 p-2 md:mr-2"
+            type="text"
+            placeholder="Subject"
+          />
+          <input
+            className="border border-black rounded-2xl w-full md:w-[48%] md:my-4 my-1 p-2 md:mr-2"
+            type="text"
+            placeholder="Phone"
+          />
 
-        <textarea
-          className="border border-black rounded-2xl w-full md:w-[97%] md:my-6 my-2 md:p-10 p-4 md:mr-2"
-          type="text"
-          placeholder="Message"
-        />
+          <textarea
+            className="border border-black rounded-2xl w-full md:w-[97%] md:my-6 my-2 md:p-10 p-4 md:mr-2"
+            type="text"
+            placeholder="Message"
+          />
 
-        <button className=" border rounded-full  md:w-[25vh] w-[25vh] h-12 hover:scale-105 transition-all hover:text-white hover:bg-black bg-white  border-black">
-          Send
-        </button>
+          <button
+            type="submit"
+            className=" border rounded-full  md:w-[25vh] w-[25vh] h-12 hover:scale-105 transition-all hover:text-white hover:bg-black bg-white  border-black"
+          >
+            Send
+          </button>
+        </form>
       </div>
 
       <div>

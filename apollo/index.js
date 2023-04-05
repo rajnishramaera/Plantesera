@@ -14,7 +14,7 @@ const httpLink = createHttpLink({
   uri: "https://websitebackend.ramaera.com/graphql",
 })
 let ACCESSTOKEN
-export const getApolloClient = () => {
+const getApolloClient = () => {
   if (typeof window !== "undefined") {
     ACCESSTOKEN = localStorage.getItem("accessToken")
     //console.log("!@£$", ACCESSTOKEN)
@@ -24,3 +24,4 @@ export const getApolloClient = () => {
     cache: new InMemoryCache(),
   })
 }
+export const client = getApolloClient()

@@ -22,13 +22,13 @@ const NavItem = ({ page }) => {
         <Link to="/products">Our Products</Link>
       </li>
       <li className={page === "aboutUs" ? "active-11" : ""}>
-        <Link to="/privacypolicy">About Us</Link>
+        <Link to="/AboutUs">About Us</Link>
       </li>
 
       <li className={page === "contactUs" ? "active-11" : ""}>
-        <a href="ContactUs" className="mr-1">
+        <Link to="/ContactUs" className="mr-1">
           Contact Us
-        </a>
+        </Link>
       </li>
       <li>
         <a href="https://www.facebook.com/planetseraspices" target="_blank">

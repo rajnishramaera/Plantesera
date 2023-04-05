@@ -1,31 +1,40 @@
+import masala1 from "@assets/images/blackPapper.png"
+import masalabg1 from "@assets/images/blackPapper-box.png"
+import masala2 from "@assets/images/garam-masala.png"
+import masalabg2 from "@assets/images/garam-masala-box.png"
+import masala3 from "@assets/images/corriander.png"
+import masalabg3 from "@assets/images/corriander-box.png"
+import masala4 from "@assets/images/turmeric.png"
+import masalabg4 from "@assets/images/turmeric-box.png"
+import masala5 from "@assets/images/jaljeera.png"
+import masalabg5 from "@assets/images/jaljeera-box.png"
+import masala6 from "@assets/images/red-chilli.png"
+import masalabg6 from "@assets/images/redchilli-box.png"
+
 const SpicyData = [
   {
-    spicyImage: "../src/assets/images/blackPapper.png",
-    spicyImageBox: "../src/assets/images/blackPapper-box.png",
-  },
-
-  {
-    spicyImage: "../src/assets/images/garam-masala.png",
-    spicyImageBox: "../src/assets/images/garam-masala-box.png",
-  },
-
-  {
-    spicyImage: "../src/assets/images/corriander.png",
-    spicyImageBox: "../src/assets/images/corriander-box.png",
-  },
-
-  {
-    spicyImage: "../src/assets/images/turmeric.png",
-    spicyImageBox: "../src/assets/images/turmeric-box.png",
-  },
-
-  {
-    spicyImage: "../src/assets/images/jaljeera.png",
-    spicyImageBox: "../src/assets/images/jaljeera-box.png",
+    spicyImage: masala1,
+    spicyImageBox: masalabg1,
   },
   {
-    spicyImage: "../src/assets/images/red-chilli.png",
-    spicyImageBox: "../src/assets/images/redchilli-box.png",
+    spicyImage: masala2,
+    spicyImageBox: masalabg2,
   },
-];
-export default SpicyData;
+  {
+    spicyImage: masala4,
+    spicyImageBox: masalabg4,
+  },
+  {
+    spicyImage: masala4,
+    spicyImageBox: masalabg4,
+  },
+  {
+    spicyImage: masala5,
+    spicyImageBox: masalabg5,
+  },
+  {
+    spicyImage: masala6,
+    spicyImageBox: masalabg6,
+  },
+]
+export default SpicyData
