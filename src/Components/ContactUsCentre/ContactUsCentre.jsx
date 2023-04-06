@@ -1,17 +1,16 @@
-import image from "@assets/ractangle.png";
-import locationimage from "@assets/Location.png";
-import mailimage from "@assets/Vector.png";
-import callimage from "@assets/Call.png";
-import instaimage from "@assets/Insta.png";
-import facebookimage from "@assets/facebook.png";
-import twitterimage from "@assets/twitter.png";
-import { Grid } from "@mui/material";
-import { width } from "@mui/system";
-import { CREATE_CONTACT_RESPONSE } from "../../../apollo/queries";
-import { useMutation } from "@apollo/client";
-import "./ContactUsCenter.css";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import image from "@assets/ractangle.png"
+import locationimage from "@assets/Location.png"
+import mailimage from "@assets/Vector.png"
+import callimage from "@assets/Call.png"
+import instaimage from "@assets/Insta.png"
+import facebookimage from "@assets/facebook.png"
+import twitterimage from "@assets/twitter.png"
+import { CREATE_CONTACT_RESPONSE } from "../../../apollo/queries"
+import { useMutation } from "@apollo/client"
+import "./ContactUsCenter.css"
+import { ToastContainer, toast } from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
+import { useState } from "react"
 
 const ContactUsCentre = () => {
   const [createContactUsResponse] = useMutation(CREATE_CONTACT_RESPONSE)
@@ -20,11 +19,12 @@ const ContactUsCentre = () => {
   const [formContact, setFormContact] = useState("")
   const [formSubject, setFormSubject] = useState("")
   const [formMessage, setFormMessage] = useState("")
+
   const handleSubmit = (e) => {
     e.preventDefault()
 
     {
-      const hi = createContactUsResponse({
+      createContactUsResponse({
         variables: {
           name: "Planetsera: " + formName,
           email: "Planetsera: " + formEmail,
@@ -33,24 +33,11 @@ const ContactUsCentre = () => {
           message: "Planetsera: " + formMessage,
         },
       })
-      console.log(hi)
     }
+
+    clearForm()
   }
-    console.log("form submit");
-    e.preventDefault();
-    // {
-    //   createContactUsResponse({
-    //     variables: {
-    //       name: name,
-    //       email: email,
-    //       company: company,
-    //       Subject: Subject,
-    //       message: message,
-    //     },
-    //   })
-    // }
-    clearForm();
-  };
+
   const clearForm = () => {
     toast.success("Message Submitted!", {
       position: "top-center",
@@ -61,11 +48,11 @@ const ContactUsCentre = () => {
       draggable: true,
       progress: undefined,
       theme: "light",
-    });
+    })
     setTimeout(() => {
-      location.reload();
-    }, "3200");
-  };
+      location.reload()
+    }, "3200")
+  }
 
   return (
     <div
@@ -202,7 +189,6 @@ const ContactUsCentre = () => {
         </div>
       </div>
     </div>
-  );
-};
-
-export default ContactUsCentre;
+  )
+}
+export default ContactUsCentre
