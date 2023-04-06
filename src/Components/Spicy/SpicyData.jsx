@@ -21,8 +21,8 @@ const SpicyData = [
     spicyImageBox: masalabg2,
   },
   {
-    spicyImage: masala4,
-    spicyImageBox: masalabg4,
+    spicyImage: masala3,
+    spicyImageBox: masalabg3,
   },
   {
     spicyImage: masala4,

@@ -361,9 +361,9 @@ button,
   color: var(--bs-card-color);
   display: none !important;
 }
-.containerBorder {
+/* .containerBorder {
   border-bottom: 1.2px solid #d9d9d9;
-}
+} */
 .invention-text {
   font-family: "Original Surfer";
   letter-spacing: 2px;
@@ -408,11 +408,12 @@ button,
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-around;
   }
 }
 
 @media screen and (max-width: 600px) {
   .slide-visible {
-    width: 180px;
+    width: 170px;
   }
 }

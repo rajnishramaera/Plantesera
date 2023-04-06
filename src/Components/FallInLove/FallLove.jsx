@@ -13,6 +13,7 @@ const FallLove = () => {
           "Get fit with flavor - PlanetsEra spices bring a healthy kick to your
           meals."
         </h1>
+        <div className="fallLoveLine"></div>
       </div>
       <div className="container fallloveBackground mt-20 px-6">
         <div className="basis-12/12 flex justify-between">

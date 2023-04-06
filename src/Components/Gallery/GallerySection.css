@@ -193,15 +193,17 @@
 
 .gallery-content {
   position: absolute;
-  top: 44%;
+  top: 40%;
   /* display: flex; */
-  left: 32%;
+  /* left: 32%; */
   /* z-index: 100; */
-  width: 50%;
+  width: 100%;
   font-family: myfont;
+  text-align: center;
 }
 
 .gallery-text {
+  font-family: "Original Surfer";
   font-size: 50px;
   color: white;
 }
@@ -217,9 +219,10 @@
   top: 50%;
   /* display: flex; */
   /* z-index: 100; */
-  font-family: myfont;
+  font-family: "Original Surfer";
   font-size: 50px;
   color: white;
+  text-align: center;
 }
 
 @media screen and (max-width: 600px){
@@ -234,9 +237,9 @@
   position: absolute;
   top: 30%;
   /* display: flex; */
-  left: 12%;
+  /* left: 12%; */
   /* z-index: 100; */
-  width: 70%;
+  width: 95%;
   font-family: myfont;
 }
 

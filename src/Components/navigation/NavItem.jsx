@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom"
-import { useDispatch } from "react-redux"
+import { useDispatch, useSelector } from "react-redux"
 
 import "./header.css"
 const NavItem = ({ page }) => {
   const dispatch = useDispatch()
+  const colorMe = useSelector((state) => state.colorUs.color)
 
   const changeColor = () => {
     dispatch(changeColor("#FF4F4F"))
@@ -13,16 +14,19 @@ const NavItem = ({ page }) => {
       id="navigation"
       className="hidden md:flex space-x-6 lg:float-right text-white rounded-3xl px-20"
     >
-      <li className={page === "home" ? "active-11" : ""}>
+      <li
+        style={{ color: colorMe }}
+        className={page === "home" ? "active-11" : ""}
+      >
         <Link to="/" onClick={() => changeColor()}>
           Home
         </Link>
       </li>
       <li className={page === "products" ? "active-11" : ""}>
-        <Link to="/products">Our Products</Link>
+        <Link to="/Product">Product</Link>
       </li>
       <li className={page === "aboutUs" ? "active-11" : ""}>
-        <Link to="/AboutUs">About Us</Link>
+        <Link to="/About">About</Link>
       </li>
 
       <li className={page === "contactUs" ? "active-11" : ""}>

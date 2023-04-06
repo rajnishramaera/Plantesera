@@ -19,10 +19,10 @@ const App = () => {
   return (
     <Routes>
       <Route path={""} element={<Home />} />
-      <Route path={"products"} element={<Products />} />
+      <Route path={"Product"} element={<Products />} />
       <Route path={"ContactUs"} element={<ContactUs />} />
       {/* <Route path={"privacypolicy"} element={<PrivacyPolicy />} />
-    <Route path={"about"} element={<About />} /> */}
+    <Route path={"About"} element={<About />} /> */}
       <Route path={"*"} element={<PageNotFound />} />
     </Routes>
   )

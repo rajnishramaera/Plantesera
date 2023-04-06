@@ -24,8 +24,8 @@ const HeaderTwo = () => {
           <div className="basis-12/12 w-full flex">
             <div className="basis-12/12">
               <h1 className="text-center SecondPageHeading">
-                Experience a burst of flavors with every sprinkle only with
-                PlanetsEra premium spices
+                Experience a burst of flavors with every sprinkle only with 
+               <span className="font-thin"> PlanetsEra</span> premium spices
               </h1>
 
               <p className="SecondPageHeading-text mt-5">

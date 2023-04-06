@@ -23,10 +23,10 @@ const SpicesInfoSection = () => {
           {myOur.slice(0,3).map((items) => {
             return (
               <div className="basis-5/12 flex">
-                <div className="w-full basis-2/12">
+                <div className="w-full basis-3/12">
                   <img src={items.myIngre1} className="" />
                 </div>
-                <div className="w-full basis-10/12 flex flex-col">
+                <div className="w-full basis-9/12 flex flex-col">
                   <h1 className="ingredient-heading mb-2">
                     {items.myIngreFormat1}
                   </h1>
@@ -45,14 +45,14 @@ const SpicesInfoSection = () => {
           {myOur.slice(3,6).map((items2) => {
             return (
               <div className="basis-5/12 flex">
-                <div className="w-full basis-2/12">
-                  <img src={items2.myIngre1} className="" />
-                </div>
-                <div className="w-full basis-10/12 flex flex-col">
-                  <h1 className="ingredient-heading mb-2">
+                <div className="w-full basis-9/12 flex flex-col">
+                  <h1 className="ingredient-heading mb-2 rtl">
                     {items2.myIngreFormat1}
                   </h1>
-                  <p className="ingredient-text">{items2.myIngreFormat2}</p>
+                  <p className="ingredient-text rtl">{items2.myIngreFormat2}</p>
+                </div>
+                <div className="w-full basis-3/12">
+                  <img src={items2.myIngre1} className="" />
                 </div>
               </div>
             );

@@ -14,9 +14,28 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const ContactUsCentre = () => {
-  const [createContactUsResponse] = useMutation(CREATE_CONTACT_RESPONSE);
-
+  const [createContactUsResponse] = useMutation(CREATE_CONTACT_RESPONSE)
+  const [formName, setFormName] = useState("")
+  const [formEmail, setFormEmail] = useState("")
+  const [formContact, setFormContact] = useState("")
+  const [formSubject, setFormSubject] = useState("")
+  const [formMessage, setFormMessage] = useState("")
   const handleSubmit = (e) => {
+    e.preventDefault()
+
+    {
+      const hi = createContactUsResponse({
+        variables: {
+          name: "Planetsera: " + formName,
+          email: "Planetsera: " + formEmail,
+          company: "Planetsera: " + formContact,
+          Subject: "Planetsera: " + formSubject,
+          message: "Planetsera: " + formMessage,
+        },
+      })
+      console.log(hi)
+    }
+  }
     console.log("form submit");
     e.preventDefault();
     // {
@@ -68,12 +87,18 @@ const ContactUsCentre = () => {
             className="border  h-16 placeholder:text-slate-800 placeholder:font-light placeholder:text-xl pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4  my-1 p-2 md:mr-2 FontText"
             type="text"
             placeholder="Name"
+            onChange={(e) => {
+              setFormName(e.target.value)
+            }}
             required
           />
           <input
             className="border h-16 placeholder:text-slate-800 placeholder:font-light placeholder:text-xl pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4 md:mx-2 my-1 p-2 m md:mr-2 FontText"
             type="email"
             placeholder="Email"
+            onChange={(e) => {
+              setFormEmail(e.target.value)
+            }}
             required
           />
 
@@ -81,12 +106,18 @@ const ContactUsCentre = () => {
             className="border h-16 placeholder:text-slate-800 placeholder:font-light placeholder:text-xl pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4 my-1 p-2 md:mr-2 FontText"
             type="text"
             placeholder="Subject"
+            onChange={(e) => {
+              setFormSubject(e.target.value)
+            }}
             required
           />
           <input
             className="border h-16 placeholder:text-slate-800 placeholder:font-light placeholder:text-xl pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4 md:mx-2 my-1 p-2 md:mr-2 FontText"
             type="number"
             placeholder="Phone"
+            onChange={(e) => {
+              setFormContact(e.target.value)
+            }}
             required
           />
 
@@ -94,6 +125,9 @@ const ContactUsCentre = () => {
             className="border placeholder:text-slate-800 placeholder:font-light placeholder:text-xl placeholder:pl-0  border-black rounded-2xl w-full md:w-[98%] md:my-6  my-2 md:p-4 p-4 md:mr-2 h-36 FontText"
             type="text"
             placeholder="Message"
+            onChange={(e) => {
+              setFormMessage(e.target.value)
+            }}
             required
           />
 

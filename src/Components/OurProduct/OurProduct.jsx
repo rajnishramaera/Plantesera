@@ -8,7 +8,7 @@ const OurProduct = () => {
   return (
     <div className="container relative mt-10 containerBorder" id="groundSpices">
       <div className="basis-12/12 absolute ourbg">
-        <img loading="lazy" src={masala2} />
+        {/* <img loading="lazy" src={masala2} /> */}
       </div>
       <div className="basis-12/12 groundbg">
         <img src={GroundSpicesBg} />
