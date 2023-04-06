@@ -71,7 +71,7 @@ const ContactUsCentre = () => {
           <ToastContainer />
 
           <input
-            className="border  h-16 placeholder:text-slate-800 placeholder:font-light placeholder:text-xl pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4  my-1 p-2 md:mr-2 FontText"
+            className="border  h-14 placeholder:text-slate-800 placeholder:font-normal placeholder:text-lg pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4  my-1 p-2 md:mr-2 FontText"
             type="text"
             placeholder="Name"
             onChange={(e) => {
@@ -80,7 +80,7 @@ const ContactUsCentre = () => {
             required
           />
           <input
-            className="border h-16 placeholder:text-slate-800 placeholder:font-light placeholder:text-xl pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4 md:mx-2 my-1 p-2 m md:mr-2 FontText"
+            className="border h-14 placeholder:text-slate-800 placeholder:font-normal placeholder:text-lg pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4 md:mx-2 my-1 p-2 m md:mr-2 FontText"
             type="email"
             placeholder="Email"
             onChange={(e) => {
@@ -90,7 +90,7 @@ const ContactUsCentre = () => {
           />
 
           <input
-            className="border h-16 placeholder:text-slate-800 placeholder:font-light placeholder:text-xl pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4 my-1 p-2 md:mr-2 FontText"
+            className="border h-14 placeholder:text-slate-800 placeholder:font-normal placeholder:text-lg pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4 my-1 p-2 md:mr-2 FontText"
             type="text"
             placeholder="Subject"
             onChange={(e) => {
@@ -99,7 +99,7 @@ const ContactUsCentre = () => {
             required
           />
           <input
-            className="border h-16 placeholder:text-slate-800 placeholder:font-light placeholder:text-xl pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4 md:mx-2 my-1 p-2 md:mr-2 FontText"
+            className="border h-14 placeholder:text-slate-800 placeholder:font-normal placeholder:text-lg pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4 md:mx-2 my-1 p-2 md:mr-2 FontText"
             type="number"
             placeholder="Phone"
             onChange={(e) => {
@@ -109,7 +109,7 @@ const ContactUsCentre = () => {
           />
 
           <textarea
-            className="border placeholder:text-slate-800 placeholder:font-light placeholder:text-xl placeholder:pl-0  border-black rounded-2xl w-full md:w-[98%] md:my-6  my-2 md:p-4 p-4 md:mr-2 h-36 FontText"
+            className="border placeholder:text-slate-800 placeholder:font-normal placeholder:text-lg placeholder:pl-0  border-black rounded-2xl w-full md:w-[98%] md:my-6  my-2 md:p-4 p-4 md:mr-2 h-36 FontText"
             type="text"
             placeholder="Message"
             onChange={(e) => {
@@ -127,11 +127,11 @@ const ContactUsCentre = () => {
         </form>
       </div>
       <div className=" flex flex-col gap-[0px] md:pl-4">
-        <h2 className="text-white md:text-[31px] text-[25px] font-black tracking-wider	 md:px-0 px-2  py-5 md:py-10 md:pt-20 md:pb-12 h-2 min-h-0 md:min-h-0  infoText">
+        <h2 className="text-white md:text-[32px] text-[25px]  tracking-widest	 md:px-0 px-2  py-5 mb-8  md:py-10 md:pt-20 md:pb-12 h-2 min-h-0 md:min-h-0  infoText">
           Contact Information
         </h2>
 
-        <p className="text-white md:text-[21px] text-[12px] tracking-wide md:px-0 px-3 md:py-2 py-5 hy-2 font-light">
+        <p className="text-white md:text-[21px] text-[12px] tracking-wider md:px-0 px-3 md:py-2 py-5 hy-2 font-extralight	">
           Bring the table win-win survival strategies
           <br /> ensure proactive domination the end of <br />
           the day going real times multiple touch-
@@ -140,7 +140,7 @@ const ContactUsCentre = () => {
         </p>
 
         <div className="flex">
-          <div className="  md:p-[-3vh] p-3 hover:scale-105">
+          <div className="  md:p-[-3vh] p-3 md:pl-0  hover:scale-105">
             <img src={locationimage} />
           </div>
 
@@ -149,23 +149,23 @@ const ContactUsCentre = () => {
           </div>
         </div>
 
-        <div className="flex">
-          <div className="md:p-4 p-2  w-22  hover:scale-105">
+        <div className="flex ">
+          <div className="md:p-4 p-2 md:pl-0  w-22  hover:scale-105">
             <img src={mailimage} />
           </div>
 
           <div className="text-white md:p-3 p-1 infoText ">Care@ramaera.in</div>
         </div>
 
-        <div className="flex">
-          <div className="md:p-3 p-1 w-22  hover:scale-105">
+        <div className="flex ">
+          <div className="md:p-3 p-1 md:pl-0 w-22  hover:scale-105">
             <img src={callimage} />
           </div>
 
           <div className="text-white md:p-4 p-1 infoText">0120-4152818</div>
         </div>
 
-        <div className="flex md:p-5  p-4">
+        <div className="flex md:p-5 md:pl-2  p-4">
           <div className="pr-10  hover:scale-105">
             <a
               href="https://www.instagram.com/planetseraspices/"
