@@ -1,14 +1,33 @@
 import "./footer.css"
 import Icons from "./Icons"
 import SideBar from "./SideBar"
-import bg from "@assets/footerbg.jpeg"
 import FooterEnd from "./FooterEnd"
+import Footerbg from "@assets/Footerbg.png"
+import Footerbg1 from "@assets/footerbg.jpeg"
 
-const Footer = () => {
+
+const Footer = ({page}) => {
+  function checktext (id){
+    if(id==="contactUs"){
+      return "Make every meal memorable with PlanetsEra spices"
+    }
+    else{
+      return "Authentic taste of culture with PlanetsEra's spices"
+    }
+  }
+  function checkpage (id){
+    if(id==="contactUs"){
+      return Footerbg;
+    }
+    else{
+      return Footerbg1;
+    }
+  }
+  console.log(page)
   return (
     <>
       <div
-        style={{ backgroundImage: `url(${bg})` }}
+        style={{ backgroundImage: `url(${checkpage(page)})` }}
         className="main-container lg:w-[100%] mt-8 imaged"
       >
         <div className="footer flex bg-center bg-cover">
@@ -16,8 +35,8 @@ const Footer = () => {
             <div className="basis-12/12 flex">
               <div className="basis-1/12"></div>
               <div className="basis-10/12">
-                <h1 className="diverse-text text-center p-8 text-5xl md:text-8xl md:p-2s">
-                  Authentic taste of culture with PlanetsEra's spices
+                <h1 className="diverse-text text-center p-8 text-5xl md:text-5xl md:p-2s " style={{fontFamily:"Original Surfer"}}>
+                {checktext(page)}
                 </h1>
               </div>
               <div className="basis-1/12"></div>

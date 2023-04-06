@@ -3,6 +3,7 @@ import logo from "@assets/logo.png"
 import frame from "@assets/Frame.png"
 import NavigationMobile from "@Components/MobileNavigation/NavigationMobile"
 import Navigation from "@Components/Navigation"
+import "./ContactUsHeader.css"
 
 const ContactUsHeader = () => {
   return (
@@ -11,7 +12,7 @@ const ContactUsHeader = () => {
         <NavigationMobile />
       </div>
       <div
-        className="md:h-[80vh] h-[22vh] bg-contain  bg-no-repeat"
+        className="md:h-[82vh] h-[22vh] bg-contain  bg-no-repeat"
         style={{
           backgroundImage: `url(${image})`,
         }}
@@ -29,14 +30,14 @@ const ContactUsHeader = () => {
           />
         </div>
 
-        <div className="text-white text-center py-12 md:py-[21vh]  md:mx-4 mx-[10vh]  md:text-6xl text-xs  body-font font-poppins  ">
-          Experience a burst of flavors with every sprinkle only with PlanetsEra
+        <div className="text-white text-center py-12 md:py-[13vh]  md:mx-4 mx-[10vh]  md:text-6xl text-xs  body-font font-semibold  contactText">
+          Experience a burst of flavors with every sprinkle only with <span className="font-thin">PlanetsEra </span> 
           premium spices
         </div>
 
-        <div className="md:mt-[-25vh] mt-[-9vh] md:p-24 p-8  md:w-full w-95 ">
+        <div className="md:mt-[-20vh] mt-[-9vh] md:p-24 p-8  md:w-full w-95 ">
           <img src={frame} />
-          <p className="text-center md:text-6xl  mt-[-5vh] md:mt-[-20vh] md:tracking-[18px] tracking-[4px] font-light">
+          <p className="text-center md:text-6xl  mt-[-5vh] md:mt-[-19vh] md:tracking-[18px] tracking-[4px] font-light ">
             Contact Us
           </p>
         </div>

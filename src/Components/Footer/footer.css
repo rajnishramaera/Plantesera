@@ -88,6 +88,7 @@
     justify-content: space-between;
     width: 300px;
   }
+  
   .footer-btn {
     width: 100px;
     height: 40px;
@@ -149,6 +150,8 @@
   .subscibe-sidebar {
     display: none;
   }
+
+ 
 
   .btn3:hover {
     box-shadow: inset 400px 0 0 0 #1e1e1e;
