@@ -64,7 +64,7 @@ iframe {
   /* display: block; */
   text-align: center;
   border: 1px solid white;
-  box-shadow: 1px 2px 5px 0px #ff6261;
+  box-shadow: 1px 2px 20px 0px #ff6261;
   display: flex;
   justify-content: space-around;
   margin-bottom: 3rem;
@@ -105,4 +105,27 @@ iframe {
 .instContainer{
   display: flex;
   flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px){
+  .instContainer{
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    justify-content: unset !important;
+  }
+}
+
+.instagramLine {
+  width: 220px;
+  height: 2px;
+  position: absolute;
+  left: 135px;
+  top: 110px;
+  background: #FE7171;
+}
+
+@media screen and (max-width: 600px){
+  .instagramLine{
+    display: none;
+  }
 }

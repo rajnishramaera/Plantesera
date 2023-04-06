@@ -33,13 +33,13 @@ import SpicesInfoSix from "@assets/images/SpicesInfo6.png";
   {
     myIngre1: SpicesInfoFive,
     myIngreFormat1: "Distinctive aroma",
-    myIngreFormat2: "PlanetsEra Spices have enchanting aroma that brings out the true flavor.",
+    myIngreFormat2: "PlanetsEra Spices have enchanting aroma that brings out the true flavor",
   },
   {
     myIngre1: SpicesInfoSix,
     myIngreFormat1: "Authentic flavours",
     myIngreFormat2:
-      "PlanetsEra spices reflect the taste of India that relish the tastebuds.",
+      "PlanetsEra spices reflect the taste of India that relish the tastebuds",
   },
 ];
 

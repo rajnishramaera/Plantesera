@@ -28,7 +28,7 @@
 }
 
 .SecondPageButton {
-  font-family: "myregular";
+  font-family: "Josefin Sans";
   color: #ededed;
   font-size: 16px;
   text-align: center;
@@ -99,5 +99,19 @@
 @media screen and (max-width: 600px){
   .spi-container {
     margin-top: 220px;
+  }
+}
+
+.rectangleLine {
+  width: 151px;
+  height: 2px;
+  position: absolute;
+  left: 90px;
+  top: 326px;
+}
+
+@media screen and (max-width: 600px){
+  .rectangleLine{
+    display: none;
   }
 }

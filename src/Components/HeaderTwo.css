@@ -46,16 +46,26 @@
 }
 
 .SecondPageHeading-text {
-  font-family: "myregular";
+  font-family: "Josefin Sans";
   color: #ededed;
-  font-size: 25px;
+  font-size: 31px;
   text-align: center;
   font-weight: 400;
   line-height: 32px;
+  width: 80%;
+  display: flex;
+  margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .SecondPageHeading-text {
+    width: 100%;
+    font-size: 20px;
+  }
 }
 
 .SecondPageButton {
-  font-family: "myregular";
+  font-family: 'Josefin Sans';
   color: #ededed;
   font-size: 16px;
   text-align: center;
@@ -66,6 +76,7 @@
   border-radius: 27px;
   margin-top: 36px;
   border: 1px solid #ffff;
+  font-weight: 700;
 }
 
 .StarIcon i {
