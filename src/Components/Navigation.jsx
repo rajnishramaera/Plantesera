@@ -21,9 +21,9 @@ const Navigation = ({ page }) => {
       <li className={page === "products" ? "active-11" : ""}>
         <Link to="/Product">Product</Link>
       </li>
-      <li className={page === "aboutUs" ? "active-11" : ""}>
+      {/*  <li className={page === "aboutUs" ? "active-11" : ""}>
         <Link to="/About">About</Link>
-      </li>
+      </li> */}
 
       <li className={page === "contactUs" ? "active-11" : ""}>
         <Link to="/ContactUs" className="mr-1">

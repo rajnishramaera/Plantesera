@@ -31,7 +31,8 @@ const ContactUsHeader = () => {
         </div>
 
         <div className="text-white text-center py-12 md:py-[13vh]  md:mx-4 mx-[10vh]  md:text-6xl text-xs  body-font font-semibold  contactText">
-          Experience a burst of flavors with every sprinkle only with <span className="font-thin">PlanetsEra </span> 
+          Experience a burst of flavors with every sprinkle only with{" "}
+          <span className="font-thin">PlanetsEra </span>
           premium spices
         </div>
 

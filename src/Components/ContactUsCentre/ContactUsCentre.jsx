@@ -59,11 +59,11 @@ const ContactUsCentre = () => {
       style={{
         backgroundImage: `url(${image})`,
       }}
-      className=" p-12 md:p-14 bg-cover flex flex-col md:flex-row"
+      className=" p-12 md:p-14 bg-cover flex flex-col-reverse md:flex-row"
     >
       <div className=" w-3/3 md:w-2/3 rounded-xl bg-white p-2 md:p-8 md:m-4 ">
         {/* <div className=" md:p-1 border-y-2  border-orange-200 w-fit	">MAIL US</div> */}
-        <div className="tracking-[5px] md:tracking-[10px] text-xl md:text-4xl my-1 md:my-4 HeadText">
+        <div className="tracking-[5px] md:tracking-[10px] text-xl md:text-4xl my-1 md:my-4 HeadText py-2 md:py-0">
           {" "}
           Have a Question?
         </div>
@@ -71,7 +71,7 @@ const ContactUsCentre = () => {
           <ToastContainer />
 
           <input
-            className="border  h-14 placeholder:text-slate-800 placeholder:font-normal placeholder:text-lg pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4  my-1 p-2 md:mr-2 FontText"
+            className="border h-10  md:h-14 placeholder:text-slate-800 placeholder:font-normal placeholder:text-lg pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4  my-2 p-2 md:mr-2 FontText"
             type="text"
             placeholder="Name"
             onChange={(e) => {
@@ -80,7 +80,7 @@ const ContactUsCentre = () => {
             required
           />
           <input
-            className="border h-14 placeholder:text-slate-800 placeholder:font-normal placeholder:text-lg pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4 md:mx-2 my-1 p-2 m md:mr-2 FontText"
+            className="border h-10 md:h-14 placeholder:text-slate-800 placeholder:font-normal placeholder:text-lg pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4 md:mx-2 my-2 p-2 m md:mr-2 FontText"
             type="email"
             placeholder="Email"
             onChange={(e) => {
@@ -90,7 +90,7 @@ const ContactUsCentre = () => {
           />
 
           <input
-            className="border h-14 placeholder:text-slate-800 placeholder:font-normal placeholder:text-lg pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4 my-1 p-2 md:mr-2 FontText"
+            className="border h-10 md:h-14 placeholder:text-slate-800 placeholder:font-normal placeholder:text-lg pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4 my-2 p-2 md:mr-2 FontText"
             type="text"
             placeholder="Subject"
             onChange={(e) => {
@@ -99,7 +99,7 @@ const ContactUsCentre = () => {
             required
           />
           <input
-            className="border h-14 placeholder:text-slate-800 placeholder:font-normal placeholder:text-lg pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4 md:mx-2 my-1 p-2 md:mr-2 FontText"
+            className="border h-10 md:h-14 placeholder:text-slate-800 placeholder:font-normal placeholder:text-lg pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4 md:mx-2 my-2 p-2 md:mr-2 FontText"
             type="number"
             placeholder="Phone"
             onChange={(e) => {
@@ -127,7 +127,7 @@ const ContactUsCentre = () => {
         </form>
       </div>
       <div className=" flex flex-col gap-[0px] md:pl-4">
-        <h2 className="text-white md:text-[32px] text-[25px]  tracking-widest	 md:px-0 px-2  py-5 mb-8  md:py-10 md:pt-20 md:pb-12 h-2 min-h-0 md:min-h-0  infoText">
+        <h2 className="text-white md:text-[32px] text-[22px]  tracking-widest	 md:px-0 px-0 py-5 mb-8  md:py-10 md:pt-20 md:pb-12 h-2 min-h-0 md:min-h-0  infoText">
           Contact Information
         </h2>
 
@@ -139,7 +139,7 @@ const ContactUsCentre = () => {
           points.
         </p>
 
-        <div className="flex">
+        <div className="md:flex hidden">
           <div className="  md:p-[-3vh] p-3 md:pl-0  hover:scale-105">
             <img src={locationimage} />
           </div>
@@ -149,7 +149,7 @@ const ContactUsCentre = () => {
           </div>
         </div>
 
-        <div className="flex ">
+        <div className="md:flex hidden">
           <div className="md:p-4 p-2 md:pl-0  w-22  hover:scale-105">
             <img src={mailimage} />
           </div>
@@ -157,7 +157,7 @@ const ContactUsCentre = () => {
           <div className="text-white md:p-3 p-1 infoText ">Care@ramaera.in</div>
         </div>
 
-        <div className="flex ">
+        <div className="md:flex hidden ">
           <div className="md:p-3 p-1 md:pl-0 w-22  hover:scale-105">
             <img src={callimage} />
           </div>
@@ -165,7 +165,7 @@ const ContactUsCentre = () => {
           <div className="text-white md:p-4 p-1 infoText">0120-4152818</div>
         </div>
 
-        <div className="flex md:p-5 md:pl-2  p-4">
+        <div className="md:flex hidden md:p-5 md:pl-2  p-4">
           <div className="pr-10  hover:scale-105">
             <a
               href="https://www.instagram.com/planetseraspices/"

@@ -53,9 +53,9 @@ const NavigationMobile = () => {
             <li>
               <Link to="/Product">Product</Link>
             </li>
-            <li>
+            {/*  <li>
               <Link to="/About">About</Link>
-            </li>
+            </li> */}
 
             <li>
               <Link to="/ContactUs">Contact Us</Link>

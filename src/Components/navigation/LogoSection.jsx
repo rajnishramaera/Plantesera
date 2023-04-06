@@ -44,7 +44,7 @@ const LogoSection = () => {
 
         <a
           href="#produce"
-          className="explore btn1 py-4 "
+          className="explore btn1 py-4"
           style={{
             backgroundColor: colorMe,
             cursor: "pointer",
