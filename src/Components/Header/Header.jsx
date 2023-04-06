@@ -68,7 +68,7 @@ function Header() {
                 className="basis-12/12 flex absolute image-top w-full"
                 style={{ right: "0%", top: "38%" }}
               >
-                <div className="basis-12/12 flex justify-between relative scale-90 w-full animate-bounce">
+                <div className="basis-12/12 flex justify-between relative scale-90 w-full ">
                   {PouchData.map((item, index) => {
                     return (
                       <div>
