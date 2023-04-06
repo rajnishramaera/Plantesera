@@ -40,13 +40,12 @@
 
 .why-line {
   background-image: linear-gradient(to right, #20932c, #a0fd90);
-  width: 184px;
+  width: 102px;
   height: 2px;
   position: absolute;
-  left: 406px;
-  top: 90px;
+  left: 113px;
+  top: 84px;
 }
-
 .precision-line {
   background-image: linear-gradient(to right, #20932c, #a0fd90);
   width: 184px;
@@ -63,4 +62,86 @@
   position: absolute;
   left: 9px;
   top: 73px;
+}
+
+.myfLex {
+  display: flex;
+}
+
+.myfirst {
+  order: 1;
+}
+.mysecond {
+  order: 2;
+}
+
+@media screen and (max-width: 600px) {
+  .precision-line {
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    width: 137px;
+    height: 2px;
+    position: absolute;
+    left: 5px;
+    top: 65px;
+  }
+  .planetseraText {
+    font-size: 16px;
+    line-height: normal !important;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .planetseraHeading {
+    font-size: 34px;
+    line-height: 75px;
+    font-family: "Montserrat", sans-serif;
+    background: -webkit-linear-gradient(#20932c, #a0fd90);
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 300;
+  }
+  .lab-line {
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    width: 58px;
+    height: 2px;
+    position: absolute;
+    left: 3px;
+    top: 58px;
+  }
+  .icon-text {
+    font-size: 13px;
+    line-height: normal;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 33px;
+  }
+  .planetHeading {
+    font-size: 54px;
+    line-height: 85px;
+    font-family: "Montserrat", sans-serif;
+    background: -webkit-linear-gradient(#20932c, #a0fd90);
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 300;
+  }
+
+  .plannWd {
+    max-width: 40%;
+  }
+
+  .myfLex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .myfirst {
+    order: 2;
+  }
+  .mysecond {
+    order: 1;
+  }
 }

@@ -7,8 +7,8 @@ const TechnologyPeopleSection = () => {
   return (
     <>
       <div className="container quality-container px-6">
-        <div className="basis-12/12 flex">
-          <div className="basis-6/12 self-center relative">
+        <div className="basis-12/12 lg:flex md:flex sm:block">
+          <div className="basis-6/12 self-center relative technOne">
             <h1 className="technology-heading mb-5">TECHNOLOGY</h1>
             <div className="technology-line"></div>
             <p className="technology-text1">
@@ -17,13 +17,13 @@ const TechnologyPeopleSection = () => {
               achieve success in the business industry? One of the most
               successful entrepreneurs featured at the Forbes website
             </p>
-            <p className="technology-text2">
+            <p className="technology-text1">
               Thousands of people dream of having their own business and even
               more so be a successful entrepreneur. But what does it take to
               achieve success in the business industry? One of the most
               successful entrepreneurs featured at the Forbes website
             </p>
-            <p className="technology-text3">
+            <p className="technology-text1">
               Thousands of people dream of having their own business and even
               more so be a successful entrepreneur. But what does it take to
               achieve success in the business industry? One of the most
@@ -32,7 +32,7 @@ const TechnologyPeopleSection = () => {
           </div>
           <div className="basis-2/12"></div>
           <div className="basis-4/12 relative">
-            <img src={tech1} className="absolute" />
+            <img src={tech1} className="absolute technologyPeople-img-1" />
             <img src={tech2} className="absolute technologyPeople-img" />
           </div>
         </div>

@@ -60,3 +60,91 @@
   margin-top: 14px;
   line-height: 24px;
 }
+
+.planetseraIcon-1 img {
+  max-width: 100%;
+}
+
+.planetseraIcon-2 img {
+  max-width: 100%;
+}
+
+.planetseraIcon-3 img {
+  max-width: 100%;
+}
+
+.planetseraIcon-4 img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .planetseraIcon-1 {
+    position: absolute;
+    top: 45px;
+    left: 101px;
+    /* width: 30px; */
+  }
+
+  .planetseraIcon-2 {
+    position: absolute;
+    top: 29px;
+    left: 203px;
+  }
+
+  .planetseraIcon-3 {
+    position: absolute;
+    top: 34px;
+    left: 299px;
+  }
+
+  .planetseraIcon-4 {
+    position: absolute;
+    top: 85px;
+    left: 141px;
+  }
+
+  .planetseraIcon-1 img {
+    max-width: 40%;
+  }
+  .planetseraIcon-2 img {
+    max-width: 40%;
+  }
+
+  .planetseraIcon-3 img {
+    max-width: 40%;
+  }
+
+  .planetseraIcon-4 img {
+    max-width: 40%;
+  }
+
+  .tootip-1 {
+    width: 380%;
+    height: 70px;
+    background-color: white;
+    color: black;
+    transform: translate(-50%, -129%);
+  }
+  .tootip-2 {
+    width: 410%;
+    height: 70px;
+    background-color: white;
+    color: black;
+    transform: translate(-50%, -129%);
+  }
+  .tootip-3 {
+    width: 436%;
+    height: 70px;
+    background-color: white;
+    color: black;
+    transform: translate(-50%, -129%);
+  }
+
+  .tootip-4 {
+    width: 436%;
+    height: 70px;
+    background-color: white;
+    color: black;
+    transform: translate(-50%, -129%);
+  }
+}

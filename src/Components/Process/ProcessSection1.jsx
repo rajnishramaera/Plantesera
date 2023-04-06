@@ -6,7 +6,7 @@ const ProcessSection1 = () => {
   return (
     <>
       <div className="container mt-40">
-        <div className="basis-12/12 flex justify-center">
+        <div className="basis-12/12 lg:flex md:flex sm:block justify-center">
           <div className="basis-5/12">
             <img src={processTwo} />
             <figcaption className="fig-text">

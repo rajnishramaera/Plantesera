@@ -10,6 +10,7 @@
   background-clip: text;
   font-weight: 300;
   /* text-align: center; */
+  margin-top: 0px;
 }
 .advanceText {
   font-size: 16px;
@@ -55,4 +56,69 @@
   position: absolute;
   left: 1px;
   top: 45px;
+}
+
+.proWd {
+  flex-basis: 16.66%;
+}
+
+.proFlex {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .advanceHeading {
+    font-size: 21px;
+    line-height: 37px;
+    font-family: "Montserrat", sans-serif;
+    background: -webkit-linear-gradient(#20932c, #a0fd90);
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 300;
+    /* text-align: center; */
+    margin-top: 22px;
+  }
+  .plan-line {
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    width: 82px;
+    height: 2px;
+    position: absolute;
+    left: 26px;
+    top: 638px;
+  }
+  .except-line {
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    width: 91px;
+    height: 2px;
+    position: absolute;
+    left: 2px;
+    top: 59px;
+  }
+
+  .develop-line {
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    width: 89px;
+    height: 2px;
+    position: absolute;
+    left: 1px;
+    top: 58px;
+  }
+  .pure-line {
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    width: 54px;
+    height: 2px;
+    position: absolute;
+    left: 1px;
+    top: 56px;
+  }
+  .proWd {
+    flex-basis: 56% !important;
+  }
+  .proFlex {
+    display: flex;
+    align-items: flex-start;
+  }
 }

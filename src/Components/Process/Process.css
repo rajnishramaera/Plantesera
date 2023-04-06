@@ -28,6 +28,7 @@
   text-align: center;
   font-family: "Montserrat";
   margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 .processMax {
@@ -68,4 +69,75 @@
   position: absolute;
   left: 0px;
   top: 73px;
+}
+
+@media screen and (max-width: 600px) {
+  .processMax {
+    max-width: 108%;
+  }
+
+  .processHeading {
+    font-size: 33px;
+    line-height: 75px;
+    font-family: "Montserrat", sans-serif;
+    background: -webkit-linear-gradient(#20932c, #a0fd90);
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 300;
+    text-align: center;
+  }
+
+
+  .processText {
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+    /* letter-spacing: 2px; */
+    /* line-height: 29px; */
+  }
+  .fig-text {
+    font-size: 16px;
+    text-align: center;
+    font-family: "Montserrat";
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .manufacturing-line {
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    left: 21px;
+    top: 67px;
+  }
+  .organic-line {
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    width: 133px;
+    height: 2px;
+    position: absolute;
+    left: 0px;
+    top: 64px;
+  }
+
+  .expert-line {
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    width: 114px;
+    height: 2px;
+    position: absolute;
+    left: 0px;
+    top: 63px;
+  }
+  .airtight-line {
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    width: 129px;
+    height: 2px;
+    position: absolute;
+    left: 0px;
+    top: 65px;
+  }
 }

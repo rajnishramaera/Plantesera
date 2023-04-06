@@ -43,3 +43,45 @@
   left: 12px;
   top: 73px;
 }
+
+@media screen and (max-width: 600px) {
+  .technOne {
+    margin-top: 700px;
+  }
+  .technology-line {
+    display: none;
+  }
+  .technology-heading {
+    font-size: 45px;
+    font-family: "Montserrat", sans-serif;
+    background: -webkit-linear-gradient(#20932c, #a0fd90);
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 300;
+  }
+  .technology-text1 {
+    text-align: justify;
+    font-size: 16px;
+    line-height: normal !important;
+    margin-bottom: 33px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .technOne {
+    margin-top: 700px;
+  }
+
+  .technologyPeople-img {
+    top: 200px;
+    left: 47px;
+    max-width: 80%;
+  }
+
+  .technologyPeople-img-1 {
+    max-width: 80%;
+  }
+  .mag {
+    margin-top: 82rem;
+  }
+}

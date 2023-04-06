@@ -32,7 +32,7 @@ const index = () => {
       <QualitySection />
       <TechnologyPeopleSection />
       <CompanySection />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

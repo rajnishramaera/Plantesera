@@ -14,3 +14,42 @@
   line-height: 56px;
   font-family: "Josefin Sans", sans-serif;
 }
+
+.imageAb {
+  position: absolute;
+  z-index: 0;
+  top: -332px;
+  left: 368px;
+}
+.maOne {
+  margin-top: 25rem !important;
+}
+
+@media screen and (max-width: 600px) {
+  .aboutbanner {
+    /* height: 715px; */
+    background-image: url("/src/assets/images/aboutbanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px !important;
+    background-attachment: inherit;
+  }
+
+  .imageAb {
+    position: relative;
+    z-index: 0;
+    top: 72px;
+    left: 0px;
+  }
+  .aboutbanner-text {
+    font-size: 27px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 56px;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  .maOne {
+    margin-top: 0rem !important;
+  }
+}

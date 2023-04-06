@@ -9,7 +9,7 @@ const AdvanceSection1 = () => {
   return (
     <>
       <section class="relative px-6 mt-40">
-        <div class="basis-12/12 flex flex-wrap">
+        <div class="basis-12/12 lg:flex md:flex sm:block flex-wrap">
           <div class="basis-5/12">
             <img
               alt="..."
@@ -36,8 +36,8 @@ const AdvanceSection1 = () => {
             </p>
             <ul className="list-none mt-6 advance-alignment">
               <li class="py-2">
-                <div className="basis-12/12 flex items-center">
-                  <div className="basis-2/12">
+                <div className="basis-12/12 proFlex">
+                  <div className="basis-2/12 proWd">
                     <img src={advanceOne} />
                   </div>
                   <div className="basis-10/12 relative">
@@ -54,8 +54,8 @@ const AdvanceSection1 = () => {
                 </div>
               </li>
               <li className="py-2">
-                <div className="basis-12/12 flex items-center">
-                  <div className="basis-2/12">
+                <div className="basis-12/12 proFlex">
+                  <div className="basis-2/12 proWd">
                     <img src={advanceTwo} />
                   </div>
                   <div className="basis-10/12 relative">
@@ -70,8 +70,8 @@ const AdvanceSection1 = () => {
                 </div>
               </li>
               <li class="py-2">
-                <div class="basis-12/12 flex items-center">
-                  <div className="basis-2/12">
+                <div class="basis-12/12 proFlex">
+                  <div className="basis-2/12 proWd">
                     <img src={advanceThree} />
                   </div>
                   <div className="basis-10/12 relative">

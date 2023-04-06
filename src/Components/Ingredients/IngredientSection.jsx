@@ -22,8 +22,8 @@ const IngredientSection = () => {
           </p>
         </div>
       </div>
-      <div className="container flex">
-        <div className="basis-12/12 flex flex-col" style={{ width: "41.66%" }}>
+      <div className="container lg:flex md:flex sm:block">
+        <div className="basis-12/12 lg:flex md:flex sm:block flex-col ingredWid">
           {myOur.map((items) => {
             return (
               <div className="basis-5/12 flex">

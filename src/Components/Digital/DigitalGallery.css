@@ -155,3 +155,31 @@ button,
   left: 23px;
   top: 78px;
 }
+
+@media screen and (max-width: 600px) {
+  .slider-nav {
+    position: absolute;
+    top: -90%;
+    left: 86%;
+    bottom: 0;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    visibility: hidden;
+    opacity: 0.8;
+    transition: visibility 0.1s, opacity 0.2s linear;
+    margin-bottom: var(--swiffy-slider-track-height);
+    display: flex;
+    align-items: center;
+    padding: 0 0.5rem;
+    filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.5));
+    transform: scale(var(--swiffy-slider-nav-zoom));
+    transform: rotate(180deg);
+  }
+
+  .slider-nav.slider-nav-next {
+    transform: rotate(180deg);
+    right: 52px;
+  }
+}

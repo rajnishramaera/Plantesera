@@ -67,3 +67,50 @@
   left: 143px;
   top: 83px;
 }
+
+.ingredWid {
+  width: 41.66%;
+}
+
+@media screen and (max-width: 600px) {
+  .spices-line {
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    width: 118px;
+    height: 2px;
+    position: absolute;
+    left: 11px;
+    top: 55px;
+  }
+
+  .ingredWid {
+    width: 100%;
+  }
+  .myImage-main {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .delicious-heading {
+    font-size: 38px;
+    font-family: "Montserrat", sans-serif;
+    background: -webkit-linear-gradient(#20932c, #a0fd90);
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 300;
+    text-align: center;
+  }
+  .ingredient-heading {
+    font-size: 25px; /* use tailwind */
+
+    font-family: "Montserrat", sans-serif;
+    background: -webkit-linear-gradient(#20932c, #a0fd90);
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* use tailwind */
+
+    font-weight: 300; /* use tailwind */
+  }
+}

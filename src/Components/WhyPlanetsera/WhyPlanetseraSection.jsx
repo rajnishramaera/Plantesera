@@ -15,7 +15,7 @@ const WhyPlanetseraSection = () => {
         </div>
         <div className="basis-12/12 flex">
           <div className="basis-4/12">
-            <img src={iconOne} className="block mx-auto mb-5" />
+            <img src={iconOne} className="block mx-auto mb-5 plannWd" />
             <p className="icon-text">
               High Nutritional
               <br />
@@ -23,14 +23,14 @@ const WhyPlanetseraSection = () => {
             </p>
           </div>
           <div className="basis-4/12">
-            <img src={iconTwo} className="block mx-auto mb-5" />
+            <img src={iconTwo} className="block mx-auto mb-5 plannWd" />
             <p className="icon-text">
               Preserves the <br />
               Environment
             </p>
           </div>
           <div className="basis-4/12">
-            <img src={iconThree} className="block mx-auto mb-5" />
+            <img src={iconThree} className="block mx-auto mb-5 plannWd" />
             <p className="icon-text">
               No Chemicals & <br />
               Pesticides

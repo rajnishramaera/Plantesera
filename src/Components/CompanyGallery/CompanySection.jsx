@@ -11,11 +11,13 @@ import comThree from "@assets/images/dig-3.png";
 import comFour from "@assets/images/dig-4.png";
 import comFive from "@assets/images/dig-5.png";
 import comSix from "@assets/images/dig-6.png";
+import comSeven from "@assets/images/masala-spoon.png";
 
 const CompanySection = () => {
   return (
     <>
-      <div className="container mt-40">
+      <div className="container mag relative">
+        <img src={comSeven} />
         <div class="basis-12/12 relative">
           <h1 class="digital-heading mb-5">Digital Gallery</h1>
           <div class="digital-line"></div>
