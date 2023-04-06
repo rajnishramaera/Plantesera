@@ -22,7 +22,7 @@ const PrivacyHeader = () => {
               </svg>
             </li>
             <li className="flex items-center">
-              <a href="#">About Us</a>
+              <a href="#">About</a>
               <svg
                 className="fill-current w-3 h-3 mx-3"
                 xmlns="http://www.w3.org/2000/svg"
