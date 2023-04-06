@@ -9,24 +9,30 @@ import { Grid } from "@mui/material"
 import { width } from "@mui/system"
 import { CREATE_CONTACT_RESPONSE } from "../../../apollo/queries"
 import { useMutation } from "@apollo/client"
+import { useState } from "react"
 
 const ContactUsCentre = () => {
   const [createContactUsResponse] = useMutation(CREATE_CONTACT_RESPONSE)
-
+  const [formName, setFormName] = useState("")
+  const [formEmail, setFormEmail] = useState("")
+  const [formContact, setFormContact] = useState("")
+  const [formSubject, setFormSubject] = useState("")
+  const [formMessage, setFormMessage] = useState("")
   const handleSubmit = (e) => {
-    console.log("form submit")
     e.preventDefault()
-    // {
-    //   createContactUsResponse({
-    //     variables: {
-    //       name: name,
-    //       email: email,
-    //       company: company,
-    //       Subject: Subject,
-    //       message: message,
-    //     },
-    //   })
-    // }
+
+    {
+      const hi = createContactUsResponse({
+        variables: {
+          name: "Planetsera: " + formName,
+          email: "Planetsera: " + formEmail,
+          company: "Planetsera: " + formContact,
+          Subject: "Planetsera: " + formSubject,
+          message: "Planetsera: " + formMessage,
+        },
+      })
+      console.log(hi)
+    }
   }
 
   return (
@@ -47,28 +53,43 @@ const ContactUsCentre = () => {
             className="border border-black rounded-2xl w-full md:w-[48%] md:my-4 my-1 p-2 md:mr-2"
             type="text"
             placeholder="Name"
+            onChange={(e) => {
+              setFormName(e.target.value)
+            }}
           />
           <input
             className="border  border-black rounded-2xl w-full md:w-[48%] md:my-4 my-1 p-2 m md:mr-2"
             type="text"
             placeholder="Email"
+            onChange={(e) => {
+              setFormEmail(e.target.value)
+            }}
           />
 
           <input
             className="border border-black rounded-2xl w-full md:w-[48%] md:my-4 my-1 p-2 md:mr-2"
             type="text"
             placeholder="Subject"
+            onChange={(e) => {
+              setFormSubject(e.target.value)
+            }}
           />
           <input
             className="border border-black rounded-2xl w-full md:w-[48%] md:my-4 my-1 p-2 md:mr-2"
             type="text"
             placeholder="Phone"
+            onChange={(e) => {
+              setFormContact(e.target.value)
+            }}
           />
 
           <textarea
             className="border border-black rounded-2xl w-full md:w-[97%] md:my-6 my-2 md:p-10 p-4 md:mr-2"
             type="text"
             placeholder="Message"
+            onChange={(e) => {
+              setFormMessage(e.target.value)
+            }}
           />
 
           <button
