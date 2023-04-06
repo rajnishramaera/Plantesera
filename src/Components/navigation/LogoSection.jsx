@@ -16,7 +16,23 @@ const LogoSection = () => {
       <div className="basis-4/12 mt-12   text-alignment">
         <h1
           style={{ color: colorMe }}
-          className="heading-textt text-4xl mt-32 md:text-7xl"
+          className="heading-textt absolute top-32 text-4xl mt-32 md:text-8xl hidden md:block"
+        >
+          Diverse blend
+          <br />
+          of culture and
+          <br />
+          taste
+        </h1>
+        <h1
+          style={{ color: "white" }}
+          className="heading-textt text-4xl mt-32 md:text-8xl text-white hidden md:block select-none	"
+        >
+          Diverse blend of culture and taste
+        </h1>
+        <h1
+          style={{ color: colorMe }}
+          className="heading-textt text-4xl mt-32 md:text-8xl text-white md:hidden "
         >
           Diverse blend of culture and taste
         </h1>
@@ -29,7 +45,12 @@ const LogoSection = () => {
         <a
           href="#produce"
           className="explore btn1 py-4 "
-          style={{ backgroundColor: colorMe, cursor: "pointer", zIndex: "19" }}
+          style={{
+            backgroundColor: colorMe,
+            cursor: "pointer",
+            zIndex: "19",
+            fontWeight: "bold",
+          }}
         >
           Explore More
         </a>
