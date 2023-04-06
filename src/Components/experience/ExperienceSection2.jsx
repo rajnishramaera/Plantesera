@@ -31,7 +31,7 @@ export default function ExperienceSection2() {
             <span>30+</span>
           </div>
           <div>
-            <span className="experience-point-1">Years of</span>
+            <span className="experience-point-1">Years of Worthy</span>
             <br />
             <span className="experience-point-2">Experience</span>
           </div>

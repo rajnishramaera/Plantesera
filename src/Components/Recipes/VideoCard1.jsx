@@ -5,7 +5,7 @@ import comment from "@assets/comment.png"
 import playBtn from "@assets/Play.png"
 
 const VideoCard1 = ({ item }) => {
-  console.log(item)
+  //console.log(item)
   return (
     <div
       className="video-card-1 bg-center bg-cover"

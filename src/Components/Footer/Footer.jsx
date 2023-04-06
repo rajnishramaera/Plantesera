@@ -5,25 +5,22 @@ import FooterEnd from "./FooterEnd"
 import Footerbg from "@assets/Footerbg.png"
 import Footerbg1 from "@assets/footerbg.jpeg"
 
-
-const Footer = ({page}) => {
-  function checktext (id){
-    if(id==="contactUs"){
+const Footer = ({ page }) => {
+  function checktext(id) {
+    if (id === "contactUs") {
       return "Make every meal memorable with PlanetsEra spices"
-    }
-    else{
+    } else {
       return "Authentic taste of culture with PlanetsEra's spices"
     }
   }
-  function checkpage (id){
-    if(id==="contactUs"){
-      return Footerbg;
-    }
-    else{
-      return Footerbg1;
+  function checkpage(id) {
+    if (id === "contactUs") {
+      return Footerbg
+    } else {
+      return Footerbg1
     }
   }
-  console.log(page)
+  //console.log(page)
   return (
     <>
       <div
@@ -35,8 +32,11 @@ const Footer = ({page}) => {
             <div className="basis-12/12 flex">
               <div className="basis-1/12"></div>
               <div className="basis-10/12">
-                <h1 className="diverse-text text-center p-8 text-5xl md:text-5xl md:p-2s " style={{fontFamily:"Original Surfer"}}>
-                {checktext(page)}
+                <h1
+                  className="diverse-text text-center p-8 text-5xl md:text-5xl md:p-2s "
+                  style={{ fontFamily: "Original Surfer" }}
+                >
+                  {checktext(page)}
                 </h1>
               </div>
               <div className="basis-1/12"></div>

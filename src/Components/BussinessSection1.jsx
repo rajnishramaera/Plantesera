@@ -6,7 +6,7 @@ import machines3 from "@assets/images/machine3.png"
 
 function BussinessSection() {
   const colorMe = useSelector((state) => state.colorUs.color)
-  console.log("machine", colorMe)
+  //console.log("machine", colorMe)
   const checkbg = (colorMe) => {
     if (colorMe === "#FF4F4F") {
       return machines
