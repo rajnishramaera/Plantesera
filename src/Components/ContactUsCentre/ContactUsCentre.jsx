@@ -61,70 +61,103 @@ const ContactUsCentre = () => {
       }}
       className=" p-12 md:p-14 bg-cover flex flex-col-reverse md:flex-row"
     >
-      <div className=" w-3/3 md:w-2/3 rounded-xl bg-white p-2 md:p-8 md:m-4 ">
-        {/* <div className=" md:p-1 border-y-2  border-orange-200 w-fit	">MAIL US</div> */}
-        <div className="tracking-[5px] md:tracking-[10px] text-xl md:text-4xl my-1 md:my-4 HeadText py-2 md:py-0">
-          {" "}
-          Have a Question?
+      <div className=" w-3/3 md:w-2/3 ">
+        <div className="rounded-xl bg-white p-2 md:p-8 md:m-4 ">
+          <div className=" md:p-1 border-y-2  border-orange-200 w-fit	">
+            Send a Message
+          </div>
+          <div className="tracking-[5px] md:tracking-[10px] text-xl md:text-4xl my-1 md:my-4 HeadText py-2 md:py-0">
+            {" "}
+            Have a Question?
+          </div>
+          <form onSubmit={(e) => handleSubmit(e)}>
+            <ToastContainer />
+
+            <input
+              className="border h-10  md:h-14 placeholder:text-slate-800 placeholder:font-normal placeholder:text-lg pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4  my-2 p-2 md:mr-2 FontText"
+              type="text"
+              placeholder="Name"
+              onChange={(e) => {
+                setFormName(e.target.value)
+              }}
+              required
+            />
+            <input
+              className="border h-10 md:h-14 placeholder:text-slate-800 placeholder:font-normal placeholder:text-lg pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4 md:mx-2 my-2 p-2 m md:mr-2 FontText"
+              type="email"
+              placeholder="Email"
+              onChange={(e) => {
+                setFormEmail(e.target.value)
+              }}
+              required
+            />
+
+            <input
+              className="border h-10 md:h-14 placeholder:text-slate-800 placeholder:font-normal placeholder:text-lg pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4 my-2 p-2 md:mr-2 FontText"
+              type="text"
+              placeholder="Subject"
+              onChange={(e) => {
+                setFormSubject(e.target.value)
+              }}
+              required
+            />
+            <input
+              className="border h-10 md:h-14 placeholder:text-slate-800 placeholder:font-normal placeholder:text-lg pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4 md:mx-2 my-2 p-2 md:mr-2 FontText"
+              type="number"
+              placeholder="Phone"
+              onChange={(e) => {
+                setFormContact(e.target.value)
+              }}
+              required
+            />
+
+            <textarea
+              className="border placeholder:text-slate-800 placeholder:font-normal placeholder:text-lg placeholder:pl-0  border-black rounded-2xl w-full md:w-[98%] md:my-6  my-2 md:p-4 p-4 md:mr-2 h-36 FontText"
+              type="text"
+              placeholder="Message"
+              onChange={(e) => {
+                setFormMessage(e.target.value)
+              }}
+              required
+            />
+
+            <button
+              type="submit"
+              className=" border rounded-2xl  md:w-36 w-[25vh] h-12 hover:scale-105 transition-all hover:text-white hover:bg-black bg-white  border-black FontText"
+            >
+              Send
+            </button>
+          </form>
         </div>
-        <form onSubmit={(e) => handleSubmit(e)}>
-          <ToastContainer />
+        <div className=" md:hidden mt-8">
+          <div className="flex">
+            <div className="  md:p-[-3vh] p-3 md:pl-0  hover:scale-105">
+              <img className="scale-125" src={locationimage} />
+            </div>
 
-          <input
-            className="border h-10  md:h-14 placeholder:text-slate-800 placeholder:font-normal placeholder:text-lg pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4  my-2 p-2 md:mr-2 FontText"
-            type="text"
-            placeholder="Name"
-            onChange={(e) => {
-              setFormName(e.target.value)
-            }}
-            required
-          />
-          <input
-            className="border h-10 md:h-14 placeholder:text-slate-800 placeholder:font-normal placeholder:text-lg pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4 md:mx-2 my-2 p-2 m md:mr-2 FontText"
-            type="email"
-            placeholder="Email"
-            onChange={(e) => {
-              setFormEmail(e.target.value)
-            }}
-            required
-          />
+            <div className="text-white md:pb-3 md:m-1 p-1 address">
+              H-150, Sector-63 Noida, Gautam Budh Nagar, 201301
+            </div>
+          </div>
 
-          <input
-            className="border h-10 md:h-14 placeholder:text-slate-800 placeholder:font-normal placeholder:text-lg pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4 my-2 p-2 md:mr-2 FontText"
-            type="text"
-            placeholder="Subject"
-            onChange={(e) => {
-              setFormSubject(e.target.value)
-            }}
-            required
-          />
-          <input
-            className="border h-10 md:h-14 placeholder:text-slate-800 placeholder:font-normal placeholder:text-lg pl-4 border-black rounded-2xl w-full md:w-[48%] md:my-4 md:mx-2 my-2 p-2 md:mr-2 FontText"
-            type="number"
-            placeholder="Phone"
-            onChange={(e) => {
-              setFormContact(e.target.value)
-            }}
-            required
-          />
+          <div className=" flex">
+            <div className="md:p-4 p-2 md:pl-0  w-22  hover:scale-105">
+              <img src={mailimage} />
+            </div>
 
-          <textarea
-            className="border placeholder:text-slate-800 placeholder:font-normal placeholder:text-lg placeholder:pl-0  border-black rounded-2xl w-full md:w-[98%] md:my-6  my-2 md:p-4 p-4 md:mr-2 h-36 FontText"
-            type="text"
-            placeholder="Message"
-            onChange={(e) => {
-              setFormMessage(e.target.value)
-            }}
-            required
-          />
+            <div className="text-white md:p-3 p-1 infoText ">
+              Care@ramaera.in
+            </div>
+          </div>
 
-          <button
-            type="submit"
-            className=" border rounded-2xl  md:w-36 w-[25vh] h-12 hover:scale-105 transition-all hover:text-white hover:bg-black bg-white  border-black FontText"
-          >
-            Send
-          </button>
-        </form>
+          <div className=" flex">
+            <div className="md:p-3 p-1 md:pl-0 w-22  hover:scale-105">
+              <img src={callimage} />
+            </div>
+
+            <div className="text-white md:p-4 p-1 infoText">0120-4152818</div>
+          </div>
+        </div>
       </div>
       <div className=" flex flex-col gap-[0px] md:pl-4">
         <h2 className="text-white md:text-[32px] text-[22px]  tracking-widest	 md:px-0 px-0 py-5 mb-8  md:py-10 md:pt-20 md:pb-12 h-2 min-h-0 md:min-h-0  infoText">
