@@ -38,15 +38,18 @@ const DigitalGallery = () => {
           </h3>
         </div>
         <div className="p-3 p-xl-5 text-light slide-visible">
-          <h3 className="reason-heading mb-5">Quality Control Measures</h3>
+          <h3 className="reason-heading mb-5">
+            Compliance with Regulatory Standards
+          </h3>
+          <div className="quality-line"></div>
           <p className="reason-text">
-            At PlanetsEra Spices, we prioritise quality control. We meticulously
-            monitor every stage of the manufacturing process to ensure
-            consistency and high-quality standards. We only accept the highest
-            quality raw materials, use industry best practices, and conduct
-            rigorous testing to ensure our spices meet our strict quality
-            standards. Our dedication to quality control ensures our customers
-            receive fresh, delicious, and safe spices every time.
+            At PlanetsEra Spices, we prioritise compliance with regulatory
+            standards to ensure the safety, quality, and ethical sourcing of our
+            spices. We comply with regulatory bodies in India such as FSSAI,
+            APEDA, and Spices Board, and hold certifications for organic, fair
+            trade, and other standards. Our commitment to compliance ensures
+            that our customers can trust the quality and integrity of our
+            products.
           </p>
           <a href="#" class="read-button">
             Read More
@@ -60,15 +63,18 @@ const DigitalGallery = () => {
           </h3>
         </div>
         <div className="p-3 p-xl-5 text-light slide-visible">
-          <h3 className="reason-heading mb-5">Quality Control Measures</h3>
+          <h3 className="reason-heading mb-5">
+            Continuous Improvement for Exceptional Spice Quality
+          </h3>
+          <div className="continuous-line"></div>
           <p className="reason-text">
-            At PlanetsEra Spices, we prioritise quality control. We meticulously
-            monitor every stage of the manufacturing process to ensure
-            consistency and high-quality standards. We only accept the highest
-            quality raw materials, use industry best practices, and conduct
-            rigorous testing to ensure our spices meet our strict quality
-            standards. Our dedication to quality control ensures our customers
-            receive fresh, delicious, and safe spices every time.
+            We are committed to continuous improvement. We constantly innovate,
+            research, and gather feedback to enhance our manufacturing
+            techniques and processes. This helps us improve the quality and
+            competitiveness of our spices, while adapting to changing market
+            trends and customer needs. Our dedication to continuous improvement
+            ensures that we provide our customers with the best possible
+            products and service.
           </p>
           <a href="#" class="read-button">
             Read More

@@ -83,12 +83,13 @@
   }
   .plan-line {
     background-image: linear-gradient(to right, #20932c, #a0fd90);
-    width: 82px;
+    width: 111px;
     height: 2px;
     position: absolute;
-    left: 26px;
-    top: 638px;
+    left: 232px;
+    top: 616px;
   }
+
   .except-line {
     background-image: linear-gradient(to right, #20932c, #a0fd90);
     width: 91px;

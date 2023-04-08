@@ -8,7 +8,7 @@ const AboutHeader = () => {
         <div class="absolute inset-0 bg-white/7"></div>
 
         <div class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
-          <div class="max-w-2xl	 text-center sm:text-left">
+          <div class="max-w-2xl sm:text-left">
             <h1 class="aboutH-heading">
               Establishing the bond of love and trust through PlanetsEra spices
               {/* <strong class="block font-extrabold text-rose-700">
@@ -22,8 +22,8 @@ const AboutHeader = () => {
 
             <div class="mt-8 flex flex-wrap gap-4 text-center">
               <a
-                href="#"
-                class="w-full more-button px-12 py-3 text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+                href="#discover"
+                class="more-button px-12 py-3 text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
               >
                 Explore More
               </a>

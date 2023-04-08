@@ -7,7 +7,7 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-weight: 300;
-  line-height: 60px;
+  line-height: normal;
 }
 
 .reason-text {
@@ -117,7 +117,7 @@ button,
 
 .slider-nav {
   position: absolute;
-  top: -90%;
+  top: -97%;
   left: 88%;
   bottom: 0;
   border: 0;
@@ -139,7 +139,7 @@ button,
 .slider-nav.slider-nav-next {
   right: 29px;
   left: unset;
-  top: -90%;
+  top: -97%;
 }
 
 .slider-nav-dark.slider-nav-round .slider-nav::before,
@@ -156,8 +156,20 @@ button,
   top: 78px;
 }
 
+.slider-nav-animation.slider-nav-animation-slideup .slider-container > * > * {
+  transform: none;
+}
+
+.continuous-line {
+  background-image: linear-gradient(to right, #20932c, #a0fd90);
+  width: 135px;
+  height: 2px;
+  position: absolute;
+  right: 26%;
+  top: 142px;
+}
 @media screen and (max-width: 600px) {
-  .slider-nav {
+  /* .slider-nav {
     position: absolute;
     top: -90%;
     left: 86%;
@@ -181,5 +193,5 @@ button,
   .slider-nav.slider-nav-next {
     transform: rotate(180deg);
     right: 52px;
-  }
+  } */
 }

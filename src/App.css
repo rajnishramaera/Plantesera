@@ -1,4 +1,8 @@
 /* reset css */
+html {
+  overflow-x: hidden;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -154,6 +158,11 @@ body {
 @font-face {
   font-family: oriyafont;
   src: url(oriyamont.ttc);
+}
+
+@font-face {
+  font-family: oriyFont;
+  src: url(oriya.ttc);
 }
 
 .cusines-image {

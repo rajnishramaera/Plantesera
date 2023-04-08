@@ -5,7 +5,7 @@ import DiscoverOne from "@assets/images/discoverAb.png";
 const DiscoverSection = () => {
   return (
     <>
-      <div className="container mb-40 relative">
+      <div id="discover" className="container mb-40 relative">
         <img src={DiscoverOne} className="discover-alignment" />
         <div className="basis-12/12 mb-24 relative">
           <h1 className="discover-heading">Discover more about PlanetsEra</h1>
@@ -13,7 +13,7 @@ const DiscoverSection = () => {
           <h2 className="discover-quality mt-20">QUALITIES</h2>
         </div>
 
-        <div class="basis-12/12 flex quality-alignment">
+        <div class="basis-12/12 lg:flex md:flex sm:block quality-alignment">
           <div class="flex items-center quality-alignment1">
             <h1>Exotic Spices</h1>
           </div>
@@ -21,11 +21,7 @@ const DiscoverSection = () => {
             <h1>Savoury Taste</h1>
           </div>
           <div class="flex items-center quality-alignment1">
-            <h1>
-              Premium
-              <br />
-              Ingredients
-            </h1>
+            <h1>Premium Ingredients</h1>
           </div>
 
           <div class="flex items-center quality-alignment1">

@@ -3,9 +3,14 @@
   src: url(../../assets/images/original.ttf);
 }
 
+@font-face {
+  font-family: oriyFont;
+  src: url(../../assets/images/oriya.ttc);
+}
+
 .aboutH-heading {
   font-size: 73px;
-  /* font-family: "Montserrat", sans-serif; */
+  font-family: oriyFont;
   background: -webkit-linear-gradient(#20932c, #a0fd90);
   background-image: linear-gradient(to right, #20932c, #a0fd90);
   -webkit-background-clip: text;
@@ -22,14 +27,28 @@
 /* font-size: 27px; */
 
 .more-button {
-    background-image: linear-gradient(#20932c 0%, #a0fd90 100%);
-    border-radius: 34px;
-    height: 56px;
-    /* width: 165px; */
-    /* display: block; */
-    /* font-size: 12px; */
-    display: flex;
-    align-items: center;
-    font-family: 'Josefin Sans';
-    font-size: 17px;
+  background-image: linear-gradient(#20932c 0%, #a0fd90 100%);
+  border-radius: 34px;
+  height: 56px;
+  /* width: 165px; */
+  /* display: block; */
+  /* font-size: 12px; */
+  display: flex;
+  align-items: center;
+  font-family: "Josefin Sans";
+  font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  .aboutH-heading {
+    font-size: 54px;
+    font-family: oriyFont;
+    background: -webkit-linear-gradient(#20932c, #a0fd90);
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
+    line-height: 80px;
+  }
 }

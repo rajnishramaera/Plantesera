@@ -28,10 +28,6 @@
 }
 
 @media screen and (max-width: 600px) {
-  .how-line {
-    display: none;
-  }
-
   .story-heading {
     font-size: 45px;
     text-align: center;
@@ -50,5 +46,13 @@
     font-weight: 400;
     text-align: justify;
     line-height: normal !important;
+  }
+  .how-line {
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    width: 99px;
+    height: 2px;
+    position: absolute;
+    left: 10px;
+    top: 69px;
   }
 }

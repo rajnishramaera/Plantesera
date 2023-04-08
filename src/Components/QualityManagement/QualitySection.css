@@ -61,8 +61,14 @@
     margin-top: 600px;
   }
   .quality-line {
-    display: none;
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    width: 178px;
+    height: 2px;
+    position: absolute;
+    left: 10px !important;
+    top: 66px !important;
   }
+
   .management-text1 {
     text-align: justify;
     font-size: 16px;
